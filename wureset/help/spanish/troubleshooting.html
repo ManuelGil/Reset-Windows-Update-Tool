@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Manuel Gil">
+		
+		<meta name="description" content="Reset Windows Update Tool">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		
+		<link rel="stylesheet" href="../!tools/css/style.css">
+		
+		<title>Solución de problemas</title>
+	</head>
+	<body>
+		<header><a name="top"></a>
+			<h2>Solución de problemas</h2>
+		</header>
+		<section>
+			<article>
+				<p>El principal contenido de esta herramienta es reparar los componentes de Windows Update. Sin embargo, 
+				su desarrollo, nos permite realizar otros procesos de resolución de problemas.</p>
+				<p>Se puede dividir los procesos de corrección en tres grupos:</p>
+				<p><strong>Procesos de control</strong> Son procesos simples que pueden implicar pequeños cambios en el 
+				sistema, por ejemplo: crear una copia del registro, restaurar las conexiones a Internet o reiniciar
+				su equipo.</p>
+				<p><strong>Procesos de corrección</strong> Son los que nos permiten resolver los principales problemas 
+				del sistema, por ejemplo: Restablecer los componentes de Windows Update o Escanear la protección del 
+				sistema de archivos.</p>
+				<p><strong>Procesos invasivos</strong> Son aquellos que sugieren la reparación o reinstalar el 
+				sistema.</p>
+			</article>
+			<article><a name="registry"></a>
+				<h3>Cambiar valores invalidos en el registro:</h3>
+				<p>Pueden producirse problemas graves si modifica el registro incorrectamente. Antes de modificar 
+				el registro, haga una copia de seguridad para su restauración en caso de que se produzcan problemas.</p>
+				<p>La opción "Cambiar registros incorrectos" crea una copia de seguridad del registro en el escritorio 
+				de Windows. 
+				<a class="hidden" style='cursor: pointer;' onclick="toShow('imgregistry')"><font color="blue">p. ej.</font></a></p>
+				<div align="center" id="imgregistry">
+					<figure>
+						<img border=0 src="../!tools/images/img024.png"></br>
+					</figure>
+				</div>
+				<p>Después de crear la copia de seguridad, los valores invalidos en el registros son cambiados. Esto 
+				corrige los errores: 0x8000FFFF, 0x80240020, 0x80070646, entre otros.</p>
+				<p>Para restaurar el registro, seleccione "Combinar" en el menú contextual. 
+				<a class="hidden" style='cursor: pointer;' onclick="toShow('imgmerge')"><font color="blue">p. ej.</font></a></p>
+				<div align="center" id="imgmerge">
+					<figure>
+						<img border=0 src="../!tools/images/img025.png"></br>
+						<img border=0 src="../!tools/images/img026.png"></br>
+						<img border=0 src="../!tools/images/img027.png"></br>
+					</figure>
+				</div>
+				<a href="#top"><img border="0" src="../!tools/images/arrow_btt.gif" width="9" height="5">&nbsp; ir arriba</a>
+			</article>
+			<article><a name="winsock"></a>
+				<h3>Restablecer las configuraciones Winsock:</h3>
+				<p>Para restaurar las conexiones a Internet, seleccione la opción "Restablecer configuraciones de Winsock".</p>
+				<p>Esta opción restaura la configuración de acceso a Internet, elimina las restricciones de acceso
+				y corrige errores como 0x8024042C, entre otros. 
+				<a class="hidden" style='cursor: pointer;' onclick="toShow('imgwinsock')"><font color="blue">p. ej.</font></a></p>
+				<div align="center" id="imgwinsock">
+					<figure>
+						<img border=0 src="../!tools/images/img028.png"></br>
+					</figure>
+				</div>
+				<a href="#top"><img border="0" src="../!tools/images/arrow_btt.gif" width="9" height="5">&nbsp; ir arriba</a>
+			</article>
+			<article><a name="restart"></a>
+				<h3>Reiniciar su PC:</h3>
+					<p>Siempre que se lleva a cabo un proceso de solución del sistema es recomendable reiniciar su PC para 
+					guardar los cambios.</p>
+					<p>Puede reiniciar su PC manual o automáticamente a través de la opción 
+					"Reiniciar el equipo", Esta opción te da 1 minuto para guardar el trabajo que se está realizando. 
+					<a class="hidden" style='cursor: pointer;' onclick="toShow('imgrestart')"><font color="blue">p. ej.</font></a></p>
+					<div align="center" id="imgrestart">
+						<figure>
+							<img border=0 src="../!tools/images/img029.png"></br>
+							<img border=0 src="../!tools/images/img030.png"></br>
+						</figure>
+					</div>
+					<a href="#top"><img border="0" src="../!tools/images/arrow_btt.gif" width="9" height="5">&nbsp; ir arriba</a>
+			</article>
+			<div class="hidden" align="center">
+				<p><a href="index.html">Index</a></p>
+			</div>
+		</section>
+		<aside>
+			<nav>
+				<ol>
+					<li><a href="index.html">Index</a></li>
+					<li><a href="introduction.html">Introducción</a></li>
+					<li><a href="menu.html">Primeros pasos</a></li>
+					<li><a href="basic functions.html">Diagnóstico</a></li>
+					<li>Solución de problemas</li>
+					<li><a href="components.html">Restablecer los componentes de Windows Update</a></li>
+					<li><a href="repair.html">Reparar Windows</a></li>
+					<li><a href="installing.html">Instalando actualizaciones</a></li>
+					<li><a href="final.html">Notas finales</a></li>
+				</ol>
+			</nav>
+		</aside>
+		<footer>
+			Copyright © 2017 Manuel Gil.
+		</footer>
+        <script src="../!tools/js/scripts.js"></script>
+	</body>
+</html>

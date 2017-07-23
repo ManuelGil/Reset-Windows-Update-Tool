@@ -1,0 +1,34 @@
+/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+/* DO NOT EDIT! */
+
+#include <windows.h> // include for version info constants
+
+
+//
+// TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
+//
+1 VERSIONINFO
+FILEVERSION 11,0,0,0
+PRODUCTVERSION 11,0,0,0
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904E4"
+    {
+      VALUE "CompanyName", "Manuel Gil"
+      VALUE "FileVersion", "11.0.0.0"
+      VALUE "FileDescription", "Developed using the Dev-C++ IDE"
+      VALUE "InternalName", "RWUT"
+      VALUE "LegalCopyright", "Microsoft Limited Public License (Ms-LPL)"
+      VALUE "LegalTrademarks", "Manuel Gil"
+      VALUE "OriginalFilename", "wureset.exe"
+      VALUE "ProductName", "Reset Windows Update Tool"
+      VALUE "ProductVersion", "11.0.0.0"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0409, 1252
+  }
+}
