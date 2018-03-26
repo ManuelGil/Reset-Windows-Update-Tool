@@ -1,10 +1,9 @@
 <div align="center">
 	<a href="http://wureset.com/">
-		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png?raw=true" alt="Logo" height="200" width="200">
+		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png?raw=true" alt="Logo" height="300" width="300">
 	</a>
 </div>
-<br /><br />
-
+<br />
 <div align="center">
 	<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool#changelog">
 		<img src="https://img.shields.io/badge/stability-stable-green.svg" alt="Status">
@@ -33,15 +32,10 @@ This tool has been developed for use as a support of system repair options.
  invalid values in the Windows Registry, reset Winsock settings and more.
 
 > Contents<br />
-
 > <a href="#features">Features</a><br />
-
 > <a href="#requirements">Requirements</a><br />
-
 > <a href="#notes">Notes</a><br />
-
 > <a href="#reference">Reference</a><br />
-
 > <a href="#license">License</a><br />
 
 <a name="features"></a>
