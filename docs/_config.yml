@@ -2,14 +2,18 @@
 lang: en-US
 title: Reset Windows Update Tool
 description: Troubleshooting for Windows Update.
+copyright: 2018 Manuel Gil.
+avatar: https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png
 
 # About/contact
 author:
   name: Manuel Gil
   picture: https://avatars0.githubusercontent.com/u/25472045?s=400&v=4
-  twitter_username: wureset
-  github_username: ManuelGil
 
 # Build settings
 theme: jekyll-theme-cayman
 show_downloads: true
+
+footer-links:
+  twitter_username: wureset
+  github_username: ManuelGil

@@ -4,10 +4,10 @@
 
 <div align="center">
 	<a href="http://wureset.com/">
-		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png?raw=true" alt="Logo">
+		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png?raw=true" alt="Logo" height="300" width="300">
 	</a>
 </div>
-
+<br />
 <div align="center">
 	<a href="#changelog">
 		<img src="https://img.shields.io/badge/stability-stable-green.svg" alt="Status">
@@ -28,12 +28,13 @@
 		<img src="https://img.shields.io/twitter/follow/wureset.svg?style=social" alt="Twitter">
 	</a>
 </div>
-
+<br />
 <div align="center">
 	<a href="https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet">
 		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/Windows-Update.png?raw=true" alt="Lifecycle">
 	</a>
 </div>
+<br />
 
 Reset Windows Update Tool is a complete troubleshooting tool that can be
  generated with Windows updates.
