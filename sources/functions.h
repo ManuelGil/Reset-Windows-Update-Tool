@@ -1,14 +1,14 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * $Id$
- * <p>Title: Reset Windows Update Tool Project.</p>
+ * <p>Title: WUReset Project.</p>
  * <p>Description: Reset Windows Update Tool.</p>
- * <p>Copyright: Microsoft Limited Public License (Ms-LPL).</p>
- * <p>Company: <a href="https://mfgil.wordpress.com/">Manuel Gil</a></p>
+ * <p>Copyright: Microsoft Public License (MS-PL).</p>
+ * <p>Company: <a href="http://wureset.com/">Manuel Gil</a></p>
  *
- * Problem: Reset Windows Update Components.
+ * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.0001 $ $Date: 28/06/2017 $
+ * @version $Revision: 11.0.0.0003 $ $Date: 03/27/2017 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -233,6 +233,19 @@ class Functions {
 			print->writeTopText("Renaming the software distribution folders.");
 			cmd->rename("%SYSTEMROOT%\\winsxs\\pending.xml", "pending.xml.bak");
 			cmd->rename("%SYSTEMROOT%\\SoftwareDistribution", "SoftwareDistribution.bak");
+
+			// Checking of the rename the softare distribution.
+			string windows = getenv("SYSTEMROOT");
+			string path = windows + "\\SoftwareDistribution";
+
+			if (cmd->getExecuter()->folderExists(path)) {
+				err->showMessage("    Failed to rename the SoftwareDistribution folder.");
+				
+				print->writeTextLine("Press any key to continue . . .");
+				cmd->pause();
+				cmd->close();
+			}
+
 			cmd->rename("%SYSTEMROOT%\\system32\\Catroot2", "Catroot2.bak");
 			cmd->rename("%SYSTEMROOT%\\WindowsUpdate.log", "WindowsUpdate.log.bak");
 			
@@ -338,12 +351,32 @@ class Functions {
 		}
 		
 		/**
+		 * Check the Windows partition.
+		 */
+		void chkdsk() {
+			int errorlevel;
+			
+			print->writeTopText("Check the file system and file system metadata of a volume for logical and physical errors (CHKDSK.exe).");
+			
+			errorlevel = cmd->executer("chkdsk %SYSTEMDRIVE% /f /r");
+			
+			cout << endl;
+			
+			if(errorlevel == 0) {
+				print->writeTopText("The operation completed successfully.");
+			}
+			
+			print->writeTextLine("Press any key to continue . . .");
+			cmd->pause();
+		}
+		
+		/**
 		 * Scans all protected system files.
 		 */
 		void sfc() {
 			int errorlevel;
 			
-			print->writeTopText("Scans all protected system files.");
+			print->writeTopText("Scan your system files and to repair missing or corrupted system files (SFC.exe).");
 			
 			errorlevel = cmd->executer("sfc /scannow");
 			
@@ -386,7 +419,7 @@ class Functions {
 		 * Scan the image to check for corruption.
 		 */
 		void scanHealth() {
-			print->writeTopText("Scanning the image to check for corruption.");
+			print->writeTopText("Scan the image for component store corruption (The DISM /ScanHealth argument).");
 			dism("scanhealth");
 		}
 		
@@ -394,7 +427,7 @@ class Functions {
 		 * Check the detected corruptions.
 		 */
 		void checkHealth() {
-			print->writeTopText("Checking the detected corruptions.");
+			print->writeTopText("Check whether the image has been flagged as corrupted by a failed process and whether the corruption can be repaired (The DISM /CheckHealth argument).");
 			dism("checkhealth");
 		}
 		
@@ -402,7 +435,7 @@ class Functions {
 		 * Repair a Windows image.
 		 */
 		void restoreHealth() {
-			print->writeTopText("Repairing the image.");
+			print->writeTopText("Scan the image for component store corruption, and then perform repair operations automatically (The DISM /RestoreHealth argument).");
 			dism("restorehealth");
 		}
 		
@@ -410,7 +443,7 @@ class Functions {
 		 * Clean up the superseded components.
 		 */
 		void startComponentCleanup() {
-			print->writeTopText("Clean up the superseded components.");
+			print->writeTopText("Clean up the superseded components and reduce the size of the component store (The DISM /StartComponentCleanup argument).");
 			dism("startcomponentcleanup");
 		}
 		
@@ -420,21 +453,77 @@ class Functions {
 		void regedit() {
 			print->writeTopText("Change invalid values in the Registry.");
 			
-			string str = "%USERPROFILE%\\Desktop\\Backup" + cmd->now() + ".reg";
+			string userFolder = getenv("USERPROFILE");
+			string file = userFolder + "\\Desktop\\Backup" + cmd->now() + ".reg";
+			string str = "";
 			
-			// Create a backup of the Registry.
-			print->writeTextLine("Making a backup copy of the Registry in: " + str);
+			print->writeTextLine("Making a backup copy of the Registry in: " + file);
 			
-			str = "regedit /e \"" + str + "\"";
-			cmd->executer(str);
+			if (cmd->getExecuter()->fileExists(file)) {
+				print->writeTextLine("An unexpected error has occurred.");
+				
+				err->showMessage("    Changes were not carried out in the registry.");
+				err->showMessage("    Will try it later.");
+				
+				print->writeTextLine("Press any key to continue . . .");
+				cmd->pause();
+				cmd->close();
+			} else {
+				// Create a backup of the Registry.
+				str = "regedit /e \"" + file + "\"";
+				cmd->executer(str);
+			}
 			
+			print->writeTextLine("Checking the backup.");
+			
+			if (!cmd->getExecuter()->fileExists(file)) {
+				print->writeTextLine("An unexpected error has occurred.");
+				
+				err->showMessage("    Something went wrong.");
+				err->showMessage("    You manually create a backup of the registry before continuing.");
+				
+				print->writeTextLine("Press any key to continue . . .");
+				cmd->pause();
+			} else {
+				print->writeTextLine("The operation completed successfully.");
+			}
+
 			// Delete keys in the Registry.
 			print->writeTopText("Deleting values in the Registry.");
-			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate");
+			cmd->regDelete("HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AdvertisingInfo");
+			cmd->regDelete("HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\WindowsUpdate");
+			cmd->regDelete("HKCU\\SOFTWARE\\Microsoft\\WindowsSelfHost");
+			cmd->regDelete("HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\WindowsStore\\WindowsUpdate");
+			cmd->regDelete("HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\WindowsUpdate");
+			cmd->regDelete("HKLM\\SOFTWARE\\Microsoft\\WindowsSelfHost");
+			cmd->regDelete("HKLM\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\WindowsStore\\WindowsUpdate");
+
 			cmd->regDelete("HKLM\\COMPONENTS\\PendingXmlIdentifier");
 			cmd->regDelete("HKLM\\COMPONENTS\\NextQueueEntryIndex");
 			cmd->regDelete("HKLM\\COMPONENTS\\AdvancedInstallersNeedResolving");
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate");
 			
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate", "ResetClient");
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate", "ResetDataStoreReason");
+
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate", "PingID");
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate", "AccountDomainSid");
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate", "SusClientId");
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate", "SusClientIDValidation");
+
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\Auto Update", "AUState");
+
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\Auto Update", "LastWaitTimeout");
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\Auto Update", "DetectionstartTime");
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\Auto Update", "DetectionstartTime");
+
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\Auto Update\\RebootRequired");
+
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\Auto Update\\Results");
+
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\Auto Update\\Reporting", "SamplingValue");
+			cmd->regDelete("HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\Auto Update\\Reporting", "ReregisterAuthorizationCab");
+
 			// Add keys in the Registry.
 			print->writeTopText("Adding values in the Registry.");
 			

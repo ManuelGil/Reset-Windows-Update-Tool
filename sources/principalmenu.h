@@ -1,14 +1,14 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * $Id$
- * <p>Title: Reset Windows Update Tool Project.</p>
+ * <p>Title: WUReset Project.</p>
  * <p>Description: Reset Windows Update Tool.</p>
- * <p>Copyright: Microsoft Limited Public License (Ms-LPL).</p>
- * <p>Company: <a href="https://mfgil.wordpress.com/">Manuel Gil</a></p>
+ * <p>Copyright: Microsoft Public License (MS-PL).</p>
+ * <p>Company: <a href="http://wureset.com/">Manuel Gil</a></p>
  *
- * Problem: Reset Windows Update Components.
+ * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.0001 $ $Date: 28/06/2017 $
+ * @version $Revision: 11.0.0.0003 $ $Date: 03/27/2017 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -51,24 +51,25 @@ class PrincipalMenu {
 			
 			menu->addItem(new Item("", "close"));
 			menu->addItem(new Item("Open the system protection.", "openSystemProtection"));
-			menu->addItem(new Item("Reset Windows Update Components.", "resetwindowsUpdate"));
+			menu->addItem(new Item("Reset the Windows Update Components.", "resetwindowsUpdate"));
 			menu->addItem(new Item("Delete temporary files in Windows.", "delTempFiles"));
 			menu->addItem(new Item("Open the Internet Explorer options.", "openInternetOption"));
-			menu->addItem(new Item("Scans all protected system files.", "scanSystemFiles"));
+			menu->addItem(new Item("Run Chkdsk on the Windows partition.", "checkDisk"));
+			menu->addItem(new Item("Run the System File Checker tool.", "scanSystemFiles"));
 			
 			if (os->getFamily() == 8 || os->getFamily() == 10) {
-				menu->addItem(new Item("Scan the image to check for corruption.", "scanImageSystem"));
-				menu->addItem(new Item("Check the detected corruptions.", "checkImageSystem"));
-				menu->addItem(new Item("Repair the image.", "repairImageSystem"));
+				menu->addItem(new Item("Scan the image for component store corruption.", "scanImageSystem"));
+				menu->addItem(new Item("Check whether the image has been flagged as corrupted.", "checkImageSystem"));
+				menu->addItem(new Item("Perform repair operations automatically.", "repairImageSystem"));
 				menu->addItem(new Item("Clean up the superseded components.", "cleanImageSystem"));
 			}
 			
-			menu->addItem(new Item("Change invalid values in the Registry.", "changeRegistry"));
-			menu->addItem(new Item("Reset the Winsock settings.", "resetWinsock"));
+			menu->addItem(new Item("Delete any incorrect registry values.", "changeRegistry"));
+			menu->addItem(new Item("Repair/Reset Winsock settings.", "resetWinsock"));
 			menu->addItem(new Item("Search updates.", "searchUpdates"));
 			menu->addItem(new Item("Explore other local solutions.", "exploreLocalSolutions"));
 			menu->addItem(new Item("Explore other online solutions.", "exploreOnlineSolutions"));
-			menu->addItem(new Item("Restart your PC.", "restartComouter"));
+			menu->addItem(new Item("Restart your PC.", "restartComputer"));
 		}
 		
 		/**

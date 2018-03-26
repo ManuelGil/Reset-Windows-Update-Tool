@@ -1,0 +1,15 @@
+# Site settings
+lang: en-US
+title: Reset Windows Update Tool
+description: Troubleshooting for Windows Update.
+
+# About/contact
+author:
+  name: Manuel Gil
+  picture: https://avatars0.githubusercontent.com/u/25472045?s=400&v=4
+  twitter_username: wureset
+  github_username: ManuelGil
+
+# Build settings
+theme: jekyll-theme-cayman
+show_downloads: true

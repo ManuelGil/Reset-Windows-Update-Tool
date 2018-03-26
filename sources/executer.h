@@ -1,14 +1,14 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * $Id$
- * <p>Title: Reset Windows Update Tool Project.</p>
+ * <p>Title: WUReset Project.</p>
  * <p>Description: Reset Windows Update Tool.</p>
- * <p>Copyright: Microsoft Limited Public License (Ms-LPL).</p>
- * <p>Company: <a href="https://mfgil.wordpress.com/">Manuel Gil</a></p>
+ * <p>Copyright: Microsoft Public License (MS-PL).</p>
+ * <p>Company: <a href="http://wureset.com/">Manuel Gil</a></p>
  *
- * Problem: Reset Windows Update Components.
+ * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.0001 $ $Date: 28/06/2017 $
+ * @version $Revision: 11.0.0.0003 $ $Date: 03/27/2017 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -66,9 +66,38 @@ class Executer {
 		void open(string pPath, string pFile) {
 			string file = explorer->getPath() + pPath + pFile;
 			
-			if(explorer->exist(file)) {
+			if(explorer->fileExists(file)) {
 				ShellExecute(NULL, "open", file.c_str(), NULL, NULL, SW_SHOWDEFAULT);
 			}
+		}
+		
+		/**
+		 * Get the app directory.
+		 */
+		string getPath() {
+			return explorer->getPath();
+		}
+
+		/**
+		 * Check if file exists.
+		 */
+		bool fileExists(string pFile) {
+			if(explorer->fileExists(pFile)) {
+				return true;
+			}
+			
+			return false;
+		}
+
+		/**
+		 * Check if folder exists.
+		 */
+		bool folderExists(string pPath) {
+			if(explorer->folderExists(pPath)) {
+				return true;
+			}
+			
+			return false;
 		}
 
 };

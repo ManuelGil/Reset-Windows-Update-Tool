@@ -1,14 +1,14 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * $Id$
- * <p>Title: Reset Windows Update Tool Project.</p>
+ * <p>Title: WUReset Project.</p>
  * <p>Description: Reset Windows Update Tool.</p>
- * <p>Copyright: Microsoft Limited Public License (Ms-LPL).</p>
- * <p>Company: <a href="https://mfgil.wordpress.com/">Manuel Gil</a></p>
+ * <p>Copyright: Microsoft Public License (MS-PL).</p>
+ * <p>Company: <a href="http://wureset.com/">Manuel Gil</a></p>
  *
- * Problem: Reset Windows Update Components.
+ * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.0001 $ $Date: 28/06/2017 $
+ * @version $Revision: 11.0.0.0003 $ $Date: 03/27/2017 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -53,12 +53,28 @@ class Explorer {
 		/**
 		 * Check if a file exists.
 		 */
-		bool exist(string pFile) {
+		bool fileExists(string pFile) {
 		    if (FILE *file = fopen(pFile.c_str(), "r")) {
 		        fclose(file);
 		        return true;
 		    }
 		    
+			return false;
+		}
+		
+		/**
+		 * Check if a folder exists.
+		 */
+		bool folderExists(string pPath) {
+			DWORD ftyp = GetFileAttributesA(pPath.c_str());
+			if (ftyp == INVALID_FILE_ATTRIBUTES) {
+		    	return false;
+			}
+		
+			if (ftyp & FILE_ATTRIBUTE_DIRECTORY) {
+		    	return true;
+			}
+		
 			return false;
 		}
 

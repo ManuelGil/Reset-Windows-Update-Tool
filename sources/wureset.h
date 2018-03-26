@@ -1,14 +1,14 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * $Id$
- * <p>Title: Reset Windows Update Tool Project.</p>
+ * <p>Title: WUReset Project.</p>
  * <p>Description: Reset Windows Update Tool.</p>
- * <p>Copyright: Microsoft Limited Public License (Ms-LPL).</p>
- * <p>Company: <a href="https://mfgil.wordpress.com/">Manuel Gil</a></p>
+ * <p>Copyright: Microsoft Public License (MS-PL).</p>
+ * <p>Company: <a href="http://wureset.com/">Manuel Gil</a></p>
  *
- * Problem: Reset Windows Update Components.
+ * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.0001 $ $Date: 28/06/2017 $
+ * @version $Revision: 11.0.0.0003 $ $Date: 03/27/2017 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -95,7 +95,7 @@ class WUReset {
 				if(option == "?") {
 					// Show the help file.
 					help = new Help();
-					help->open();
+					help->browser();
 					help = NULL;
 					flag = -1;
 				} else if(flag != 0) {
@@ -108,6 +108,9 @@ class WUReset {
 					}
 				}
 			}
+
+			functions->getCommands()->clean();
+			functions->getCommands()->close();
 		}
 		
 		/**
@@ -122,6 +125,8 @@ class WUReset {
 				functions->temp();
 			} else if(pOption == "openInternetOption") {
 				functions->iOptions();
+			} else if(pOption == "checkWindowsPartition") {
+				functions->chkdsk();
 			} else if(pOption == "scanSystemFiles") {
 				functions->sfc();
 			} else if(pOption == "scanImageSystem") {
