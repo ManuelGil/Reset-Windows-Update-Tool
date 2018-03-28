@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.0003 $ $Date: 03/27/2017 $
+ * @version $Revision: 11.0.0.4 $ $Date: 03/28/2018 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -454,12 +454,18 @@ class Functions {
 			print->writeTopText("Change invalid values in the Registry.");
 			
 			string userFolder = getenv("USERPROFILE");
-			string file = userFolder + "\\Desktop\\Backup" + cmd->now() + ".reg";
+			string folder = userFolder + "\\Desktop\\Backup\\" + cmd->now();
+			string hkcr = folder + "\\HKCR.reg";
+			string hkcu = folder + "\\HKCU.reg";
+			string hklm = folder + "\\HKLM.reg";
+			string hku = folder + "\\HKU.reg";
+			string hkcc = folder + "\\HKCC.reg";
 			string str = "";
 			
-			print->writeTextLine("Making a backup copy of the Registry in: " + file);
+			print->writeTextLine("Making a backup copy of the Registry in: ");
+			print->writeText(folder);
 			
-			if (cmd->getExecuter()->fileExists(file)) {
+			if (cmd->getExecuter()->fileExists(hkcu) || cmd->getExecuter()->fileExists(hklm)) {
 				print->writeTextLine("An unexpected error has occurred.");
 				
 				err->showMessage("    Changes were not carried out in the registry.");
@@ -469,14 +475,36 @@ class Functions {
 				cmd->pause();
 				cmd->close();
 			} else {
-				// Create a backup of the Registry.
-				str = "regedit /e \"" + file + "\"";
+				cout << endl;
+				// Creating a backup of the Registry.
+				// Create the backup folder
+				str = "mkdir \"" + folder + "\"";
+				cmd->executer(str);
+				// Export HKEY_CLASSES_ROOT in HKCR.reg
+				print->writeTextLine("HKEY_CLASSES_ROOT -> HKCR.reg . . .");
+				str = "reg Export HKCR \"" + hkcr + "\"";
+				cmd->executer(str);
+				// Export HKEY_CURRENT_USER in HKCU.reg
+				print->writeTextLine("HKEY_CURRENT_USER -> HKCU.reg . . .");
+				str = "reg Export HKCU \"" + hkcu + "\"";
+				cmd->executer(str);
+				// Export HKEY_LOCAL_MACHINE in HKLM.reg
+				print->writeTextLine("HKEY_LOCAL_MACHINE -> HKLM.reg . . .");
+				str = "reg Export HKLM \"" + hklm + "\"";
+				cmd->executer(str);
+				// Export HKEY_USERS in HKU.reg
+				print->writeTextLine("HKEY_USERS -> HKU.reg . . .");
+				str = "reg Export HKU \"" + hku + "\"";
+				cmd->executer(str);
+				// Export HKEY_CURRENT_CONFIG in HKCC.reg
+				print->writeTextLine("HKEY_CURRENT_CONFIG -> HKCC.reg . . .");
+				str = "reg Export HKCC \"" + hkcc + "\"";
 				cmd->executer(str);
 			}
 			
 			print->writeTextLine("Checking the backup.");
 			
-			if (!cmd->getExecuter()->fileExists(file)) {
+			if (!cmd->getExecuter()->fileExists(hkcu) || !cmd->getExecuter()->fileExists(hklm)) {
 				print->writeTextLine("An unexpected error has occurred.");
 				
 				err->showMessage("    Something went wrong.");

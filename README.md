@@ -13,7 +13,7 @@
 		<img src="https://img.shields.io/badge/stability-stable-green.svg" alt="Status">
 	</a>
 	<a href="#changelog">
-		<img src="https://img.shields.io/badge/release-v11.0.0.3-blue.svg" alt="Version">
+		<img src="https://img.shields.io/badge/release-v11.0.0.4-blue.svg" alt="Version">
 	</a>
 	<a href="#changelog">
 		<img src="https://img.shields.io/badge/update-march-yellowgreen.svg" alt="Update">
@@ -81,6 +81,49 @@ This page will help you get started with Reset Windows Update Tool.
 
 <a name="changelog"></a>
 ## :information_source: Changelog
+
+**11.0.0.4** (03/28/2018)
+
+  * <table border="0" cellpadding="4">
+		<tr>
+			<td>
+				<strong>Language:</strong>
+			</td>
+			<td>
+				C++
+			</td>
+		</tr>
+		<tr>
+			<td><strong>
+				Requirements:
+			</strong></td>
+			<td>
+				Windows 7, Windows 8, Windows 8.1 and Windows 10
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Filename:</strong>
+			</td>
+			<td>
+				<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool">
+					wureset.exe
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Changes:</strong>
+			</td>
+			<td>
+				<ul>
+					<li>
+						Improves the export in the Windows Registry
+					</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
 
 **11.0.0.3** (03/26/2018)
 
