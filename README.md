@@ -118,7 +118,7 @@ This page will help you get started with Reset Windows Update Tool.
 			<td>
 				<ul>
 					<li>
-						
+						Force the stopped of services
 					</li>
 				</ul>
 			</td>
