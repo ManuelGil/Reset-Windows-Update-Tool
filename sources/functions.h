@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.4 $ $Date: 03/28/2018 $
+ * @version $Revision: 11.0.0.5 $ $Date: 04/18/2018 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -106,9 +106,9 @@ class Functions {
 			print->writeTopText("Terms and Conditions of Use.");
 			print->writeTextLine("    The methods inside this tool modify files and registry settings.\n    While you are tested and tend to work, We not take responsibility for\n    the use of this tool.\n\n    This tool is provided without warranty. Any damage caused is your\n    own responsibility.\n\n    As well, batch files are almost always flagged by anti-virus, feel free\n    to review the code if you're unsure.\n");
 			
-			string accept = "Do you want to continue with this process? (Yes/No) ";
+			string accept = "Do you want to continue with this process? (Y/N) ";
 			
-			cout << accept;
+			print->writeText(accept);
 			cin >> option;
 			
 			option = strupr((char*) option.c_str());
@@ -154,68 +154,159 @@ class Functions {
 		 * Run the reset Windows Update components.
 		 */
 		void components() {
-			// Stopping the Windows Update services.
 			int errorlevel;
+			string option;
+			bool stopped = false;
 			
-			print->writeTopText("Stopping the Windows Update services.");
-			cmd->stopService("bits");
+			cmd->executer("taskkill /im wuauclt.exe /f");
 			
-			print->writeTopText("Stopping the Windows Update services.");
-			cmd->stopService("wuauserv");
+			string accept = "Cannot stop the service. Do you want to try again? (Y/N): ";
 			
-			print->writeTopText("Stopping the Windows Update services.");
-			cmd->stopService("appidsvc");
-			
-			print->writeTopText("Stopping the Windows Update services.");
-			cmd->stopService("cryptsvc");
-			
-			// Checking the services status.
-			print->writeTopText("Checking the services status.");
-			errorlevel = cmd->executer("sc query bits | findstr /I /C:\"STOPPED\"");
-			
-			if(errorlevel != 0) {
-				err->showMessage("    Failed to stop the BITS service.");
+			// Stopping the Windows Update services.
+			while (!stopped) {
+				print->writeTopText("Stopping the Windows Update services.");
+				cmd->stopService("bits");
 				
-				print->writeTextLine("Press any key to continue . . .");
-				cmd->pause();
-				cmd->close();
-			}
-			
-			print->writeTopText("Checking the services status.");
-			errorlevel = cmd->executer("sc query wuauserv | findstr /I /C:\"STOPPED\"");
-			
-			if (errorlevel != 0) {
-				err->showMessage("    Failed to stop the Windows Update service.");
-				
-				print->writeTextLine("Press any key to continue . . .");
-				cmd->pause();
-				cmd->close();
-			}
-			
-			print->writeTopText("Checking the services status.");
-			errorlevel = cmd->executer("sc query appidsvc | findstr /I /C:\"STOPPED\"");
-			
-			if(errorlevel != 0) {
-				errorlevel = cmd->executer("sc query appidsvc | findstr /I /C:\"OpenService FAILED 1060\"");
+				// Checking the service status.
+				print->writeTopText("Checking the service status.\n");
+				errorlevel = cmd->executer("sc query bits | findstr /I /C:\"STOPPED\"");
 				
 				if(errorlevel != 0) {
-					err->showMessage("    Failed to stop the Application Identity service.");
+					err->showMessage("    Failed to stop the BITS service.");
 					
-				print->writeTextLine("Press any key to continue . . .");
-					cmd->pause();
-					cmd->close();
+					print->writeText(accept);
+					cin >> option;
+					
+					option = strupr((char*) option.c_str());
+					
+					int pos = accept.find_last_of("(") + 1;
+					int size = accept.find_last_of("/") - pos;
+					
+					string str = accept.substr(pos , size);
+					
+					str = strupr((char*) str.c_str());
+					
+					if(str != option) {
+						cout << endl;
+						print->writeTextLine("Press any key to continue . . .");
+						cmd->pause();
+						cmd->close();
+					}
+				} else {
+					stopped = true;
 				}
 			}
 			
-			print->writeTopText("Checking the services status.");
-			errorlevel = cmd->executer("sc query cryptsvc | findstr /I /C:\"STOPPED\"");
+			stopped = false;
 			
-			if(errorlevel != 0) {
-				err->showMessage("    Failed to stop the Cryptographic Services service.");
+			while (!stopped) {
+				print->writeTopText("Stopping the Windows Update services.");
+				cmd->stopService("wuauserv");
 				
-				print->writeTextLine("Press any key to continue . . .");
-				cmd->pause();
-				cmd->close();
+				// Checking the service status.
+				print->writeTopText("Checking the service status.\n");
+				errorlevel = cmd->executer("sc query wuauserv | findstr /I /C:\"STOPPED\"");
+				
+				if (errorlevel != 0) {
+					err->showMessage("    Failed to stop the Windows Update service.");
+					
+					print->writeText(accept);
+					cin >> option;
+					
+					option = strupr((char*) option.c_str());
+					
+					int pos = accept.find_last_of("(") + 1;
+					int size = accept.find_last_of("/") - pos;
+					
+					string str = accept.substr(pos , size);
+					
+					str = strupr((char*) str.c_str());
+					
+					if(str != option) {
+						cout << endl;
+						print->writeTextLine("Press any key to continue . . .");
+						cmd->pause();
+						cmd->close();
+					}
+				} else {
+					stopped = true;
+				}
+			}
+			
+			stopped = false;
+			
+			while (!stopped) {
+				print->writeTopText("Stopping the Windows Update services.");
+				cmd->stopService("appidsvc");
+				
+				// Checking the service status.
+				print->writeTopText("Checking the service status.\n");
+				errorlevel = cmd->executer("sc query appidsvc | findstr /I /C:\"STOPPED\"");
+				
+				if(errorlevel != 0) {
+					errorlevel = cmd->executer("sc query appidsvc | findstr /I /C:\"OpenService FAILED 1060\"");
+					
+					if(errorlevel != 0) {
+						err->showMessage("    Failed to stop the Application Identity service.");
+						
+						print->writeText(accept);
+						cin >> option;
+						
+						option = strupr((char*) option.c_str());
+						
+						int pos = accept.find_last_of("(") + 1;
+						int size = accept.find_last_of("/") - pos;
+						
+						string str = accept.substr(pos , size);
+						
+						str = strupr((char*) str.c_str());
+						
+						if(str != option) {
+							cout << endl;
+							print->writeTextLine("Press any key to continue . . .");
+							cmd->pause();
+							cmd->close();
+						}
+					}
+				} else {
+					stopped = true;
+				}
+			}
+			
+			stopped = false;
+			
+			while (!stopped) {
+				print->writeTopText("Stopping the Windows Update services.");
+				cmd->stopService("cryptsvc");
+				
+				// Checking the service status.
+				print->writeTopText("Checking the service status.\n");
+				errorlevel = cmd->executer("sc query cryptsvc | findstr /I /C:\"STOPPED\"");
+				
+				if(errorlevel != 0) {
+					err->showMessage("    Failed to stop the Cryptographic Services service.");
+					
+					print->writeText(accept);
+					cin >> option;
+					
+					option = strupr((char*) option.c_str());
+					
+					int pos = accept.find_last_of("(") + 1;
+					int size = accept.find_last_of("/") - pos;
+					
+					string str = accept.substr(pos , size);
+					
+					str = strupr((char*) str.c_str());
+					
+					if(str != option) {
+						cout << endl;
+						print->writeTextLine("Press any key to continue . . .");
+						cmd->pause();
+						cmd->close();
+					}
+				} else {
+					stopped = true;
+				}
 			}
 			
 			// Delete the qmgr*.dat files.

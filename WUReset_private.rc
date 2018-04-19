@@ -8,8 +8,8 @@
 // TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
 //
 1 VERSIONINFO
-FILEVERSION 11,0,0,4
-PRODUCTVERSION 11,0,0,4
+FILEVERSION 11,0,0,5
+PRODUCTVERSION 11,0,0,5
 FILETYPE VFT_APP
 {
   BLOCK "StringFileInfo"
@@ -17,14 +17,14 @@ FILETYPE VFT_APP
     BLOCK "040904E4"
     {
       VALUE "CompanyName", "Manuel Gil"
-      VALUE "FileVersion", "11.0.0.4"
+      VALUE "FileVersion", "11.0.0.5"
       VALUE "FileDescription", "Developed using the Dev-C++ IDE"
       VALUE "InternalName", "RWUT"
       VALUE "LegalCopyright", "Microsoft Public License (MS-PL)"
       VALUE "LegalTrademarks", "Manuel Gil"
       VALUE "OriginalFilename", "wureset.exe"
       VALUE "ProductName", "Reset Windows Update Tool"
-      VALUE "ProductVersion", "11.0.0.4"
+      VALUE "ProductVersion", "11.0.0.5"
     }
   }
   BLOCK "VarFileInfo"
