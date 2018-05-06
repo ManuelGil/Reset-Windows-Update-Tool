@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.5 $ $Date: 04/18/2018 $
+ * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -66,6 +66,7 @@ class PrincipalMenu {
 			
 			menu->addItem(new Item("Delete any incorrect registry values.", "changeRegistry"));
 			menu->addItem(new Item("Repair/Reset Winsock settings.", "resetWinsock"));
+			menu->addItem(new Item("Force Group Policy Update.", "gpupdate"));
 			menu->addItem(new Item("Search updates.", "searchUpdates"));
 			menu->addItem(new Item("Explore other local solutions.", "exploreLocalSolutions"));
 			menu->addItem(new Item("Explore other online solutions.", "exploreOnlineSolutions"));

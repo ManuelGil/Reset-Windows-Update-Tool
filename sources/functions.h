@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.5 $ $Date: 04/18/2018 $
+ * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -158,6 +158,7 @@ class Functions {
 			string option;
 			bool stopped = false;
 			
+			print->writeTopText("Canceling the Windows Update process.");
 			cmd->executer("taskkill /im wuauclt.exe /f");
 			
 			string accept = "Cannot stop the service. Do you want to try again? (Y/N): ";
@@ -701,6 +702,26 @@ class Functions {
 			
 			// End process.
 			print->writeTopText("The operation completed successfully.");
+			print->writeTextLine("Press any key to continue . . .");
+			cmd->pause();
+		}
+		
+		/**
+		 * Force Group Policy Update.
+		 */
+		void gpupdate() {
+			int errorlevel;
+			
+			print->writeTopText("Forcing group policy update.");
+			
+			errorlevel = cmd->executer("gpupdate /force");
+			
+			cout << endl;
+			
+			if(errorlevel == 0) {
+				print->writeTopText("The operation completed successfully.");
+			}
+			
 			print->writeTextLine("Press any key to continue . . .");
 			cmd->pause();
 		}
