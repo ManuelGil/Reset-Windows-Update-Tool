@@ -343,8 +343,10 @@ class Functions {
 			
 			// Reset the BITS service and the Windows Update service to the default security descriptor.
 			print->writeTopText("Reset the BITS service and the Windows Update service to the default security descriptor.");
-			cmd->executer("sc.exe sdset bits D:{A;;CCLCSWRPWPDTLOCRRC;;;SY}{A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA}{A;;CCLCSWLOCRRC;;;AU}{A;;CCLCSWRPWPDTLOCRRC;;;PU}");
-			cmd->executer("sc.exe sdset wuauserv D:{A;;CCLCSWRPWPDTLOCRRC;;;SY}{A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA}{A;;CCLCSWLOCRRC;;;AU}{A;;CCLCSWRPWPDTLOCRRC;;;PU}");
+			cmd->executer("sc.exe sdset wuauserv D:(A;;CCLCSWLOCRRC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCDCLCSWRPWPDTLCRSDRCWDWO;;;SO)(A;;CCLCSWRPWPDTLOCRRC;;;SY)S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;WD)");
+			cmd->executer("sc.exe sdset bits D:(A;;CCLCSWLOCRRC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCDCLCSWRPWPDTLCRSDRCWDWO;;;SO)(A;;CCLCSWRPWPDTLOCRRC;;;SY)S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;WD)");
+			cmd->executer("sc.exe sdset cryptsvc D:(A;;CCLCSWLOCRRC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCDCLCSWRPWPDTLCRSDRCWDWO;;;SO)(A;;CCLCSWRPWPDTLOCRRC;;;SY)S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;WD)");
+			cmd->executer("sc.exe sdset trustedinstaller D:(A;;CCLCSWLOCRRC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCDCLCSWRPWPDTLCRSDRCWDWO;;;SO)(A;;CCLCSWRPWPDTLOCRRC;;;SY)S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;WD)");
 			
 			// Reregister the BITS files and the Windows Update files.
 			print->writeTopText("Reregister the BITS files and the Windows Update files.");
@@ -396,9 +398,11 @@ class Functions {
 
 			// Set the startup type as automatic.
 			print->writeTopText("Resetting the services as automatics.");
-			cmd->executer("sc config wuauserv start= auto");
-			cmd->executer("sc config bits start= auto");
-			cmd->executer("sc config DcomLaunch start= auto");
+			cmd->executer("sc.exe config wuauserv start= auto");
+			cmd->executer("sc.exe config bits start= delayed-auto");
+			cmd->executer("sc.exe config cryptsvc start= auto");
+			cmd->executer("sc.exe config TrustedInstaller start= demand");
+			cmd->executer("sc.exe config DcomLaunch start= auto");
 			
 			// Starting the Windows Update services.
 			print->writeTopText("Starting the Windows Update services.");
