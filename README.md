@@ -87,49 +87,6 @@ This page will help you get started with Reset Windows Update Tool.
 <a name="changelog"></a>
 ## :information_source: Changelog
 
-**11.0.0.7** (09/15/2018)
-
-  * <table border="0" cellpadding="4">
-		<tr>
-			<td>
-				<strong>Language:</strong>
-			</td>
-			<td>
-				C++
-			</td>
-		</tr>
-		<tr>
-			<td><strong>
-				Requirements:
-			</strong></td>
-			<td>
-				Windows 7, Windows 8, Windows 8.1 and Windows 10
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<strong>Filename:</strong>
-			</td>
-			<td>
-				<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool">
-					wureset.exe
-				</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<strong>Changes:</strong>
-			</td>
-			<td>
-				<ul>
-					<li>
-						Force Group Policy Update.
-					</li>
-				</ul>
-			</td>
-		</tr>
-	</table>
-
 **11.0.0.6** (05/06/2018)
 
   * <table border="0" cellpadding="4">
