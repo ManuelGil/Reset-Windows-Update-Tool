@@ -43,10 +43,15 @@ This tool was developed as a script for the Windows command console, it is
  possible to use a development language that allows the use of command line in
  a simple way.
 
-The first phase of this development consists in inheriting the characteristics
- of its predecessor as the possibility to recognize the operative system, to
- confirm the use of administrator roles; and implement new functions such as
- the use of language files, configuration files, and others.
+<div align="center">
+	<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/menu.gif?raw=true" alt="menu">
+</div>
+
+This tool has been developed for use as a support of system repair options.
+ It is possible to reset the Windows Update Components. Also is able to delete
+ temporary files, scan, detect and repair corruptions with the Windows System
+ image, scan all protected system files and replace any corrupted files, change
+ invalid values in the Windows Registry, reset Winsock settings and more.
 
 <a name="started"></a>
 ## :traffic_light: Getting Started
@@ -81,6 +86,49 @@ This page will help you get started with Reset Windows Update Tool.
 
 <a name="changelog"></a>
 ## :information_source: Changelog
+
+**11.0.0.7** (09/15/2018)
+
+  * <table border="0" cellpadding="4">
+		<tr>
+			<td>
+				<strong>Language:</strong>
+			</td>
+			<td>
+				C++
+			</td>
+		</tr>
+		<tr>
+			<td><strong>
+				Requirements:
+			</strong></td>
+			<td>
+				Windows 7, Windows 8, Windows 8.1 and Windows 10
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Filename:</strong>
+			</td>
+			<td>
+				<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool">
+					wureset.exe
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Changes:</strong>
+			</td>
+			<td>
+				<ul>
+					<li>
+						Force Group Policy Update.
+					</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
 
 **11.0.0.6** (05/06/2018)
 

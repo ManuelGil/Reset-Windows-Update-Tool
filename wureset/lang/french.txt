@@ -1,0 +1,164 @@
+# .\wureset\lang\
+# french.txt
+
+# Reset Windows Update Tool (http://wureset.com)
+
+# This file can be modificated to be compatible with others languages.
+# For print the end line insert "\n" into the text.
+
+# Language: French (Beta)
+# Author: Manuel Gil.
+# Updated: 04/27/2018
+# Version: 1.0.0.3
+
+# Warnings
+1000|Appuyez sur n'importe quelle touche pour continuer . . .
+1001|Une erreur inattendue s'est produite.
+1002|Choisissez une option: 
+1003|Option invalide.
+1004|Nous sommes désolés, cette option n'est pas disponible dans ce système d'exploitation.
+1005|L'opération s'est terminée avec succès.
+1006|Une erreur est survenue pendant l'opération.
+1007|Impossible d'arrêter le service. Voulez-vous essayer à nouveau? (O/N): 
+
+# Compatibility
+2000|Nous sommes désolés, ce système d'exploitation n'est pas compatible avec cet outil.
+2001|    Une erreur s'est produite lors de la tentative de vérification de votre système.\n    Vous utilisez peut-être une version commerciale ou d'essai.\n\n    Sinon, vérifiez que votre système a la correction de sécurité correcte.\n
+
+# Elevation
+3000|Vérification des autorisations d'administrateur.
+3001|    Vous n'êtes pas autorisé à exécuter cet outil.\n    Cet outil ne fonctionne pas sans les autorisations d'administrateur.\n\n    Vous devez exécuter cet outil avec des autorisations d'administrateur.\n
+
+# Terms
+4000|Termes et conditions d'utilisation.
+4001|    Les méthodes de cet outil modifient les fichiers et les paramètres du\n    registre.\n    Aucune responsabilité n'est assumée pour l'utilisation de cet outil.\n\n    Cet outil est fourni sans garantie. Tout dommage causé est de votre\n    propre responsabilité.\n\n    N'hésitez pas à examiner le code si vous n'êtes pas sûr.\n    https://github.com/ManuelGil\n
+4002|Voulez-vous continuer avec ce processus? (O/N): 
+
+# Menu
+5000|Cet outil va restaurer les composants Windows Update.
+5001|Protection du système ouvert.
+5002|Restaurer les composants Windows Update.
+5003|Supprimer les fichiers temporaires Windows.
+5004|Ouvrir les options Internet Explorer.
+5005|Exécutez Chkdsk dans la partition Windows.
+5006|Exécutez l'outil Vérificateur des fichiers système.
+5007|Scannez l'image pour les dommages au magasin de composants.
+5008|Vérifiez si l'image a été marquée comme endommagée.
+5009|Effectuer des opérations de réparation automatiques.
+5010|Nettoyer les composants remplacés.
+5011|Supprimer les valeurs de registre incorrectes.
+5012|Réinitialiser les paramètres Winsock.
+5013|Rechercher des mises à jour Windows.
+5014|Explorez les autres solutions locales.
+5015|Explorez les autres solutions en ligne.
+5016|Télécharger des outils de diagnostic.
+5017|Redémarrez le PC.
+5018|\n                                           ?. Aide.    0. Fermer.\n
+
+# Functions
+6000|Ouverture de la protection du système.
+6001|Arrêt des services Windows Update.
+6002|Vérification de l'état du service.\n
+6003|    Échec de l'arrêt du service du service de transfert intelligent en arrière-plan BITS.\n
+6004|    Échec de l'arrêt du service Windows Update.\n
+6005|    Échec de l'arrêt du service Identité de l'application.\n
+6006|    Échec de l'arrêt du service de services de chiffrement.\n
+6007|Suppression des fichiers qmgr*.dat.
+6008|Suppression des sauvegardes SoftwareDistribution.
+6009|Modification du nom des dossiers SoftwareDistribution.
+6010|    Le nom du dossier SoftwareDistribution n'a pas pu être modifié.\n
+6011|Restauration des services BITS et Windows Update pour le descripteur de sécurité par défaut.
+6012|Réenregistrez les fichiers BITS et les fichiers Windows Update.
+6013|Restauration de Winsock.
+6014|Restauration WinHTTP Proxy.
+6015|Restauration des services à automatique.
+6016|Redémarrage des services Windows Update.
+6017|Suppression de fichiers temporaires du système.
+6018|Ouverture des options Internet Explorer.
+6019|Vérifier le système de fichiers et le système de métadonnées d'un fichier de volume pour les erreurs logiques et physiques (CHKDSK.EXE).
+6020|Examine et vérifie l'intégrité du système protégé tous les fichiers et remplace les versions incorrectes par des versions correctes (SFC.exe).
+6021|Scannez l'image pour les dommages au magasin de composants (DISM /ScanHealth).
+6022|Vérifiez si des dommages ont été détectés dans l'image (DISM /CheckHealth).
+6023|Effectuer des opérations de réparation automatiques (DISM /RestoreHealth).
+6024|Nettoyer les composants supprimés (DISM /StartComponentCleanup).
+6025|Changer les valeurs incorrectes dans le registre.
+6026|Créer une copie de l'enregistrement dans: 
+6027|    Les modifications n'ont pas été effectuées dans le registre.\n
+6028|    Réessayez plus tard.\n
+6029|Vérification de la sauvegarde.
+6030|    Quelque chose s'est mal passé.\n
+6031|    Créer manuellement une sauvegarde du registre avant de continuer.\n
+6032|Suppression des valeurs de registre.
+6033|Ajouter des valeurs au registre.
+6034|Réinitialisation des paramètres de contrôle Winsock.
+6035|Réinitialisation des enregistrements de transaction.
+6036|Restaurer TCP/IP.
+6037|Restaurer Winsock.
+6038|Restauration des valeurs par défaut de la directive.
+6039|Restauration du cache DNS.
+6040|Configuration du proxy.
+6041|Vérification des mises à jour.
+6042|Attendre . . .
+6043|Recherche de solutions dans cette équipe.
+6044|Recherche de solutions en ligne.
+6045|Redémarrer le système.
+6046|    Le système redémarrera dans 60 secondes.\n    Veuillez garder tous les documents ouverts.\n
+6047|Le système redémarrera dans 60 secondes. Veuillez garder tous les documents ouverts.
+6048|Téléchargez et exécutez des diagnostics pour votre système.
+6049|Windows Update dans Windows 7, Windows 8 et Windows 8.1.
+6050|Windows Update dans Windows 10.
+6051|Applications dans Windows 8.1.
+6052|Applications dans Windows 10.
+6053|Menu Démarrer dans Windows 10.
+6054|                                                        0. Retour.
+
+# Commands
+7000|\nCet outil pour réinitialiser les composants Windows Update\n.
+7001|Utilisation:\n
+7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]\n
+7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
+7004|Liste des paramètres:\n
+7005|    /reset        Réinitialiser les composants Windows Update.\n
+7006|    /search       Vérifier les mises à jour.\n
+7007|    /clean        Options de nettoyage.\n
+7008|        temp      Supprimer les fichiers Windows temporaires.\n
+7009|        regs      Modifier les valeurs non valides dans le registre.\n
+7010|        sock      Réinitialiser les paramètres Winsock.\n
+7011|    /sfc          Analyser tous les fichiers protégés dans le système.\n
+7012|    /dism         Options DISM.\n
+7013|        scan      Explorez l'image pour vérifier les dommages.\n
+7014|        check     Vérifiez si l'image a été marquée comme endommagée.\n
+7015|        repair    Effectuer des opérations de réparation automatiques.\n
+7016|        clean     Nettoyer les composants remplacés.\n
+7017|    /?            Afficher ce message d'aide.\n
+7018|Exemple d'utilisation:\n
+7019|    WURESET /reset\n
+7020|    WURESET /clean:temp\n
+7021|    WURESET /clean:regs:temp\n
+7022|    WURESET /dism:scan:repair:clean\n
+7023|Auteur:\n
+7024|    Manuel Gil.\n
+7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]\n
+7026|        [/sfc] [/dism:{scan|check|repair|clean}]\n
+7027|Description:\n
+7028|    Cet outil va restaurer les composants Windows Update.\n
+7029|Exemple d'utilisation:\n
+7030|    WURESET /reset\n
+7031|    WURESET /clean:temp\n
+7032|    WURESET /clean:regs:temp\n
+7033|    WURESET /dism:scan:repair:clean\n
+7034|Écrire "WURESET /?" pour voir les détails.\n
+
+# Help
+8000|french\index.html
+8001|https://wureset.com
+
+# Updates wureset 11.0.0.6
+# ---------
+
+# Menu
+9000|Force la mise à jour de stratégie de groupe.
+
+# Functions
+9100|Annulation du processus de mise à jour Windows.
+9101|Forcer la mise à jour de la stratégie de groupe
