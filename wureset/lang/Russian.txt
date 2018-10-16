@@ -7,9 +7,9 @@
 # For print the end line insert "\n" into the text.
 
 # Language: Russian
-# Author: Manuel Gil.
-# Updated: 04/27/2018
-# Version: 1.0.0.3
+# Author: Kunal Kumar Gupta.
+# Updated: 10/16/2018
+# Version: 1.0.0.1
 
 # Предупреждения
 1000|нажмите любую клавишу для продолжения . . .
