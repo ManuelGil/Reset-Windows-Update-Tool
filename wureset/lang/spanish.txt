@@ -6,7 +6,7 @@
 # This file can be modificated to be compatible with others languages.
 # For print the end line insert "\n" into the text.
 
-# Language: Spanish (Latam)
+# Language: Spanish (Spain)
 # Author: Manuel Gil.
 # Updated: 04/27/2018
 # Version: 1.0.0.3
@@ -14,54 +14,54 @@
 # Warnings
 1000|Pulse cualquier tecla para continuar . . .
 1001|Se ha producido un error inesperado.
-1002|Seleccione una opciÛn: 
-1003|OpciÛn no v·lida.
-1004|Lo sentimos, esta opciÛn no est· disponible en este Sistema Operativo.
-1005|La operaciÛn se completÛ correctamente.
-1006|Se ha producido un error durante la operaciÛn.
-1007|No se pudo detener el servicio. øDesea intentarlo de nuevo? (S/N): 
+1002|Seleccione una opci√≥n: 
+1003|Opci√≥n no v√°lida.
+1004|Lo sentimos, esta opci√≥n no est√° disponible en este Sistema Operativo.
+1005|La operaci√≥n se complet√≥ con exito.
+1006|Se ha producido un error durante la operaci√≥n.
+1007|No se ha podido detener el servicio. ¬øDesea intentarlo de nuevo? (S/N): 
 
 # Compatibility
 2000|Lo sentimos, este Sistema Operativo no es compatible con esta herramienta.
-2001|    Se produjo un error al intentar verificar su sistema.\n    Puede estar usando una versiÛn comercial o de prueba.\n\n    De lo contrario, verifique que su sistema tiene la correcciÛn de seguridad correcta.\n
+2001|    Se ha producido un error al intentar verificar su sistema.\n    Puede que est√© usando una versi√≥n comercial o de prueba.\n\n    Si no es asi, verifique que ha configurado correctamente el arreglo de seguridad.\n
 
 # Elevation
 3000|Comprobando los permisos de administrador.
 3001|    No se tienen permisos para ejecutar esta herramienta.\n    Esta herramienta no funciona sin permisos de administrador.\n\n    Es necesario ejecutar esta herramienta con permisos de administrador.\n
 
 # Terms
-4000|TÈrminos y Condiciones de Uso.
-4001|    Los mÈtodos dentro de esta herramienta modifican los archivos y la\n    configuraciÛn del registro.\n    No se asume ninguna responsabilidad por el uso de esta herramienta.\n\n    Se proporciona esta herramienta sin garantÌa. Cualquier daÒo causado es su\n    propia responsabilidad.\n\n    No dude en examinar el cÛdigo si no est· seguro.\n    https://github.com/ManuelGil\n
-4002|øQuieres continuar con este proceso? (S/N): 
+4000|T√©rminos y Condiciones de Uso.
+4001|    Los m√©todos dentro de esta herramienta modifican los archivos y la\n    configuraci√≥n del registro.\n    No se asume ninguna responsabilidad por el uso de esta herramienta.\n\n    Se proporciona esta herramienta sin garant√≠a. Cualquier da√±o causado es su\n    propia responsabilidad.\n\n    Si no est√° seguro, no dude en revisar el c√≥digo.\n    https://github.com/ManuelGil\n
+4002|¬øQuieres continuar con este proceso? (S/N): 
 
 # Menu
-5000|Esta herramienta restablecer los componentes de Windows Update.
-5001|Abre la protecciÛn del sistema.
+5000|Esta herramienta restablece los componentes de Windows Update.
+5001|Abre la protecci√≥n del sistema.
 5002|Restablece los componentes de Windows Update.
 5003|Borra los archivos temporales de Windows.
 5004|Abre las opciones de Internet Explorer.
-5005|Ejecuta Chkdsk en la particiÛn de Windows.
+5005|Ejecuta Chkdsk en la partici√≥n de Windows.
 5006|Ejecuta la herramienta Comprobador de archivos de sistema.
-5007|Escanea la imagen en busca de daÒos en el almacÈn de componentes.
-5008|Comprueba si la imagen se ha marcado como daÒada.
-5009|Realiza operaciones de reparaciÛn autom·tica.
+5007|Escanea la imagen en busca de da√±os en el almac√©n de componentes.
+5008|Comprueba si la imagen se ha marcado como da√±ada.
+5009|Realiza operaciones de reparaci√≥n autom√°tica.
 5010|Limpia los componentes reemplazados.
 5011|Borra los valores del registro incorrectos.
 5012|Repara/Restablece las configuraciones de Winsock.
 5013|Busca actualizaciones de Windows.
 5014|Explora las otras soluciones locales.
-5015|Explora las otras soluciones en lÌnea.
-5016|Descargas las herramientas de diagnÛstico.
+5015|Explora las otras soluciones en l√≠nea.
+5016|Descargas las herramientas de diagn√≥stico.
 5017|Reinicia el PC.
 5018|\n                                           ?. Ayuda.    0. Cerrar.\n
 
 # Functions
-6000|Abriendo la protecciÛn del sistema.
+6000|Abriendo la protecci√≥n del sistema.
 6001|Deteniendo los servicios de Windows Update.
 6002|Verificando el estado del servicio.\n
 6003|    Error al detener el servicio de Servicio de transferencia inteligente en segundo plano BITS.\n
 6004|    Error al detener el servicio de Windows Update.\n
-6005|    Error al detener el servicio de Identidad de aplicaciÛn.\n
+6005|    Error al detener el servicio de Identidad de aplicaci√≥n.\n
 6006|    Error al detener el servicio de Servicios de cifrado.\n
 6007|Eliminando los archivos qmgr*.dat.
 6008|Eliminando las copias de seguridad de SoftwareDistribution.
@@ -71,23 +71,23 @@
 6012|Vuelve a registrar los archivos de BITS y los archivos de Windows Update.
 6013|Restableciendo Winsock.
 6014|Restableciendo WinHTTP Proxy.
-6015|Restableciendo los servicios a autom·ticos.
+6015|Restableciendo los servicios a autom√°ticos.
 6016|Reiniciando servicios de Windows Update.
 6017|Eliminando los archivos temporales del sistema.
 6018|Abriendo las opciones de Internet Explorer.
-6019|Comprueba el sistema de archivos y metadatos del sistema de archivos de un volumen para los errores lÛgicos y fÌsicos (CHKDSK.EXE).
-6020|Examina y comprueba la integridad del sistema protegido todos los archivos y reemplaza las versiones incorrectas por versiones correctas (SFC.exe).
-6021|Escanea la imagen en busca de daÒos en el almacÈn de componentes (Argumento DISM /ScanHealth).
-6022|Comprueba si se ha detectado alg˙n daÒo en la imagen (Argumento DISM /CheckHealth).
-6023|Realiza las operaciones de reparaciÛn autom·tica (Argumento DISM /RestoreHealth).
+6019|Comprueba el sistema de archivos y metadatos del sistema de archivos de un volumen para los errores l√≥gicos y f√≠sicos (CHKDSK.EXE).
+6020|Escanea los archivos del sistema y repara archivos corruptos o desaparecidos (SFC.exe).
+6021|Escanea la imagen en busca de da√±os en el almac√©n de componentes (Argumento DISM /ScanHealth).
+6022|Comprueba si se ha detectado alg√∫n da√±o en la imagen (Argumento DISM /CheckHealth).
+6023|Realiza las operaciones de reparaci√≥n autom√°tica (Argumento DISM /RestoreHealth).
 6024|Limpia los componentes eliminados (Argumento DISM /StartComponentCleanup).
 6025|Cambiando los valores incorrectos en el Registro.
 6026|Creando una copia del registro en: 
 6027|    Los cambios no se llevaron a cabo en el registro.\n
-6028|    IntÈntelo m·s tarde.\n
+6028|    Int√©ntelo m√°s tarde.\n
 6029|Comprobando la copia de seguridad.
-6030|    Algo saliÛ mal.\n
-6031|    CrÈe manualmente una copia de seguridad del registro antes de continuar.\n
+6030|    Algo sali√≥ mal.\n
+6031|    Cr√©e manualmente una copia de seguridad del registro antes de continuar.\n
 6032|Eliminando valores del Registro.
 6033|Agregando valores al Registro.
 6034|Restableciendo las configuraciones del control Winsock.
@@ -95,41 +95,41 @@
 6036|Restableciendo TCP/IP.
 6037|Restableciendo Winsock.
 6038|Restaurando valores predeterminados de directiva.
-6039|Restableciendo el cachÈ DNS.
+6039|Restableciendo el cach√© DNS.
 6040|Configurando Proxy.
 6041|Buscando actualizaciones.
 6042|Espera . . .
 6043|Buscando soluciones en este equipo.
-6044|Buscando soluciones en lÌnea.
+6044|Buscando soluciones en l√≠nea.
 6045|Reiniciando el sistema.
-6046|    El sistema se reiniciar· en 60 segundos.\n    Por favor guarde todos los documentos abiertos.\n
-6047|El sistema se reiniciar· en 60 segundos. Por favor guarde todos los documentos abiertos.
-6048|Descargar y ejecutar diagnÛsticos para su sistema.
+6046|    El sistema se reiniciar√° en 60 segundos.\n    Por favor guarde todos los documentos abiertos.\n
+6047|El sistema se reiniciar√° en 60 segundos. Por favor guarde todos los documentos abiertos.
+6048|Descargar y ejecutar diagn√≥sticos para su sistema.
 6049|Windows Update en Windows 7, Windows 8 y Windows 8.1.
 6050|Windows Update en Windows 10.
 6051|Aplicaciones en Windows 8.1.
 6052|Aplicaciones en Windows 10.
-6053|Men˙ Inicio en Windows 10.
-6054|                                                        0. Atr·s.
+6053|Men√∫ Inicio en Windows 10.
+6054|                                                        0. Atr√°s.
 
 # Commands
-7000|\nEsta herramienta de restablecer los componentes de Windows Update\n.
+7000|\nEsta herramienta restablece los componentes de Windows Update\n.
 7001|Uso:\n
 7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]\n
 7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
-7004|Lista de par·metros:\n
+7004|Lista de par√°metros:\n
 7005|    /reset        Restablecer los componentes de Windows Update.\n
 7006|    /search       Busca actualizaciones.\n
 7007|    /clean        Opciones de limpieza.\n
 7008|        temp      Eliminar los archivos temporales de Windows.\n
-7009|        regs      Cambiar los valores no v·lidos en el Registro.\n
-7010|        sock      Restablecer la configuraciÛn de Winsock.\n
-7011|    /sfc          Analiza todos los archivos protegidos del sistema.\n
+7009|        regs      Cambiar los valores no v√°lidos en el Registro.\n
+7010|        sock      Restablecer la configuraci√≥n de Winsock.\n
+7011|    /sfc          Analizar todos los archivos protegidos del sistema.\n
 7012|    /dism         Opciones DISM.\n
-7013|        scan      Explora la imagen para comprobar si hay daÒos.\n
-7014|        check     Comprueba si la imagen se ha marcado como daÒada.\n
-7015|        repair    Realiza operaciones de reparaciÛn autom·tica.\n
-7016|        clean     Limpia los componentes reemplazados.\n
+7013|        scan      Explorar la imagen para comprobar si hay da√±os.\n
+7014|        check     Comprueba si la imagen se ha marcado como da√±ada.\n
+7015|        repair    Realizar operaciones de reparaci√≥n autom√°tica.\n
+7016|        clean     Limpiar los componentes reemplazados.\n
 7017|    /?            Muestra este mensaje de ayuda.\n
 7018|Ejemplo de uso:\n
 7019|    WURESET /reset\n
@@ -140,8 +140,8 @@
 7024|    Manuel Gil.\n
 7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]\n
 7026|        [/sfc] [/dism:{scan|check|repair|clean}]\n
-7027|DescripciÛn:\n
-7028|    Esta herramienta restablecer los componentes de Windows Update.\n
+7027|Descripci√≥n:\n
+7028|    Esta herramienta restablece los componentes de Windows Update.\n
 7029|Ejemplo de uso:\n
 7030|    WURESET /reset\n
 7031|    WURESET /clean:temp\n
@@ -157,8 +157,8 @@
 # ---------
 
 # Menu
-9000|Forzar la actualizaciÛn de directivas.
+9000|Forzar la actualizaci√≥n de directivas.
 
 # Functions
 9100|Cancelando el proceso de Windows Update.
-9101|Forzando la actualizaciÛn de directivas.
+9101|Forzando la actualizaci√≥n de directivas.
