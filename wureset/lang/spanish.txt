@@ -7,9 +7,9 @@
 # For print the end line insert "\n" into the text.
 
 # Language: Spanish (Spain)
-# Author: Manuel Gil.
-# Updated: 04/27/2018
-# Version: 1.0.0.3
+# Author: Robin350.
+# Updated: 10/17/2018
+# Version: 1.0.0.1
 
 # Warnings
 1000|Pulse cualquier tecla para continuar . . .
@@ -23,7 +23,7 @@
 
 # Compatibility
 2000|Lo sentimos, este Sistema Operativo no es compatible con esta herramienta.
-2001|    Se ha producido un error al intentar verificar su sistema.\n    Puede que esté usando una versión comercial o de prueba.\n\n    Si no es asi, verifique que ha configurado correctamente el arreglo de seguridad.\n
+2001|    Se ha producido un error al intentar verificar su sistema.\n    Puede que esté usando una versión comercial o de prueba.\n\n    Si no es así, verifique que ha configurado correctamente el parche de seguridad.\n
 
 # Elevation
 3000|Comprobando los permisos de administrador.
