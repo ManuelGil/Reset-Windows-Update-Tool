@@ -150,8 +150,8 @@
 7034|Type "WURESET /?" to view the specifics.\n
 
 # Help
-8000|english\index.html
-8001|https://wureset.com
+8000|index.html
+8001|http://docs.wureset.com
 
 # Updates wureset 11.0.0.6
 # ---------
