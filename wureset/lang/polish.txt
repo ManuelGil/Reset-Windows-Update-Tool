@@ -6,7 +6,7 @@
 # Ten plik można zmodyfikować, aby był zgodny z innymi językami.
 # Aby wydrukować końcową linię wstaw "\n" do tekstu.
 
-# Język: hiszpański (Hiszpania)
+# Język: Polski
 # Author: Manuel Gil.
 # Aktualizacja: 10/18/2018
 # Wersja: 1.0.0.1
@@ -53,7 +53,7 @@
 5015|Poznaj inne rozwiązania online.
 5016|Pobierz narzędzia diagnostyczne.
 5017|Uruchom ponownie komputer.
-5018|\n                                            ? Pomoc 0. Zamknij.\n
+5018|\n                                            ?. Pomoc    0. Zamknij.\n
 
 # Funkcje
 6000|Otwieranie ochrony systemu.
