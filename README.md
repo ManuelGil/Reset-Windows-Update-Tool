@@ -424,9 +424,10 @@ If you want to help me to continue this project, you might donate via PayPal.
 ## :eyeglasses: Authors
 
   * **Manuel Gil** - *Initial work* - [ManuelGil](https://github.com/ManuelGil) 
-  * **Kunal Kumar Gupta** - [kunal817](https://github.com/kunal817) 
-  * **Robin350** - [Robin350](https://github.com/Robin350) 
-  * **Kosmas Tsiakas** - [kosmastsk](https://github.com/kosmastsk) 
+  * **Kunal Kumar Gupta** - [kunal817](https://github.com/kunal817)
+  * **Robin350** - [Robin350](https://github.com/Robin350)
+  * **Kosmas Tsiakas** - [kosmastsk](https://github.com/kosmastsk)
+  * **Akhil09** - [Akhil09](https://github.com/Akhil09)
 
 See also the list of [contributors](https://github.com/ManuelGil/Reset-Windows-Update-Tool/contributors)
  who participated in this project.
