@@ -23,15 +23,15 @@
 
 # Zgodność
 2000|Przepraszamy, ten system operacyjny nie jest kompatybilny z tym narzędziem.
-2001|    An error occurred while attempting to verify your system.\n    You may be using a commercial or trial version.\n\n    Otherwise, verify that your system has the correct security fix.\n
+2001|    Wystąpił błąd podczas próby zweryfikowania systemu.\n    Być może korzystasz z wersji komercyjnej lub próbnej.\n\n    W przeciwnym razie sprawdź, czy twój system ma poprawną poprawkę bezpieczeństwa.\n
 
 # Elewacja
 3000|Sprawdzanie uprawnień administratora.
-3001|    You are not running as Administrator.\n    This tool cannot do it's job without elevation.\n\n    You need run this tool as Administrator.\n
+3001|    Nie pracujesz jako Administrator.\n    To narzędzie nie może wykonać swojej pracy bez podniesienia.\n\n    Musisz uruchomić to narzędzie jako Administrator.\n
 
 # Warunki
 4000|Warunki użytkowania.
-4001|    The methods inside this tool modify files and registry settings.\n    While you are tested and tend to work, We not take responsibility for\n    the use of this tool.\n\n    This tool is provided without warranty. Any damage caused is your\n    own responsibility.\n\n    Feel free to review the code if you're unsure.\n    https://github.com/ManuelGil\n
+4001|    Metody zawarte w tym narzędziu modyfikują pliki i ustawienia rejestru.\n    Podczas gdy jesteś testowany i masz tendencję do pracy, nie bierzemy na siebie odpowiedzialności\n    korzystanie z tego narzędzia.\n\n    To narzędzie jest dostarczane bez gwarancji. Wszelkie spowodowane szkody to twoje\n    własna odpowiedzialność.\n\n    Jeśli nie masz pewności, możesz go przejrzeć.\n    https://github.com/ManuelGil\n
 4002|Czy chcesz kontynuować ten proces? (T/N):
 
 # Menu
