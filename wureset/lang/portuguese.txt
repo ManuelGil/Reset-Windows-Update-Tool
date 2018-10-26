@@ -115,37 +115,37 @@
 # Commands
 7000|\nEsta ferramenta para redefinir os componentes do Windows Update\n.
 7001|Use:\n
-7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]\n
+7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
 7004|Lista de parâmetros:\n
-7005|    /reset        Redefinir componentes do Windows Update.\n
-7006|    /search       Verifique atualizações.\n
-7007|    /clean        Opções de limpeza.\n
-7008|        temp      Eliminar arquivos temporários do Windows.\n
-7009|        regs      Alterar valores inválidos no registro.\n
-7010|        sock      Redefinir as configurações do Winsock.\n
-7011|    /sfc          Analise todos os arquivos protegidos no sistema.\n
-7012|    /dism         Opções DISM.\n
-7013|        scan      Explore a imagem para verificar se há danos.\n
-7014|        check     Verifique se a imagem foi marcada como danificada.\n
-7015|        repair    Realizar operações de reparação automática.\n
-7016|        clean     Limpe os componentes substituídos.\n
+7005|    /reset        Redefinir componentes do Windows Update.
+7006|    /search       Verifique atualizações.
+7007|    /clean        Opções de limpeza.
+7008|        temp      Eliminar arquivos temporários do Windows.
+7009|        regs      Alterar valores inválidos no registro.
+7010|        sock      Redefinir as configurações do Winsock.
+7011|    /sfc          Analise todos os arquivos protegidos no sistema.
+7012|    /dism         Opções DISM.
+7013|        scan      Explore a imagem para verificar se há danos.
+7014|        check     Verifique se a imagem foi marcada como danificada.
+7015|        repair    Realizar operações de reparação automática.
+7016|        clean     Limpe os componentes substituídos.
 7017|    /?            Mostrar esta mensagem de ajuda.\n
 7018|Exemplo de uso:\n
-7019|    WURESET /reset\n
-7020|    WURESET /clean:temp\n
-7021|    WURESET /clean:regs:temp\n
+7019|    WURESET /reset
+7020|    WURESET /clean:temp
+7021|    WURESET /clean:regs:temp
 7022|    WURESET /dism:scan:repair:clean\n
 7023|Autor:\n
 7024|    Manuel Gil.\n
-7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]\n
+7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7026|        [/sfc] [/dism:{scan|check|repair|clean}]\n
 7027|Descrição:\n
 7028|    Esta ferramenta para redefinir os componentes do Windows Update.\n
 7029|Exemplo de uso:\n
-7030|    WURESET /reset\n
-7031|    WURESET /clean:temp\n
-7032|    WURESET /clean:regs:temp\n
+7030|    WURESET /reset
+7031|    WURESET /clean:temp
+7032|    WURESET /clean:regs:temp
 7033|    WURESET /dism:scan:repair:clean\n
 7034|Escreva "WURESET /?" para ver os detalhes.\n
 

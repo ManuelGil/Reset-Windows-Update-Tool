@@ -115,37 +115,37 @@
 # Εντολές
 7000|\nΤο εργαλείο επαναφέρει τα στοιχεία του Windows Update.\n
 7001|Χρήση:\n
-7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]\n
+7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
 7004|Λίστα παραμέτρων:\n
-7005|    /reset        Πραγματοποιήστε επαναφορά των στοιχείων του Windows Update.\n
-7006|    /search       Αναζήτηση ενημερώσεων.\n
-7007|    /clean        Καθαρισμός επιλογών.\n
-7008|        temp      Διαγραφή προσωρινών αρχείων στα Windows.\n
-7009|        regs      Αλλάξτε μη έγκυρες τιμές στο μητρώο.\n
-7010|        sock      Επαναφορά των ρυθμίσεων του Winsock.\n
-7011|    /sfc          Σαρώνει όλα τα προστατευμένα αρχεία συστήματος.\n
-7012|    /dism         Απόρριψη επιλογές.\n
-7013|        scan      Σάρωση της εικόνας για να ελέγξετε φθορές.\n
-7014|        check     Ελέγξτε τις ανωμαλίες που εντοπίστηκαν.\n
-7015|        repair    Επισκευή της εικόνας.\n
-7016|        clean     Καθαρίστε τα αντικατασταθέντα εξαρτήματα.\n
+7005|    /reset        Πραγματοποιήστε επαναφορά των στοιχείων του Windows Update.
+7006|    /search       Αναζήτηση ενημερώσεων.
+7007|    /clean        Καθαρισμός επιλογών.
+7008|        temp      Διαγραφή προσωρινών αρχείων στα Windows.
+7009|        regs      Αλλάξτε μη έγκυρες τιμές στο μητρώο.
+7010|        sock      Επαναφορά των ρυθμίσεων του Winsock.
+7011|    /sfc          Σαρώνει όλα τα προστατευμένα αρχεία συστήματος.
+7012|    /dism         Απόρριψη επιλογές.
+7013|        scan      Σάρωση της εικόνας για να ελέγξετε φθορές.
+7014|        check     Ελέγξτε τις ανωμαλίες που εντοπίστηκαν.
+7015|        repair    Επισκευή της εικόνας.
+7016|        clean     Καθαρίστε τα αντικατασταθέντα εξαρτήματα.
 7017|    /?            Εμφανίζει αυτό το μήνυμα βοήθειας.\n
 7018|Χρήση δείγματος:\n
-7019|    WURESET /reset\n
-7020|    WURESET /clean:temp\n
-7021|    WURESET /clean:regs:temp\n
+7019|    WURESET /reset
+7020|    WURESET /clean:temp
+7021|    WURESET /clean:regs:temp
 7022|    WURESET /dism:scan:repair:clean\n
 7023|Συγγραφέας:\n
 7024|    Manuel Gil.\n
-7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]\n
+7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7026|       [/sfc] [/dism:{scan|check|repair|clean}]\n
 7027|Περιγραφή:\n
 7028|    Αυτό το εργαλείο επαναφέρει το Windows Update.\n
 7029|Ενδεικτική χρήση:\n
-7030|    WURESET /reset\n
-7031|    WURESET /clean:temp\n
-7032|    WURESET /clean:regs:temp\n
+7030|    WURESET /reset
+7031|    WURESET /clean:temp
+7032|    WURESET /clean:regs:temp
 7033|    WURESET /dism:scan:repair:clean\n
 7034|Πληκτρολόγησε "WURESET /?" για να δείτε συγκεκριμένα.\n
 

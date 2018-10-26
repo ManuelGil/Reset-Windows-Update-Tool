@@ -115,37 +115,37 @@
 # команды
 7000|\nЭтот инструмент перезагружает компоненты Windows Update.\n
 7001|использование:\n
-7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]\n
+7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
 7004|Список параметров: \n
-7005|    /reset        Сброс компонентов Windows Update.\n
-7006|    /search       Поиск обновлений.\n
-7007|    /clean        Очистить параметры.\n
-7008|        temp      Удаление временных файлов в Windows.\n
-7009|        regs      Измените недопустимые значения в реестре.\n
-7010|        sock      Сбросить настройки Winsock.\n
-7011|    /sfc          Сканирует все защищенные системные файлы.\n
-7012|    /dism         Параметры Dism.\n
-7013|        scan      Сканирование изображения для проверки на наличие повреждений.\n
-7014|        check     Проверьте обнаруженные повреждения.\n
-7015|        repair    Восстановить изображение.\n
-7016|        clean     Очистить вытесненные компоненты.\n
+7005|    /reset        Сброс компонентов Windows Update.
+7006|    /search       Поиск обновлений.
+7007|    /clean        Очистить параметры.
+7008|        temp      Удаление временных файлов в Windows.
+7009|        regs      Измените недопустимые значения в реестре.
+7010|        sock      Сбросить настройки Winsock.
+7011|    /sfc          Сканирует все защищенные системные файлы.
+7012|    /dism         Параметры Dism.
+7013|        scan      Сканирование изображения для проверки на наличие повреждений.
+7014|        check     Проверьте обнаруженные повреждения.
+7015|        repair    Восстановить изображение.
+7016|        clean     Очистить вытесненные компоненты.
 7017|    /?            Отображает это справочное сообщение.\n
 7018|Пример использования:\n
-7019|    WURESET /reset\n
-7020|    WURESET /clean:temp\n
-7021|    WURESET /clean:regs:temp\n
+7019|    WURESET /reset
+7020|    WURESET /clean:temp
+7021|    WURESET /clean:regs:temp
 7022|    WURESET /dism:scan:repair:clean\n
 7023|автор:\n
 7024|    Manuel Gil.\n
-7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]\n
+7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7026|        [/sfc] [/dism:{scan|check|repair|clean}]\n
 7027|Description:\n
 7028|    Этот инструмент перезагружает компоненты Windows Update.\n
 7029|Пример использования:\n
-7030|    WURESET /reset\n
-7031|    WURESET /clean:temp\n
-7032|    WURESET /clean:regs:temp\n
+7030|    WURESET /reset
+7031|    WURESET /clean:temp
+7032|    WURESET /clean:regs:temp
 7033|    WURESET /dism:scan:repair:clean\n
 7034|Type "WURESET /?" to view the specifics.\n
 
