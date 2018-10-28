@@ -429,6 +429,7 @@ If you want to help me to continue this project, you might donate via PayPal.
   * **Kosmas Tsiakas** - [kosmastsk](https://github.com/kosmastsk)
   * **Akhil09** - [Akhil09](https://github.com/Akhil09)
   * **Michael Wiarda** - [xift](https://github.com/xift)
+  * **Jovan Ferryal E. F.** - [jovanzers](https://github.com/jovanzers)
 
 See also the list of [contributors](https://github.com/ManuelGil/Reset-Windows-Update-Tool/contributors)
  who participated in this project.
