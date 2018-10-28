@@ -1,0 +1,164 @@
+# .\wureset\lang\
+# indonesian.txt
+
+# Reset Windows Update Tool (http://wureset.com)
+
+# This file can be modified to be compatible with others languages.
+# For printing the end line insert "\n" into the text.
+
+# Language: English
+# Author: Akhil09.
+# Updated: 10/23/2018
+# Version: 1.0.0.1
+
+# Warnings
+1000|Tekan tombol apa saja untuk melanjutkan . . .
+1001|Kesalahan tak terduga telah muncul.
+1002|Pilih opsi: 
+1003|Opsi tidak valid.
+1004|Maaf, opsi ini tidak tersedia di Sistem Operasi ini.
+1005|Operasi ini berhasil diselesaikan.
+1006|Kesalahan terjadi selama operasi.
+1007|Tidak dapat menghentikan layanan. Apakah Anda ingin mencoba lagi? (Y/N): 
+
+# Compatibility
+2000|Maaf, Sistem Operasi ini tidak kompatibel dengan alat ini.
+2001|    Terjadi kesalahan saat mencoba memverifikasi sistem Anda.\n    Anda mungkin menggunakan versi komersial atau uji coba.\n\n    Jika tidak, verifikasi bahwa sistem Anda memiliki perbaikan keamanan yang benar.\n
+
+# Elevation
+3000|Memeriksa Administrator level.
+3001|    Anda tidak berjalan sebagai Administrator.\n    Alat ini tidak dapat melakukan tugasnya tanpa level Administrator.\n\n    Anda perlu menjalankan alat ini sebagai Administrator.\n
+
+# Terms
+4000|Syarat dan Ketentuan Penggunaan.
+4001|    Metode di dalam alat ini mengubah file dan pengaturan registri.\n    Ketika Anda diuji dan cenderung bekerja, Kami tidak bertanggung jawab atas\n    penggunaan alat ini.\n\n    Alat ini disediakan tanpa jaminan. Kerusakan apa pun yang ditimbulkan adalah milik Anda\n    tanggung jawab sendiri.\n\n    Jangan ragu untuk meninjau kode jika Anda tidak yakin.\n    https://github.com/ManuelGil\n
+4002|Apakah Anda ingin melanjutkan proses ini? (Y/N): 
+
+# Menu
+5000|Alat ini mereset Komponen Pembaruan Windows.
+5001|Membuka proteksi sistem.
+5002|Mengatur ulang Komponen Pembaruan Windows.
+5003|Menghapus file-file sementara di Windows.
+5004|Membuka opsi Internet Explorer.
+5005|Menjalankan Chkdsk di partisi Windows.
+5006|Menjalankan alat Pemeriksa Berkas Sistem.
+5007|Memindai image untuk korupsi penyimpanan komponen.
+5008|Memeriksa apakah image telah ditandai sebagai rusak.
+5009|Melakukan operasi perbaikan secara otomatis.
+5010|Membersihkan komponen yang digantikan.
+5011|Menghapus nilai registri yang salah.
+5012|Memperbaiki/Mengatur ulang pengaturan Winsock.
+5013|Cari pembaruan Windows.
+5014|Menggali solusi lokal lainnya.
+5015|Menggali solusi online lainnya.
+5016|Unduh Alat Diagnostik.
+5017|Mulai ulang PC Anda.
+5018|\n                                            ?. Bantuan.    0. Tutup.\n
+
+# Functions
+6000|Membuka perlindungan sistem.
+6001|Menghentikan layanan Pembaruan Windows.
+6002|Memeriksa status layanan.\n
+6003|    Gagal menghentikan layanan BITS.\n
+6004|    Gagal menghentikan layanan Pembaruan Windows.\n
+6005|    Gagal menghentikan layanan Identitas Aplikasi.\n
+6006|    Gagal menghentikan layanan Layanan Kriptografi.\n
+6007|Menghapus file qmgr*.dat.
+6008|Menghapus salinan cadangan distribusi perangkat lunak lama.
+6009|Mengganti nama folder distribusi perangkat lunak.
+6010|    Gagal mengganti nama folder SoftwareDistribution.\n
+6011|Setel ulang layanan BITS dan layanan Pembaruan Windows ke deskriptor keamanan default.
+6012|Reregister file BITS dan file Pembaruan Windows.
+6013|Mengatur ulang Winsock.
+6014|Mengatur ulang Proxy WinHTTP.
+6015|Mengatur ulang layanan sebagai otomatis.
+6016|Memulai layanan Pembaruan Windows.
+6017|Menghapus file sementara di Windows.
+6018|Membuka opsi Internet Explorer.
+6019|Periksa sistem file dan metadata sistem file volume untuk kesalahan logis dan fisik (CHKDSK.exe).
+6020|Pindai file sistem Anda dan untuk memperbaiki file sistem yang hilang atau rusak (SFC.exe).
+6021|Memindai gambar untuk korupsi penyimpanan komponen (Argumen DISM /ScanHealth).
+6022|Periksa apakah gambar telah ditandai sebagai rusak oleh proses yang gagal dan apakah korupsi dapat diperbaiki (Argumen DISM /CheckHealth).
+6023|Pindai gambar untuk korupsi penyimpanan komponen, dan kemudian lakukan operasi perbaikan secara otomatis (Argumen DISM /RestoreHealth).
+6024|Bersihkan komponen yang digantikan dan kurangi ukuran penyimpanan komponen (Argumen DISM /StartComponentCleanup).
+6025|Ubah nilai yang tidak valid di Registry.
+6026|Membuat salinan cadangan dari Registry di: 
+6027|    Perubahan tidak dilakukan di registri.\n
+6028|    Akan coba nanti.\n
+6029|Memeriksa cadangan.
+6030|    Ada yang salah.\n
+6031|    Anda secara manual membuat cadangan registri sebelum melanjutkan.\n
+6032|Menghapus nilai dalam Registry.
+6033|Menambahkan nilai dalam Registry.
+6034|Setel ulang kontrol Winsock.
+6035|Memulihkan log transaksi.
+6036|Memulihkan TCP/IP.
+6037|Memulihkan Winsock.
+6038|Mengembalikan pengaturan kebijakan default.
+6039|Memulihkan cache DNS.
+6040|Memulihkan Proksi.
+6041|Mencari pembaruan.
+6042|Tunggu . . .
+6043|Mencari solusi di PC ini.
+6044|Mencari solusi Online.
+6045|Mulai ulang PC Anda.
+6046|    Sistem reboot dalam 60 detik.\n    Silakan simpan semua dokumen terbuka.\n
+6047|Sistem reboot dalam 60 detik. Silakan simpan semua dokumen terbuka.
+6048|Unduh dan jalankan diagnostik untuk sistem Anda.
+6049|Pembaruan Windows pada Windows 7, Windows 8 dan Windows 8.1.
+6050|Pembaruan Windows di Windows 10.
+6051|Aplikasi di Windows 8.1.
+6052|Aplikasi di Windows 10.
+6053|Start Menu di Windows 10.
+6054|                                                        0. Kembali.
+
+# Commands
+7000|\nAlat ini mereset Windows Update Components.\n
+7001|Penggunaan:\n
+7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
+7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
+7004|Daftar Parameter:\n
+7005|    /reset        Reset Komponen Pembaruan Windows.
+7006|    /search       Cari pembaruan.
+7007|    /clean        Opsi bersih.
+7008|        temp      Hapus file sementara di Windows.
+7009|        regs      Ubah nilai yang tidak valid di Registry.
+7010|        sock      Setel ulang pengaturan Winsock.
+7011|    /sfc          Memindai semua file sistem terlindungi.
+7012|    /dism         Opsi Dism.
+7013|        scan      Pindai image untuk memeriksa korupsi.
+7014|        check     Periksa korupsi yang terdeteksi.
+7015|        repair    Perbaiki image.
+7016|        clean     Bersihkan komponen yang digantikan.
+7017|    /?            Menampilkan pesan bantuan ini.\n
+7018|Contoh penggunaan:\n
+7019|    WURESET /reset
+7020|    WURESET /clean:temp
+7021|    WURESET /clean:regs:temp
+7022|    WURESET /dism:scan:repair:clean\n
+7023|Pembuat:\n
+7024|    Manuel Gil.\n
+7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]
+7026|        [/sfc] [/dism:{scan|check|repair|clean}]\n
+7027|Deskripsi:\n
+7028|    Alat ini mereset Komponen Pembaruan Windows.\n
+7029|Contoh penggunaan:\n
+7030|    WURESET /reset
+7031|    WURESET /clean:temp
+7032|    WURESET /clean:regs:temp
+7033|    WURESET /dism:scan:repair:clean\n
+7034|Ketik "WURESET /?" untuk melihat secara spesifik.\n
+
+# Help
+8000|index.html
+8001|http://docs.wureset.com
+
+# Updates wureset 11.0.0.6
+# ---------
+
+# Menu
+9000|Paksa Pembaruan Kebijakan Grup.
+
+# Functions
+9100|Membatalkan proses Pembaruan Windows.
+9101|Memaksa pembaruan kebijakan grup.
