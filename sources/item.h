@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
+ * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -23,51 +23,55 @@ using namespace std;
 /**
  * Management the options of the menu.
  */
-class Item {
+class Item
+{
 
 	private:
-	
 		// -----------------------------------------------------------------
-    	// Attributes
-	    // -----------------------------------------------------------------
-	    string text;
-	    string reference;
-	
+		// Attributes
+		// -----------------------------------------------------------------
+		string text;
+		string reference;
+
 	public:
-	
 		/**
 		 * Create a new option.
 		 */
-	    Item(string pText, string pRef) {
-	    	text = pText;
-	    	reference = pRef;
+		Item(string pText, string pRef)
+		{
+			text = pText;
+			reference = pRef;
 		}
-	    
+
 		/**
 		 * Get text of the option.
 		 */
-		string getText() {
+		string getText()
+		{
 			return text;
 		}
-	    
+
 		/**
 		 * Get the link of the option.
 		 */
-		string getReference() {
+		string getReference()
+		{
 			return reference;
 		}
-		
+
 		/**
 		 * Set text of the option.
 		 */
-	    void setText(string pText) {
+		void setText(string pText)
+		{
 			text = pText;
 		}
-		
+
 		/**
 		 * Set link of the option.
 		 */
-	    void setReference(string pRef) {
+		void setReference(string pRef)
+		{
 			reference = pRef;
 		}
 

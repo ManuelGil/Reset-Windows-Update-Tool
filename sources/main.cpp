@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
+ * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -19,9 +19,10 @@ using namespace std;
 /**
  * Launch the Reset Windows Update Tool.
  */
-int main(int argc, char** argv) {
+int main(int argc, char **argv)
+{
 	// Creates a new instance of Reset Windows Update Tool.
-	WUReset* rwut = new WUReset();
+	WUReset *rwut = new WUReset();
 	// Run the Reset Windows Update Tool.
 	rwut->run();
 	// Delete Reset Windows Update Tool.

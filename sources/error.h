@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
+ * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -23,29 +23,32 @@ using namespace std;
 /**
  * Show a error on console.
  */
-class Error {
+class Error
+{
 
 	public:
-
 		/**
 		 * Show a message in concole.
 		 */
-		void showMessage(string pMessage) {
+		void showMessage(string pMessage)
+		{
 			// Create a auxiliar string.
 			string str = pMessage;
 			int pos = 0;
-			
+
 			// Set a red color at console.
 			system("color 0C");
-			
+
 			// Replace all strings '\\n' with the character '\n'.
-			while((pos = str.find("\\n", pos)) != str.npos) {
-			    str.replace(pos, 2, "\n");
-			    pos++;
+			while ((pos = str.find("\\n", pos)) != str.npos)
+			{
+				str.replace(pos, 2, "\n");
+				pos++;
 			}
-			
+
 			// White the auxiliar string.
-			cout << str << endl << endl;
+			cout << str << endl
+				 << endl;
 		}
 
 };

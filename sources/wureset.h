@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
+ * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -29,80 +29,91 @@ using namespace std;
 /**
  * The principal class.
  */
-class WUReset {
+class WUReset
+{
 
 	private:
-		
-	    // -----------------------------------------------------------------
-	    // Relations
-	    // -----------------------------------------------------------------
-		Display* print;
-		Error* err;
-		PrincipalMenu* menu;
-		Functions* functions;
-		Help* help;
-		
+		// -----------------------------------------------------------------
+		// Relations
+		// -----------------------------------------------------------------
+		Display *print;
+		Error *err;
+		PrincipalMenu *menu;
+		Functions *functions;
+		Help *help;
+
 	public:
-	
 		/**
 		 * Initialize of components.
 		 */
-		WUReset() {
+		WUReset()
+		{
 			initComponents();
 		}
-		
+
 		/**
 		 * Load the relations.
 		 */
-		void initComponents() {
+		void initComponents()
+		{
 			print = Display::getInstance();
-			
+
 			err = new Error();
 			functions = new Functions();
 		}
-		
+
 		/**
 		 * Performs the main functions.
 		 */
-		void run() {
+		void run()
+		{
 			functions->compatibility();
 			functions->permission();
 			functions->terms();
 			showMenu();
 		}
-		
+
 		/**
 		 * Load and show the principal menu.
 		 */
-		void showMenu() {
+		void showMenu()
+		{
 			menu = new PrincipalMenu();
-			
+
 			int flag = -1;
-			
-			while(flag != 0) {
+
+			while (flag != 0)
+			{
 				// Set console color.
 				system("color 17"),
-				
+
 				// Show the principal menu.
 				menu->showOptions();
-				
+
 				string option = "";
 				cin >> option;
-				
+
 				// Get the index of option selected.
 				flag = atoi(option.c_str());
-				
-				if(option == "?") {
+
+				if (option == "?")
+				{
 					// Show the help file.
 					help = new Help();
 					help->browser();
 					help = NULL;
 					flag = -1;
-				} else if(flag != 0) {
+				}
+				else if (flag != 0)
+				{
 					// Get the option selected.
-					if(flag > 0 && flag < menu->getSize()) {
+					if (flag > 0 && flag < menu->getSize())
+					{
 						checkOption(menu->getOption(flag));
-					} else {
+					}
+					else
+					{
+						cout << endl;
 						err->showMessage("Invalid option.");
 						functions->getCommands()->pause();
 					}
@@ -112,48 +123,86 @@ class WUReset {
 			functions->getCommands()->clean();
 			functions->getCommands()->close();
 		}
-		
+
 		/**
 		 * Check the option by the link.
 		 */
-		void checkOption(string pOption) {
-			if(pOption == "openSystemProtection") {
+		void checkOption(string pOption)
+		{
+			if (pOption == "openSystemProtection")
+			{
 				functions->sysProtection();
-			} else if(pOption == "resetwindowsUpdate") {
+			}
+			else if (pOption == "resetwindowsUpdate")
+			{
 				functions->components();
-			} else if(pOption == "delTempFiles") {
+			}
+			else if (pOption == "delTempFiles")
+			{
 				functions->temp();
-			} else if(pOption == "openInternetOption") {
+			}
+			else if (pOption == "openInternetOption")
+			{
 				functions->iOptions();
-			} else if(pOption == "checkWindowsPartition") {
+			}
+			else if (pOption == "checkWindowsPartition")
+			{
 				functions->chkdsk();
-			} else if(pOption == "scanSystemFiles") {
+			}
+			else if (pOption == "scanSystemFiles")
+			{
 				functions->sfc();
-			} else if(pOption == "scanImageSystem") {
+			}
+			else if (pOption == "scanImageSystem")
+			{
 				functions->scanHealth();
-			} else if(pOption == "checkImageSystem") {
+			}
+			else if (pOption == "checkImageSystem")
+			{
 				functions->checkHealth();
-			} else if(pOption == "repairImageSystem") {
+			}
+			else if (pOption == "repairImageSystem")
+			{
 				functions->restoreHealth();
-			} else if(pOption == "cleanImageSystem") {
+			}
+			else if (pOption == "cleanImageSystem")
+			{
 				functions->startComponentCleanup();
-			} else if(pOption == "changeRegistry") {
+			}
+			else if (pOption == "changeRegistry")
+			{
 				functions->regedit();
-			} else if(pOption == "resetWinsock") {
+			}
+			else if (pOption == "resetWinsock")
+			{
 				functions->winsock();
-			} else if(pOption == "gpupdate") {
+			}
+			else if (pOption == "gpupdate")
+			{
 				functions->gpupdate();
-			} else if(pOption == "searchUpdates") {
+			}
+			else if (pOption == "searchUpdates")
+			{
 				functions->updates();
-			} else if(pOption == "exploreLocalSolutions") {
+			}
+			else if (pOption == "productKey")
+			{
+				functions->productKey();
+			}
+			else if (pOption == "exploreLocalSolutions")
+			{
 				functions->local();
-			} else if(pOption == "exploreOnlineSolutions") {
+			}
+			else if (pOption == "exploreOnlineSolutions")
+			{
 				functions->online();
-			} else if(pOption == "restartComputer") {
+			}
+			else if (pOption == "restartComputer")
+			{
 				functions->restart();
 			}
 		}
- 
+
 };
 
 #endif

@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
+ * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -28,27 +28,27 @@ using namespace std;
 /**
  * Load and show the principal menu.
  */
-class PrincipalMenu {
+class PrincipalMenu
+{
 
 	private:
-		
-	    // -----------------------------------------------------------------
-	    // Relations
-	    // -----------------------------------------------------------------
-		Menu* menu;
-		Display* print;
-		OSDetector* os;
+		// -----------------------------------------------------------------
+		// Relations
+		// -----------------------------------------------------------------
+		Menu *menu;
+		Display *print;
+		OSDetector *os;
 
-	public:
-		
+  	public:
 		/**
 		 * Load all options on the menu.
 		 */
-		PrincipalMenu() {
+		PrincipalMenu()
+		{
 			print = Display::getInstance();
-			
+
 			menu = new Menu();
-			
+
 			menu->addItem(new Item("", "close"));
 			menu->addItem(new Item("Open the system protection.", "openSystemProtection"));
 			menu->addItem(new Item("Reset the Windows Update Components.", "resetwindowsUpdate"));
@@ -56,56 +56,69 @@ class PrincipalMenu {
 			menu->addItem(new Item("Open the Internet Explorer options.", "openInternetOption"));
 			menu->addItem(new Item("Run Chkdsk on the Windows partition.", "checkDisk"));
 			menu->addItem(new Item("Run the System File Checker tool.", "scanSystemFiles"));
-			
-			if (os->getFamily() == 8 || os->getFamily() == 10) {
+
+			if (os->getFamily() == 8 || os->getFamily() == 10)
+			{
 				menu->addItem(new Item("Scan the image for component store corruption.", "scanImageSystem"));
 				menu->addItem(new Item("Check whether the image has been flagged as corrupted.", "checkImageSystem"));
 				menu->addItem(new Item("Perform repair operations automatically.", "repairImageSystem"));
 				menu->addItem(new Item("Clean up the superseded components.", "cleanImageSystem"));
 			}
-			
+
 			menu->addItem(new Item("Delete any incorrect registry values.", "changeRegistry"));
 			menu->addItem(new Item("Repair/Reset Winsock settings.", "resetWinsock"));
 			menu->addItem(new Item("Force Group Policy Update.", "gpupdate"));
 			menu->addItem(new Item("Search updates.", "searchUpdates"));
+
+			if (os->getFamily() == 8 || os->getFamily() == 10)
+			{
+				menu->addItem(new Item("Find the windows product key", "productKey"));
+			}
+
 			menu->addItem(new Item("Explore other local solutions.", "exploreLocalSolutions"));
 			menu->addItem(new Item("Explore other online solutions.", "exploreOnlineSolutions"));
 			menu->addItem(new Item("Restart your PC.", "restartComputer"));
 		}
-		
+
 		/**
 		 * Return the size of menu.
 		 * return size
 		 */
-		int getSize() {
+		int getSize()
+		{
 			return menu->getSize();
 		}
-		
+
 		/**
 		 * Show the menu options.
 		 */
-		void showOptions() {
+		void showOptions()
+		{
 			print->writeTopText("This tool reset the Windows Update Components.");
-			
+
 			int size = menu->getSize();
-			
-			for(int i = 1; i < size; i++) {
+
+			for (int i = 1; i < size; i++)
+			{
 				string str = menu->getItem(i)->getText();
 				print->writeText("    ");
 				cout << i;
 				print->writeTextLine(". " + str);
 			}
-			
+
 			print->writeTextLine("                                            ?. Help.    0. Close.");
-			
+
+			cout << endl;
+
 			print->writeText("Select an option: ");
 		}
-		
+
 		/**
 		 * Get an option by id.
 		 * return option
 		 */
-		string getOption(int pIndex) {
+		string getOption(int pIndex)
+		{
 			return menu->getItem(pIndex)->getReference();
 		}
 

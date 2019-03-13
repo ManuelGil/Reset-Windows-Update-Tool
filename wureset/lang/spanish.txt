@@ -153,12 +153,14 @@
 8000|index.html
 8001|http://docs.wureset.com
 
-# Updates wureset 11.0.0.6
+# Updates wureset 11.0.0.7
 # ---------
 
 # Menu
 9000|Forzar la actualización de directivas.
+9001|Encontrar la clave de producto de Windows.
 
 # Functions
 9100|Cancelando el proceso de Windows Update.
 9101|Forzando la actualización de directivas.
+9102|Buscando la clave de producto.

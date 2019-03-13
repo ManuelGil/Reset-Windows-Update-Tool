@@ -13,10 +13,10 @@
 		<img src="https://img.shields.io/badge/stability-stable-green.svg" alt="Status">
 	</a>
 	<a href="#changelog">
-		<img src="https://img.shields.io/badge/release-v11.0.0.6-blue.svg" alt="Version">
+		<img src="https://img.shields.io/badge/release-v11.0.0.7-blue.svg" alt="Version">
 	</a>
 	<a href="#changelog">
-		<img src="https://img.shields.io/badge/update-may-yellowgreen.svg" alt="Update">
+		<img src="https://img.shields.io/badge/update-march-yellowgreen.svg" alt="Update">
 	</a>
 	<a href="#license">
 		<img src="https://img.shields.io/badge/license-MS--PL%20License-green.svg" alt="License">
@@ -72,13 +72,20 @@ This page will help you get started with Reset Windows Update Tool.
   3. Start Dev-C++
   4. Goto "File" > "Open project or file" > Search "WUReset.dev" file
 
+<a name="Donate"></a>
+## :gift: Donate!
+
+If you want to help me to continue this project, you might donate via PayPal.
+
+<a href="https://paypal.me/ManuelFGil"><img src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png" alt="Donate via PayPal"></a>
+
 <a name="deployment"></a>
 ## :package: Deployment
 
 <div align="center">
 	<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/Classes-Diagram.png?raw=true" alt="Status">
 </div>
-	
+
 <a name="built"></a>
 ## :wrench: Built With
 
@@ -86,6 +93,49 @@ This page will help you get started with Reset Windows Update Tool.
 
 <a name="changelog"></a>
 ## :information_source: Changelog
+
+**11.0.0.7** (03/12/2018)
+
+  * <table border="0" cellpadding="4">
+		<tr>
+			<td>
+				<strong>Language:</strong>
+			</td>
+			<td>
+				C++
+			</td>
+		</tr>
+		<tr>
+			<td><strong>
+				Requirements:
+			</strong></td>
+			<td>
+				Windows 7, Windows 8, Windows 8.1 and Windows 10
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Filename:</strong>
+			</td>
+			<td>
+				<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool">
+					wureset.exe
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Changes:</strong>
+			</td>
+			<td>
+				<ul>
+					<li>
+						Add new option to select menu.
+					</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
 
 **11.0.0.6** (05/06/2018)
 
@@ -293,7 +343,7 @@ This page will help you get started with Reset Windows Update Tool.
 				<strong>Filename:</strong>
 			</td>
 			<td>
-				<a href="https://github.com/ManuelGil/Script-Reset-Windows-Update-Tool">
+				<a href="https://gallery.technet.microsoft.com/scriptcenter/Reset-Windows-Update-Agent-d824badc" target="_blank">
 					ResetWUEng.cmd
 				</a>
 			</td>
@@ -337,7 +387,7 @@ This page will help you get started with Reset Windows Update Tool.
 				<strong>Filename:</strong>
 			</td>
 			<td>
-				<a href="https://github.com/ManuelGil/Script-Reset-Windows-Update-Tool">
+				<a href="https://gallery.technet.microsoft.com/scriptcenter/Reset-Windows-Update-Agent-d824badc" target="_blank">
 					ResetWUEng.cmd
 				</a>
 			</td>
@@ -387,7 +437,7 @@ This page will help you get started with Reset Windows Update Tool.
 				<strong>Filename:</strong>
 			</td>
 			<td>
-				<a href="https://github.com/ManuelGil/Script-Reset-Windows-Update-Tool">
+				<a href="https://gallery.technet.microsoft.com/scriptcenter/Reset-Windows-Update-Agent-d824badc" target="_blank">
 					ResetWUEng.cmd
 				</a>
 			</td>
@@ -413,23 +463,16 @@ This page will help you get started with Reset Windows Update Tool.
 Please read [CONTRIBUTING.md](CONTRIBUTING.md)
  for details on our code of conduct.
 
-<a name="Donate"></a>
-## :gift: Donate!
-
-If you want to help me to continue this project, you might donate via PayPal.
-
-<a href="https://paypal.me/ManuelFGil"><img src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png" alt="Donate via PayPal"></a>
-
 <a name="authors"></a>
 ## :eyeglasses: Authors
 
-  * **Manuel Gil** - *Initial work* - [ManuelGil](https://github.com/ManuelGil) 
-  * **Kunal Kumar Gupta** - [kunal817](https://github.com/kunal817)
-  * **Robin350** - [Robin350](https://github.com/Robin350)
-  * **Kosmas Tsiakas** - [kosmastsk](https://github.com/kosmastsk)
-  * **Akhil09** - [Akhil09](https://github.com/Akhil09)
-  * **Michael Wiarda** - [xift](https://github.com/xift)
-  * **Jovan Ferryal E. F.** - [jovanzers](https://github.com/jovanzers)
+  * **Manuel Gil** - *Owner* - [ManuelGil](https://github.com/ManuelGil) 
+  * **Kunal Kumar Gupta** - *Guest* - [kunal817](https://github.com/kunal817)
+  * **Robin350** - *Guest* - [Robin350](https://github.com/Robin350)
+  * **Kosmas Tsiakas** - *Guest* - [kosmastsk](https://github.com/kosmastsk)
+  * **Akhil09** - *Guest* - [Akhil09](https://github.com/Akhil09)
+  * **Michael Wiarda** - *Guest* - [xift](https://github.com/xift)
+  * **Jovan Ferryal E. F.** - *Guest* - [jovanzers](https://github.com/jovanzers)
 
 See also the list of [contributors](https://github.com/ManuelGil/Reset-Windows-Update-Tool/contributors)
  who participated in this project.

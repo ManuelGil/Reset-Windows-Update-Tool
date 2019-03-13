@@ -153,12 +153,14 @@
 8000|index.html
 8001|http://docs.wureset.com
 
-# Updates wureset 11.0.0.6
+# Updates wureset 11.0.0.7
 # ---------
 
 # Menu
 9000|Paksa Pembaruan Kebijakan Grup.
+9001|Temukan kunci produk Windows.
 
 # Functions
 9100|Membatalkan proses Pembaruan Windows.
 9101|Memaksa pembaruan kebijakan grup.
+9102|Mencari kunci produk.

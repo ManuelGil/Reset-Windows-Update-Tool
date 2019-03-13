@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
+ * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -26,42 +26,44 @@ using namespace std;
 /**
  * Load and show the help files.
  */
-class Help {
+class Help
+{
 
 	private:
-		
-	    // -----------------------------------------------------------------
-	    // Relations
-	    // -----------------------------------------------------------------
-		Commands* cmd;
-		
 		// -----------------------------------------------------------------
-    	// Attributes
-	    // -----------------------------------------------------------------
+		// Relations
+		// -----------------------------------------------------------------
+		Commands *cmd;
+
+		// -----------------------------------------------------------------
+		// Attributes
+		// -----------------------------------------------------------------
 		string file;
-	
+
 	public:
-		
 		/**
 		 * Set values.
 		 */
-		Help() {
+		Help()
+		{
 			cmd = new Commands();
-			
+
 			file = "english\\index.html";
 		}
-		
+
 		/**
 		 * Open help file.
 		 */
-		void open() {
+		void open()
+		{
 			cmd->open("wureset\\help\\", file);
 		}
-		
+
 		/**
 		 * Open a link on the browser.
 		 */
-		void browser() {
+		void browser()
+		{
 			cmd->browser("http://wureset.com");
 		}
 

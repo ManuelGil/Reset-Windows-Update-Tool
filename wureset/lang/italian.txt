@@ -13,29 +13,29 @@
 
 # Warnings
 1000|Premere un tasto qualsiasi per continuare . . .
-1001|Si Ë verificato un errore imprevisto.
+1001|Si √® verificato un errore imprevisto.
 1002|Scegli un'opzione: 
 1003|Opzione non valida.
-1004|Siamo spiacenti, questa opzione non Ë disponibile in questo sistema operativo.
-1005|L'operazione Ë stata completata con successo.
-1006|Si Ë verificato un errore durante l'operazione.
+1004|Siamo spiacenti, questa opzione non √® disponibile in questo sistema operativo.
+1005|L'operazione √® stata completata con successo.
+1006|Si √® verificato un errore durante l'operazione.
 1007|mpossibile interrompere il servizio. Vuoi provare ancora? (S/N): 
 
 # Compatibility
-2000|Siamo spiacenti, questo sistema operativo non Ë compatibile con questo strumento.
-2001|    Si Ë verificato un errore durante il tentativo di verificare il sistema.\n    Potresti utilizzare una versione commerciale o di prova.\n\n    Altrimenti, verificare che il sistema abbia la corretta correzione di sicurezza.\n
+2000|Siamo spiacenti, questo sistema operativo non √® compatibile con questo strumento.
+2001|    Si √® verificato un errore durante il tentativo di verificare il sistema.\n    Potresti utilizzare una versione commerciale o di prova.\n\n    Altrimenti, verificare che il sistema abbia la corretta correzione di sicurezza.\n
 
 # Elevation
 3000|Controllo delle autorizzazioni di amministratore.
-3001|    Non hai le autorizzazioni per eseguire questo strumento.\n    Questo strumento non funziona senza autorizzazioni di amministratore.\n\n    » necessario eseguire questo strumento con autorizzazioni di amministratore.\n
+3001|    Non hai le autorizzazioni per eseguire questo strumento.\n    Questo strumento non funziona senza autorizzazioni di amministratore.\n\n    √à necessario eseguire questo strumento con autorizzazioni di amministratore.\n
 
 # Terms
 4000|Termini e condizioni d'uso.
-4001|    I metodi di questo strumento modificano i file e le impostazioni del\n    registro.\n    Non si assume alcuna responsabilit‡ per l'uso di questo strumento.\n\n    Questo strumento Ë fornito senza garanzia. Qualsiasi danno causato Ë sotto\n    la tua responsabilit‡.\n\n    Non esitare a esaminare il codice se non sei sicuro.\n    https://github.com/ManuelGil\n
+4001|    I metodi di questo strumento modificano i file e le impostazioni del\n    registro.\n    Non si assume alcuna responsabilit√† per l'uso di questo strumento.\n\n    Questo strumento √® fornito senza garanzia. Qualsiasi danno causato √® sotto\n    la tua responsabilit√†.\n\n    Non esitare a esaminare il codice se non sei sicuro.\n    https://github.com/ManuelGil\n
 4002|Vuoi continuare con questo processo? (S/N): 
 
 # Menu
-5000|Questo strumento ripristiner‡ i componenti di Windows Update.
+5000|Questo strumento ripristiner√† i componenti di Windows Update.
 5001|Protezione aperta del sistema.
 5002|Ripristina i componenti di Windows Update.
 5003|Elimina i file temporanei di Windows.
@@ -43,7 +43,7 @@
 5005|Esegui Chkdsk nella partizione di Windows.
 5006|Esegui lo strumento Controllo file di sistema.
 5007|Esegui la scansione dell'immagine per danni all'archivio componenti.
-5008|Controlla se l'immagine Ë stata contrassegnata come danneggiata.
+5008|Controlla se l'immagine √® stata contrassegnata come danneggiata.
 5009|Eseguire operazioni di riparazione automatica.
 5010|Pulire i componenti sostituiti.
 5011|Elimina valori di registro errati.
@@ -61,12 +61,12 @@
 6002|Verifica dello stato del servizio.\n
 6003|    Impossibile arrestare il servizio di trasferimento intelligente in background BITS.\n
 6004|    Impossibile arrestare il servizio di Windows Update.\n
-6005|    Impossibile arrestare il servizio di Identit‡ di applicazione.\n
+6005|    Impossibile arrestare il servizio di Identit√† di applicazione.\n
 6006|    Impossibile arrestare il servizio di Servizi di crittografia.\n
 6007|Cancellare i file qmgr*.dat.
 6008|Rimozione di copie di backup di SoftwareDistribution.
 6009|Modifica del nome delle cartelle SoftwareDistribution.
-6010|    Il nome della cartella SoftwareDistribution non puÚ essere cambiato.\n
+6010|    Il nome della cartella SoftwareDistribution non pu√≤ essere cambiato.\n
 6011|Ripristino dei servizi BITS e Windows Update per il descrittore di sicurezza predefinito.
 6012|Registrare nuovamente i file di BITS e i file di Windows Update.
 6013|Ripristino Winsock.
@@ -76,7 +76,7 @@
 6017|Rimozione di file temporanei dal sistema.
 6018|Apertura delle opzioni di Internet Explorer.
 6019|Controllare il sistema di file e il sistema di metadati di un file di volume per errori logici e fisici (CHKDSK.EXE).
-6020|Esamina e controlla l'integrit‡ del sistema protetto di tutti i file e sostituisce le versioni errate con le versioni corrette (SFC.exe).
+6020|Esamina e controlla l'integrit√† del sistema protetto di tutti i file e sostituisce le versioni errate con le versioni corrette (SFC.exe).
 6021|Esegui la scansione dell'immagine per danni all'archivio componenti (DISM /ScanHealth).
 6022|Controlla se nell'immagine sono stati rilevati danni (DISM /CheckHealth).
 6023|Eseguire operazioni di riparazione automatica (DISM /RestoreHealth).
@@ -84,9 +84,9 @@
 6025|Modifica dei valori errati nel registro.
 6026|Creazione di una copia del registro in: 
 6027|    Le modifiche non sono state effettuate nel registro.\n
-6028|    Riprova pi˘ tardi.\n
+6028|    Riprova pi√π tardi.\n
 6029|Controllo del backup.
-6030|    Qualcosa Ë andato storto.\n
+6030|    Qualcosa √® andato storto.\n
 6031|    Creare manualmente un backup del registro prima di continuare.\n
 6032|Rimozione dei valori di registro.
 6033|Aggiunta di valori al registro.
@@ -102,8 +102,8 @@
 6043|Ricerca di soluzioni in questa squadra.
 6044|Ricerca di soluzioni online.
 6045|Riavvio del sistema.
-6046|    Il sistema si riavvier‡ tra 60 secondi.\n    Si prega di tenere tutti i documenti aperti.\n
-6047|Il sistema si riavvier‡ tra 60 secondi. Si prega di tenere tutti i documenti aperti.
+6046|    Il sistema si riavvier√† tra 60 secondi.\n    Si prega di tenere tutti i documenti aperti.\n
+6047|Il sistema si riavvier√† tra 60 secondi. Si prega di tenere tutti i documenti aperti.
 6048|Scarica ed esegui la diagnostica per il tuo sistema.
 6049|Windows Update in Windows 7, Windows 8 e Windows 8.1.
 6050|Windows Update in Windows 10.
@@ -127,7 +127,7 @@
 7011|    /sfc          Analizza tutti i file protetti nel sistema.
 7012|    /dism         Opzioni DISM.
 7013|        scan      Esplora l'immagine per verificare la presenza di danni.
-7014|        check     Controlla se l'immagine Ë stata contrassegnata come danneggiata.
+7014|        check     Controlla se l'immagine √® stata contrassegnata come danneggiata.
 7015|        repair    Eseguire operazioni di riparazione automatica.
 7016|        clean     Pulire i componenti sostituiti.
 7017|    /?            Mostra questo messaggio di aiuto.\n
@@ -141,7 +141,7 @@
 7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7026|        [/sfc] [/dism:{scan|check|repair|clean}]\n
 7027|Descrizione:\n
-7028|    Questo strumento ripristiner‡ i componenti di Windows Update.\n
+7028|    Questo strumento ripristiner√† i componenti di Windows Update.\n
 7029|Esempio di utilizzo:\n
 7030|    WURESET /reset
 7031|    WURESET /clean:temp
@@ -153,12 +153,14 @@
 8000|index.html
 8001|http://docs.wureset.com
 
-# Updates wureset 11.0.0.6
+# Updates wureset 11.0.0.7
 # ---------
 
 # Menu
 9000|Forza l'aggiornamento dei criteri di gruppo.
+9001|Trovare il codice product key di Windows.
 
 # Functions
 9100|Annullamento del processo di aggiornamento di Windows.
 9101|Forzare l'aggiornamento della politica di gruppo.
+9102|Ricerca il codice product key.

@@ -153,12 +153,14 @@
 8000|index.html
 8001|http://docs.wureset.com
 
-# Updates wureset 11.0.06
+# Updates wureset 11.0.0.7
 # ---------
 
 # Menu
 9000|Forçar atualização de política de grupo.
+9001|Encontre a chave do produto Windows.
 
 # Functions
 9100|Cancelando o processo de atualização do Windows.
 9101|Forçando a atualização da política de grupo.
+9102|Procurando pela chave do produto.

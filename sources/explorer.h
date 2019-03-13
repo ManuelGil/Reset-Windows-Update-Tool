@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
+ * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -24,57 +24,63 @@ using namespace std;
 /**
  * Reader the files and directories.
  */
-class Explorer {
+class Explorer
+{
 
 	private:
-	
 		// -----------------------------------------------------------------
-    	// Attributes
-	    // -----------------------------------------------------------------
+		// Attributes
+		// -----------------------------------------------------------------
 		string path;
-	
+
 	public:
-	
 		/**
 		 * Get the current directory.
 		 */
-		string getPath() {
-			if(path == "") {
+		string getPath()
+		{
+			if (path == "")
+			{
 				char result[MAX_PATH];
-			  	GetModuleFileName(NULL, result, MAX_PATH);
-			  	
-			  	int pos = string(result).find_last_of("\\") + 1;
-			  	path = string(result).substr(0, pos);
+				GetModuleFileName(NULL, result, MAX_PATH);
+
+				int pos = string(result).find_last_of("\\") + 1;
+				path = string(result).substr(0, pos);
 			}
-			
+
 			return path;
 		}
-		
+
 		/**
 		 * Check if a file exists.
 		 */
-		bool fileExists(string pFile) {
-		    if (FILE *file = fopen(pFile.c_str(), "r")) {
-		        fclose(file);
-		        return true;
-		    }
-		    
+		bool fileExists(string pFile)
+		{
+			if (FILE *file = fopen(pFile.c_str(), "r"))
+			{
+				fclose(file);
+				return true;
+			}
+
 			return false;
 		}
-		
+
 		/**
 		 * Check if a folder exists.
 		 */
-		bool folderExists(string pPath) {
+		bool folderExists(string pPath)
+		{
 			DWORD ftyp = GetFileAttributesA(pPath.c_str());
-			if (ftyp == INVALID_FILE_ATTRIBUTES) {
-		    	return false;
+			if (ftyp == INVALID_FILE_ATTRIBUTES)
+			{
+				return false;
 			}
-		
-			if (ftyp & FILE_ATTRIBUTE_DIRECTORY) {
-		    	return true;
+
+			if (ftyp & FILE_ATTRIBUTE_DIRECTORY)
+			{
+				return true;
 			}
-		
+
 			return false;
 		}
 

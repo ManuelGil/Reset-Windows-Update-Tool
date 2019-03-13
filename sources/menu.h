@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
+ * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -22,35 +22,37 @@
 /**
  * Create a generic menu.
  */
-class Menu {
+class Menu
+{
 
 	private:
-	
-	    // -----------------------------------------------------------------
-	    // Relations
-	    // -----------------------------------------------------------------
-		 vector<Item*> items;
-	
+		// -----------------------------------------------------------------
+		// Relations
+		// -----------------------------------------------------------------
+		vector<Item *> items;
+
 	public:
-	
 		/**
 		 * Get an option by index.
 		 */
-		Item* getItem(int index) {
+		Item *getItem(int index)
+		{
 			return items[index];
 		}
-	
+
 		/**
 		 * Add a new option.
 		 */
-		void addItem(Item* pItem) {
+		void addItem(Item *pItem)
+		{
 			items.push_back(pItem);
 		}
-		
+
 		/**
 		 * Get size of the menu.
 		 */
-		int getSize() {
+		int getSize()
+		{
 			return items.size();
 		}
 

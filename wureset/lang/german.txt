@@ -12,86 +12,86 @@
 # Version: 1.0.0.3
 
 # Warnings
-1000|Drücken Sie eine beliebige Taste, um fortzufahren . . .
+1000|DrÃ¼cken Sie eine beliebige Taste, um fortzufahren . . .
 1001|Ein unerwarteter Fehler ist aufgetreten.
-1002|Wählen Sie eine Option: 
-1003|Ungültige Option.
-1004|Es tut uns leid, diese Option ist für dieses Betriebssystem nicht verfügbar.
+1002|WÃ¤hlen Sie eine Option: 
+1003|UngÃ¼ltige Option.
+1004|Es tut uns leid, diese Option ist fÃ¼r dieses Betriebssystem nicht verfÃ¼gbar.
 1005|Der Vorgang wurde erfolgreich abgeschlossen.
-1006|Während des Vorgangs ist ein Fehler aufgetreten.
-1007|Der Dienst konnte nicht gestoppt werden. Möchten Sie es noch einmal versuchen? (J/N): 
+1006|WÃ¤hrend des Vorgangs ist ein Fehler aufgetreten.
+1007|Der Dienst konnte nicht gestoppt werden. MÃ¶chten Sie es noch einmal versuchen? (J/N): 
 
 # Compatibility
 2000|Es tut uns leid, dieses Betriebssystem ist nicht mit diesem Tool kompatibel.
-2001|    Beim Versuch, Ihr System zu überprüfen, ist ein Fehler aufgetreten.\n    Möglicherweise verwenden Sie eine kommerzielle oder eine Testversion.\n\n    Andernfalls überprüfen Sie, ob Ihr System den richtigen Sicherheitspatch aufweist.\n
+2001|    Beim Versuch, Ihr System zu Ã¼berprÃ¼fen, ist ein Fehler aufgetreten.\n    MÃ¶glicherweise verwenden Sie eine kommerzielle oder eine Testversion.\n\n    Andernfalls Ã¼berprÃ¼fen Sie, ob Ihr System den richtigen Sicherheitspatch aufweist.\n
 
 # Elevation
-3000|Überprüfen von Administratorberechtigungen.
-3001|    Sie sind nicht Administrator.\n    Dieses Tool funktioniert nicht ohne Administratorrechte.\n\n    Sie müssen dieses Tool mit Administratorberechtigungen ausführen.\n
+3000|ÃœberprÃ¼fen von Administratorberechtigungen.
+3001|    Sie sind nicht Administrator.\n    Dieses Tool funktioniert nicht ohne Administratorrechte.\n\n    Sie mÃ¼ssen dieses Tool mit Administratorberechtigungen ausfÃ¼hren.\n
 
 # Terms
 4000|Nutzungsbedingungen.
-4001|    Die Methoden in diesem Tool ändern Dateien und\n    Registrierungseinstellungen.\n    Es wird keine Verantwortung für die Verwendung dieses Tools übernommen.\n\n    Dieses Tool wird ohne Garantie geliefert. Jeder verursachte Schaden ist Ihre\n    eigene Verantwortung.\n\n    Zögern Sie nicht, den Code zu überprüfen, wenn Sie nicht sicher sind.\n    https://github.com/ManuelGil\n
-4002|Möchten Sie mit diesem Prozess fortfahren? (J/N): 
+4001|    Die Methoden in diesem Tool Ã¤ndern Dateien und\n    Registrierungseinstellungen.\n    Es wird keine Verantwortung fÃ¼r die Verwendung dieses Tools Ã¼bernommen.\n\n    Dieses Tool wird ohne Garantie geliefert. Jeder verursachte Schaden ist Ihre\n    eigene Verantwortung.\n\n    ZÃ¶gern Sie nicht, den Code zu Ã¼berprÃ¼fen, wenn Sie nicht sicher sind.\n    https://github.com/ManuelGil\n
+4002|MÃ¶chten Sie mit diesem Prozess fortfahren? (J/N): 
 
 # Menu
 5000|Dieses Tool wird die Windows Update-Komponenten wiederherstellen.
-5001|Öffnen der Systemschutzeinstellungen.
+5001|Ã–ffnen der Systemschutzeinstellungen.
 5002|Windows Update-Komponenten wiederherstellen.
-5003|Temporäre Windows-Dateien löschen.
-5004|Internet Explorer-Optionen öffnen.
-5005|Chkdsk auf der Windows-Partition ausführen.
-5006|Systemdateiprüfung ausführen.
-5007|Komponentenspeicher des Windows-Abbilds auf Fehler überprüfen.
-5008|Überprüfen ob das Abbild als beschädigt markiert wurde.
-5009|Automatische Reparaturvorgänge durchführen.
-5010|Abgelöste Komponenten bereinigen.
-5011|Fehlerhafte Werte aus der Registrierung löschen.
-5012|Winsock-Einstellungen zurücksetzen.
+5003|TemporÃ¤re Windows-Dateien lÃ¶schen.
+5004|Internet Explorer-Optionen Ã¶ffnen.
+5005|Chkdsk auf der Windows-Partition ausfÃ¼hren.
+5006|SystemdateiprÃ¼fung ausfÃ¼hren.
+5007|Komponentenspeicher des Windows-Abbilds auf Fehler Ã¼berprÃ¼fen.
+5008|ÃœberprÃ¼fen ob das Abbild als beschÃ¤digt markiert wurde.
+5009|Automatische ReparaturvorgÃ¤nge durchfÃ¼hren.
+5010|AbgelÃ¶ste Komponenten bereinigen.
+5011|Fehlerhafte Werte aus der Registrierung lÃ¶schen.
+5012|Winsock-Einstellungen zurÃ¼cksetzen.
 5013|Nach Windows-Updates suchen.
-5014|Lokale Lösungshilfe durchsuchen.
-5015|Online Lösungshilfe durchsuchen.
+5014|Lokale LÃ¶sungshilfe durchsuchen.
+5015|Online LÃ¶sungshilfe durchsuchen.
 5016|Diagnose-Tools herunterladen.
 5017|PC neustarten.
-5018|\n                                           ?. Hilfe.    0. Schließen.\n
+5018|\n                                           ?. Hilfe.    0. SchlieÃŸen.\n
 
 # Functions
-6000|Öffnen der Systemschutzeinstellungen.
+6000|Ã–ffnen der Systemschutzeinstellungen.
 6001|Windows Update-Dienste anhalten.
-6002|Überprüfen des Dienststatus.\n
+6002|ÃœberprÃ¼fen des Dienststatus.\n
 6003|    Der "Intelligent Transfer Service"-Dienste (BITS) konnte nicht gestoppt werden.\n
 6004|    Der Windows Update-Dienst konnte nicht gestoppt werden.\n
 6005|    Der "Application Identity"-Dienst konnte nicht gestoppt werden.\n
-6006|    Der Verschlüsselungsdienst konnte nicht gestoppt werden.\n
-6007|qmgr*.dat Dateien löschen.
+6006|    Der VerschlÃ¼sselungsdienst konnte nicht gestoppt werden.\n
+6007|qmgr*.dat Dateien lÃ¶schen.
 6008|Alte Softwaredistributions-Sicherungen entfernen.
 6009|Softwaredistributions-Ordner umbenennen.
-6010|    Der Name des Softwaredistribution-Ordners konnte nicht geändert werden.\n
-6011|Wiederherstellen des ursprünglichen Security Descriptors für die BITS- und Windows Update-Dienste.
+6010|    Der Name des Softwaredistribution-Ordners konnte nicht geÃ¤ndert werden.\n
+6011|Wiederherstellen des ursprÃ¼nglichen Security Descriptors fÃ¼r die BITS- und Windows Update-Dienste.
 6012|BITS-Dateien und die Windows Update-Dateien erneut registrieren.
-6013|Zurücksetzen von Winsock.
-6014|Zurücksetzen von WinHTTP-Proxy.
+6013|ZurÃ¼cksetzen von Winsock.
+6014|ZurÃ¼cksetzen von WinHTTP-Proxy.
 6015|Dienste auf Autostart setzen.
 6016|Windows Update-Dienste neu starten.
-6017|Temporäre Dateien vom System entfernen.
-6018|Internet Explorer-Optionen öffnen.
-6019|Überprüfen des Dateisystems und des Metadatensystems auf logische und physische Fehler (CHKDSK.EXE).
-6020|Systemdateien überprüfen und fehlende oder defekte Systemdateien reparieren (SFC.exe).
-6021|Komponentenspeicher des Windows-Abbilds auf Fehler überprüfen (DISM /ScanHealth).
-6022|Überprüfen ob das Abbild als beschädigt markiert wurde (DISM /CheckHealth).
-6023|Automatische Reparaturvorgänge durchführen (DISM /RestoreHealth).
-6024|Abgelöste Komponenten entfernen, um die Größe des Komponentenspeichers zu verringern (DISM /StartComponentCleanup).
+6017|TemporÃ¤re Dateien vom System entfernen.
+6018|Internet Explorer-Optionen Ã¶ffnen.
+6019|ÃœberprÃ¼fen des Dateisystems und des Metadatensystems auf logische und physische Fehler (CHKDSK.EXE).
+6020|Systemdateien Ã¼berprÃ¼fen und fehlende oder defekte Systemdateien reparieren (SFC.exe).
+6021|Komponentenspeicher des Windows-Abbilds auf Fehler Ã¼berprÃ¼fen (DISM /ScanHealth).
+6022|ÃœberprÃ¼fen ob das Abbild als beschÃ¤digt markiert wurde (DISM /CheckHealth).
+6023|Automatische ReparaturvorgÃ¤nge durchfÃ¼hren (DISM /RestoreHealth).
+6024|AbgelÃ¶ste Komponenten entfernen, um die GrÃ¶ÃŸe des Komponentenspeichers zu verringern (DISM /StartComponentCleanup).
 6025|Fehlerhafte Werte aus der Registrierung entfernen.
 6026|Kopie der Registrierung in folgendem Ordner speichern: 
-6027|    Es wurden keine Änderungen in der Registrierung vorgenommen.\n
-6028|    Versuchen Sie es später noch einmal.\n
-6029|Überprüfen der Sicherung.
+6027|    Es wurden keine Ã„nderungen in der Registrierung vorgenommen.\n
+6028|    Versuchen Sie es spÃ¤ter noch einmal.\n
+6029|ÃœberprÃ¼fen der Sicherung.
 6030|    Es ist ein Problem aufgetreten.\n
 6031|    Bitte erstellen Sie eine manuelle Sicherung der Registrierung bevor Sie fortfahren.\n
 6032|Entferne Registrierungswerte.
-6033|Füge Werte zur Registrierung hinzu.
-6034|Setze Winsock-Steuerungseinstellungen zurück.
-6035|Stelle Transaktionsdatensätze wieder her.
+6033|FÃ¼ge Werte zur Registrierung hinzu.
+6034|Setze Winsock-Steuerungseinstellungen zurÃ¼ck.
+6035|Stelle TransaktionsdatensÃ¤tze wieder her.
 6036|Wiederherstellen von  TCP/IP.
 6037|Wiederherstellen von Winsock.
 6038|Wiederherstellen der Richtlinieneinstellungen.
@@ -99,18 +99,18 @@
 6040|Wiederherstellen der Proxy-Konfiguration.
 6041|Suche nach Updates.
 6042|Bitte warten . . .
-6043|Suche nach lokalen Lösungen.
-6044|Suche nach Online-Lösungen.
+6043|Suche nach lokalen LÃ¶sungen.
+6044|Suche nach Online-LÃ¶sungen.
 6045|Neustart des Systems.
 6046|    Das System wird in 60 Sekunden neu gestartet.\n    Bitte speichern Sie alle offenen Dokumente.\n
 6047|Das System wird in 60 Sekunden neu gestartet. Bitte speichern Sie alle offenen Dokumente.
-6048|Systemdiagnose herunterladen und ausführen.
+6048|Systemdiagnose herunterladen und ausfÃ¼hren.
 6049|Windows Update in Windows 7, Windows 8 und Windows 8.1.
 6050|Windows Update in Windows 10.
 6051|Anwendungen in Windows 8.1.
 6052|Anwendungen in Windows 10.
-6053|Startmenü in Windows 10.
-6054|                                                        0. Zurück.
+6053|StartmenÃ¼ in Windows 10.
+6054|                                                        0. ZurÃ¼ck.
 
 # Commands
 7000|\nDieses Tool wird die Windows Update-Komponenten wiederherstellen.\n.
@@ -118,18 +118,18 @@
 7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
 7004|Liste der Parameter:\n
-7005|    /reset        Windows Update-Komponenten zurücksetzen.
+7005|    /reset        Windows Update-Komponenten zurÃ¼cksetzen.
 7006|    /search       Nach Updates suchen.
 7007|    /clean        Reinigungsoptionen.
-7008|        temp      Temporäre Windows-Dateien löschen.
-7009|        regs      Ungültige Werte aus der Registrierung löschen.
-7010|        sock      Winsock-Einstellungen zurücksetzen.
-7011|    /sfc          Alle geschützten Systemdateien überprüfen.
+7008|        temp      TemporÃ¤re Windows-Dateien lÃ¶schen.
+7009|        regs      UngÃ¼ltige Werte aus der Registrierung lÃ¶schen.
+7010|        sock      Winsock-Einstellungen zurÃ¼cksetzen.
+7011|    /sfc          Alle geschÃ¼tzten Systemdateien Ã¼berprÃ¼fen.
 7012|    /dism         Optionen von DISM.
-7013|        scan      Systemabbild überprüfen.
-7014|        check     Überprüfen, ob das Abbild als beschädigt markiert wurde.
-7015|        repair    Automatische Reparaturvorgänge durchführen.
-7016|        clean     Abgelöste Komponenten löschen.
+7013|        scan      Systemabbild Ã¼berprÃ¼fen.
+7014|        check     ÃœberprÃ¼fen, ob das Abbild als beschÃ¤digt markiert wurde.
+7015|        repair    Automatische ReparaturvorgÃ¤nge durchfÃ¼hren.
+7016|        clean     AbgelÃ¶ste Komponenten lÃ¶schen.
 7017|    /?            Zeigt diese Hilfemeldung an.\n
 7018|Anwendungsbeispiel:\n
 7019|    WURESET /reset
@@ -153,12 +153,14 @@
 8000|index.html
 8001|http://docs.wureset.com
 
-# Updates wureset 11.0.0.6
+# Updates wureset 11.0.0.7
 # ---------
 
 # Menu
 9000|Gruppenrichtlinienaktualisierung erzwingen.
+9001|Suchen Sie den Windows-ProduktschlÃ¼ssel.
 
 # Functions
 9100|Windows-Aktualisierungsprozesses abbrechen.
 9101|Gruppenrichtlinienaktualisierung erzwingen.
+9102|Suche nach dem ProduktschlÃ¼ssel.

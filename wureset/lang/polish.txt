@@ -153,12 +153,14 @@
 8000|index.html
 8001|http://docs.wureset.com
 
-# Aktualizacje wureset 11.0.0.6
+# Aktualizacje wureset 11.0.0.7
 # ---------
 
 # Menu
 9000|Wymuś zasady aktualizacji.
+9001|Znajdz klucz produktu Windows.
 
 # Funkcje
 9100|Anulowanie procesu Windows Update.
 9101|Wymuszenie aktualizacji zasad.
+9102|Wyszukiwanie klucza produktu.

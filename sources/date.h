@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.6 $ $Date: 05/06/2018 $
+ * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -23,26 +23,26 @@
 /**
  * Management of date.
  */
-class Date {
+class Date
+{
 
 	private:
-		
 		// -----------------------------------------------------------------
-    	// Attributes
-	    // -----------------------------------------------------------------
+		// Attributes
+		// -----------------------------------------------------------------
 		int day;
 		int month;
 		int year;
 		int hour;
 		int min;
 		int sec;
-	
+
 	public:
-	
 		/**
 		 * Create a new date.
 		 */
-		Date() {
+		Date()
+		{
 			day = 0;
 			month = 0;
 			year = 0;
@@ -50,17 +50,18 @@ class Date {
 			min = 0;
 			sec = 0;
 		}
-		
+
 		/**
 		 * Load the system date.
 		 */
-		void now() {
+		void now()
+		{
 			time_t currentTime;
 			struct tm *localTime;
-			
+
 			time(&currentTime);
 			localTime = localtime(&currentTime);
-			
+
 			day = localTime->tm_mday;
 			month = localTime->tm_mon + 1;
 			year = localTime->tm_year + 1900;
@@ -68,15 +69,16 @@ class Date {
 			min = localTime->tm_min;
 			sec = localTime->tm_sec;
 		}
-		
+
 		/**
 		 * Get the date in a string.
 		 */
-		string toString() {
+		string toString()
+		{
 			stringstream result;
-			
+
 			result << month << day << year << hour << min << sec;
-			
+
 			return result.str();
 		}
 
