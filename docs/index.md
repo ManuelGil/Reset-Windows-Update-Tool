@@ -9,10 +9,10 @@
 		<img src="https://img.shields.io/badge/stability-stable-green.svg" alt="Status">
 	</a>
 	<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool#changelog">
-		<img src="https://img.shields.io/badge/release-v11.0.0.7-blue.svg" alt="Version">
+		<img src="https://img.shields.io/badge/release-v11.0.0.8-blue.svg" alt="Version">
 	</a>
 	<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool#changelog">
-		<img src="https://img.shields.io/badge/update-march-yellowgreen.svg" alt="Update">
+		<img src="https://img.shields.io/badge/update-april-yellowgreen.svg" alt="Update">
 	</a>
 	<a href="#license">
 		<img src="https://img.shields.io/badge/license-MS--PL%20License-green.svg" alt="License">
