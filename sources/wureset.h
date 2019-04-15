@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
+ * @version $Revision: 11.0.0.8 $ $Date: 04/15/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -102,6 +102,11 @@ class WUReset
 					help = new Help();
 					help->browser();
 					help = NULL;
+					flag = -1;
+				}
+				else if (option == "*")
+				{
+					functions->getCommands()->executer("elevate wuresetcfg.exe");
 					flag = -1;
 				}
 				else if (flag != 0)

@@ -53,7 +53,7 @@
 5015|Esplora le altre soluzioni online.
 5016|Scarica strumenti diagnostici.
 5017|Riavvia il PC.
-5018|\n                                           ?. Aiutare.    0. Esci.\n
+5018|\n                       ?. Aiutare.    *. Impostazioni.    0. Esci.\n
 
 # Functions
 6000|Apertura della protezione del sistema.
@@ -113,7 +113,7 @@
 6054|                                                        0. Ritorno.
 
 # Commands
-7000|\nQuesto strumento per ripristinare i componenti di Windows Update\n.
+7000|\nQuesto strumento per ripristinare i componenti di Windows Update.\n
 7001|Uso:\n
 7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n

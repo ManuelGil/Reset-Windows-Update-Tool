@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.7 $ $Date: 03/12/2019 $
+ * @version $Revision: 11.0.0.8 $ $Date: 04/15/2019 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -834,7 +834,7 @@ class Functions
 
 			if (os->getFamily() == 10)
 			{
-				cmd->start("ms-settings:windowsupdate");
+				cmd->start("ms-settings:windowsupdate-action");
 			}
 			else
 			{

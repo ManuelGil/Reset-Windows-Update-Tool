@@ -29,49 +29,75 @@
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
-
-# End of https://www.gitignore.io/api/c++
-
 ### Borland Dev-C++ ###
 bin/*
 logs/*
 Makefile.win
 
-### Windows ###
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Executables
+*.exe
+*.out
+*.app
 
-# Folder config file
-Desktop.ini
+### Executable ###
+*.cgi
+*.com
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
-# Windows shortcuts
-*.lnk
+### Linux ###
+*~
 
-### OSX ###
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### macOS ###
+# General
 .DS_Store
 .AppleDouble
 .LSOverride
 
+# Icon must end with two \r
+Icon
+
 # Thumbnails
 ._*
 
-# Files that might appear on external disk
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
 .Spotlight-V100
+.TemporaryItems
 .Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -79,3 +105,39 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk

@@ -53,7 +53,7 @@
 5015|Online Lösungshilfe durchsuchen.
 5016|Diagnose-Tools herunterladen.
 5017|PC neustarten.
-5018|\n                                           ?. Hilfe.    0. Schließen.\n
+5018|\n                      ?. Hilfe.    *. Einstellungen.    0. Schließen.\n
 
 # Functions
 6000|Öffnen der Systemschutzeinstellungen.
@@ -113,7 +113,7 @@
 6054|                                                        0. Zurück.
 
 # Commands
-7000|\nDieses Tool wird die Windows Update-Komponenten wiederherstellen.\n.
+7000|\nDieses Tool wird die Windows Update-Komponenten wiederherstellen.\n
 7001|Verwendung:\n
 7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n

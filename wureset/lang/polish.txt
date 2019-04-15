@@ -53,7 +53,7 @@
 5015|Poznaj inne rozwiązania online.
 5016|Pobierz narzędzia diagnostyczne.
 5017|Uruchom ponownie komputer.
-5018|\n                                            ?. Pomoc    0. Zamknij.\n
+5018|\n                         ?. Pomoc.    *. Ustawienia.    0. Zamknij.\n
 
 # Funkcje
 6000|Otwieranie ochrony systemu.
@@ -113,7 +113,7 @@
 6054|                                                        0. Powrót
 
 # Polecenia
-7000|\nTo narzędzie resetuje składniki Windows Update\n.
+7000|\nTo narzędzie resetuje składniki Windows Update.\n
 7001|Użyj:\n
 7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n

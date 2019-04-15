@@ -53,7 +53,7 @@
 5015|Menggali solusi online lainnya.
 5016|Unduh Alat Diagnostik.
 5017|Mulai ulang PC Anda.
-5018|\n                                            ?. Bantuan.    0. Tutup.\n
+5018|\n                          ?. Bantuan.    *. Pengaturan.    0. Tutup.\n
 
 # Functions
 6000|Membuka perlindungan sistem.

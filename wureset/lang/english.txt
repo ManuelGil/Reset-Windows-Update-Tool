@@ -53,7 +53,7 @@
 5015|Explores other online solutions.
 5016|Downloads the Diagnostic Tools.
 5017|Restarts your PC.
-5018|\n                                            ?. Help.    0. Close.\n
+5018|\n                            ?. Help.    *. Settings.    0. Close.\n
 
 # Functions
 6000|Opening the system protection.
