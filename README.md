@@ -94,7 +94,7 @@ If you want to help me to continue this project, you might donate via PayPal.
 <a name="changelog"></a>
 ## :information_source: Changelog
 
-**11.0.0.8** (04/15/2018)
+**11.0.0.8** (04/15/2019)
 
   * <table border="0" cellpadding="4">
 		<tr>
@@ -140,7 +140,7 @@ If you want to help me to continue this project, you might donate via PayPal.
 		</tr>
 	</table>
 
-**11.0.0.7** (03/12/2018)
+**11.0.0.7** (03/12/2019)
 
   * <table border="0" cellpadding="4">
 		<tr>
