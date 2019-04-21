@@ -64,12 +64,6 @@ This page will help you get started with Reset Windows Update Tool.
   * Microsoft Windows 7 SP1 or later
   * Dev-C++
 
-<a name="support"></a>
-### Support
-  Issues: [https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues](https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues)
-  Wiki: [https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki](https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki)
-  Docs: [http://docs.wureset.com](http://docs.wureset.com)
-
 <a name="installation"></a>
 ### Installation
 
@@ -77,6 +71,12 @@ This page will help you get started with Reset Windows Update Tool.
   2. Unzip the archive if needed
   3. Start Dev-C++
   4. Goto "File" > "Open project or file" > Search "WUReset.dev" file
+
+<a name="support"></a>
+### Support
+  * Issues: [https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues](https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues)
+  * Wiki: [https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki](https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki)
+  * Docs: [http://docs.wureset.com](http://docs.wureset.com)
 
 <a name="Donate"></a>
 ## :gift: Donate!
