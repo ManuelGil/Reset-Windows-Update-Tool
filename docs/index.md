@@ -31,7 +31,8 @@ This tool has been developed for use as a support of system repair options.
  image, scan all protected system files and replace any corrupted files, change
  invalid values in the Windows Registry, reset Winsock settings and more.
 
-> Contents<br />
+> ### Contents<br />
+> <br />
 > <a href="#features">Features</a><br />
 > <a href="#requirements">Requirements</a><br />
 > <a href="#notes">Notes</a><br />
@@ -46,12 +47,12 @@ Reset Windows Update Tool is a complete troubleshooting tool that can be
 
 This tool includes a large number of troubleshooting functions such as:
 
-1. Reset Windows Update components
-2. Delete temporary files
-3. Change invalid values in Windows Registry
-4. Scan all protected system file and replace the corrupted one’s (sfc /scannow)
-5. Scan, detect and repair corruptions in Windows system image
-6. Clean up superseded components
+ * Reset Windows Update components
+ * Delete temporary files
+ * Change invalid values in Windows Registry
+ * Scan all protected system file and replace the corrupted one’s (sfc /scannow)
+ * Scan, detect and repair corruptions in Windows system image
+ * Clean up superseded components
 
 <a name="requirements"></a>
 ## Requirements

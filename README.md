@@ -64,6 +64,12 @@ This page will help you get started with Reset Windows Update Tool.
   * Microsoft Windows 7 SP1 or later
   * Dev-C++
 
+<a name="support"></a>
+### Support
+  Issues: [https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues](https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues)
+  Wiki: [https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki](https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki)
+  Docs: [http://docs.wureset.com](http://docs.wureset.com)
+
 <a name="installation"></a>
 ### Installation
 
