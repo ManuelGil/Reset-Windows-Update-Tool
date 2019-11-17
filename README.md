@@ -43,7 +43,7 @@ This tool was developed as a script for the Windows command console, it is
  a simple way.
 
 <div align="center">
-![menu](https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/menu.gif)
+	<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/menu.gif?raw=true" alt="menu">
 </div>
 <br />
 
