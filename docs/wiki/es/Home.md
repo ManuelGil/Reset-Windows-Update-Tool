@@ -35,7 +35,7 @@ Este documento ha sido creado para describir las secuencias de proceso para el u
 > ### Contenidos
 > 
 > [Requisitos](#requisitos) <br />
-> [Glossario](#glosario) <br />
+> [Glosario](#glosario) <br />
 > [Referencias](#referencias) <br />
 > [Licencia](#licencia)
 
@@ -49,7 +49,7 @@ Cuando se ejecuta la herramienta Reset Windows Update, se detecta la versión o 
 Si el sistema operativo no es compatible con esta herramienta, mostrará un mensaje de error y la herramienta se cerrará.
 
 
-## Glossario
+## Glosario
 
 <dl>
 <dt>DISM</dt>

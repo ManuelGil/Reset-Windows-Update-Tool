@@ -21,7 +21,7 @@ Se recomienda realizar algunas pruebas para simplificar el incidente y para enco
 > [Restablecer Internet Explorer](#restablecer-internet-explorer) <br />
 > [Reiniciar su PC](#reiniciar-su-pc) <br />
 > [Cambiar la configuración de Winsock](#cambiar-la-configuración-de-winsock) <br />
-> [Herramientas fix-it](#Herramientas-fix-it)
+> [Herramientas fix-it](#herramientas-fix-it)
 
 
 ## Punto de restauración

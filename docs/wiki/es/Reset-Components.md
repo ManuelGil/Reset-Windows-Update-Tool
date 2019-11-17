@@ -6,7 +6,7 @@ Esta herramienta fue diseñada principalmente para resolver problemas relacionad
 > ### Contenidos
 > 
 > [Restablecer los Componentes de Windows Update](#restablecer-los-componentes-de-windows-update) <br />
-> [The Windows Update service could not be stopped](#the-windows-update-service-could-not-be-stopped)
+> [El servicio de actualización de Windows no se pudo detener](#el-servicio-de-actualización-de-windows-no-se-pudo-detener)
 
 
 ## Restablecer los Componentes de Windows Update
