@@ -72,7 +72,8 @@ This page will help you get started with Reset Windows Update Tool.
 ### Support
   * Issues: [https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues](https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues)
   * Wiki: [https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki](https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki)
-  [:us:] [:es:] [:it:]
+
+[:us:] [:es:] [:it:]
 
 ## :gift: Donate!
 
@@ -520,3 +521,8 @@ See also the list of [contributors](https://github.com/ManuelGil/Reset-Windows-U
 
 Reset Windows Update Tool is licensed under the MS-PL License - see the
  [Microsoft Public License](https://opensource.org/licenses/MS-PL) for details.
+
+
+[:us:]: https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
+[:es:]: https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki/Home-%5Bes%5D
+[:it:]: https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki/Home-%5Bit%5D
