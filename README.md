@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-	<a href="http://wureset.com/">
+	<a href="https://www.wureset.com/">
 		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png?raw=true" alt="Logo" height="300" width="300">
 	</a>
 </div>
@@ -22,7 +22,6 @@
 		<img src="https://img.shields.io/badge/license-MS--PL%20License-green.svg" alt="License">
 	</a>
 </div>
-
 <div align="center">
 	<a href="https://twitter.com/intent/follow?screen_name=wureset">
 		<img src="https://img.shields.io/twitter/follow/wureset.svg?style=social" alt="Twitter">
@@ -44,8 +43,9 @@ This tool was developed as a script for the Windows command console, it is
  a simple way.
 
 <div align="center">
-	<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/menu.gif?raw=true" alt="menu">
+![menu](https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/menu.gif)
 </div>
+<br />
 
 This tool has been developed for use as a support of system repair options.
  It is possible to reset the Windows Update Components. Also is able to delete
@@ -53,18 +53,15 @@ This tool has been developed for use as a support of system repair options.
  image, scan all protected system files and replace any corrupted files, change
  invalid values in the Windows Registry, reset Winsock settings and more.
 
-<a name="started"></a>
 ## :traffic_light: Getting Started
 
 This page will help you get started with Reset Windows Update Tool.
 
-<a name="requirements"></a>
 ### Requirements
 
   * Microsoft Windows 7 SP1 or later
   * Dev-C++
 
-<a name="installation"></a>
 ### Installation
 
   1. Clone or Download this repository
@@ -72,32 +69,24 @@ This page will help you get started with Reset Windows Update Tool.
   3. Start Dev-C++
   4. Goto "File" > "Open project or file" > Search "WUReset.dev" file
 
-<a name="support"></a>
 ### Support
   * Issues: [https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues](https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues)
   * Wiki: [https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki](https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki)
-  * Docs: [http://docs.wureset.com](http://docs.wureset.com)
 
-<a name="Donate"></a>
 ## :gift: Donate!
 
 If you want to help me to continue this project, you might donate via PayPal.
 
 <a href="https://paypal.me/ManuelFGil"><img src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png" alt="Donate via PayPal"></a>
 
-<a name="deployment"></a>
 ## :package: Deployment
 
-<div align="center">
-	<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/Classes-Diagram.png?raw=true" alt="Status">
-</div>
+![Classes Diagram](https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/Classes-Diagram.png)
 
-<a name="built"></a>
 ## :wrench: Built With
 
   * Dev-C++ ([Orwell Dev-C++ 5.11](https://sourceforge.net/projects/orwelldevcpp/))
 
-<a name="changelog"></a>
 ## :information_source: Changelog
 
 **11.0.0.8** (04/15/2019)
@@ -509,13 +498,10 @@ If you want to help me to continue this project, you might donate via PayPal.
 		</tr>
 	</table>
 
-<a name="contributing"></a>
 ## :octocat: Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues)
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md)
- for details on our code of conduct.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct.
 
-<a name="authors"></a>
 ## :eyeglasses: Authors
 
   * **Manuel Gil** - *Owner* - [ManuelGil](https://github.com/ManuelGil) 
@@ -529,7 +515,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md)
 See also the list of [contributors](https://github.com/ManuelGil/Reset-Windows-Update-Tool/contributors)
  who participated in this project.
 
-<a name="license"></a>
 ## :memo: License
 
 Reset Windows Update Tool is licensed under the MS-PL License - see the
