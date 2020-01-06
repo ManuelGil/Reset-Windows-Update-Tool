@@ -63,7 +63,7 @@ class Functions
 		}
 
 		/**
-		 * Check the compatibility witk the operating system.
+		 * Check the compatibility with the operating system.
 		 */
 		void compatibility()
 		{
