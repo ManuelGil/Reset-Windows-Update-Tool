@@ -16,13 +16,13 @@
 1001|An unexpected error has occurred.
 1002|Select an option: 
 1003|Invalid option.
-1004|Sorry, this option is not available on this Operative System.
+1004|Sorry, this option is not available on this Operating System.
 1005|The operation completed successfully.
 1006|An error occurred during operation.
 1007|Cannot stop the service. Do you want to try again? (Y/N): 
 
 # Compatibility
-2000|Sorry, this Operative System is not compatible with this tool.
+2000|Sorry, this Operating System is not compatible with this tool.
 2001|    An error occurred while attempting to verify your system.\n    You may be using a commercial or trial version.\n\n    Otherwise, verify that your system has the correct security fix.\n
 
 # Elevation

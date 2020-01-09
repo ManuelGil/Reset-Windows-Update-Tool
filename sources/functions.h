@@ -63,13 +63,13 @@ class Functions
 		}
 
 		/**
-		 * Check the compatibility witk the operative system.
+		 * Check the compatibility with the operating system.
 		 */
 		void compatibility()
 		{
 			if (os->isCompatible() != true)
 			{
-				print->writeTopText("Sorry, this Operative System is not compatible with this tool.");
+				print->writeTopText("Sorry, this Operating System is not compatible with this tool.");
 
 				err->showMessage("    An error occurred while attempting to verify your system.\n    Can this using a business or test version.\n\n    If not, verify that your system has the correct security fix.\n");
 
@@ -550,7 +550,7 @@ class Functions
 			}
 			else
 			{
-				print->writeTextLine("Sorry, this option is not available on this Operative System.");
+				print->writeTextLine("Sorry, this option is not available on this Operating System.");
 				print->writeTextLine("Press any key to continue . . .");
 				cmd->pause();
 			}
