@@ -67,6 +67,6 @@ Si consiglia di eseguire lo strumento Fix-It per Windows Update. Per questo, sel
 
 La "Risoluzione dei problemi con Windows Update" mostra un codice di errore che ci aiuterà a trovare la soluzione al nostro incidente. Se questa opzione non mostra il codice di errore, è possibile scaricare uno strumento "Fix-it" per cercare il codice di errore.
 
-Windows 7, Windows 8, Windows 8.1: [http://go.microsoft.com/?linkid=9830262](http://go.microsoft.com/?linkid=9830262)
+Windows 8, Windows 8.1: [http://go.microsoft.com/?linkid=9830262](http://go.microsoft.com/?linkid=9830262)
 
 Windows 10: [http://aka.ms/diag_wu](http://aka.ms/diag_wu)

@@ -4,11 +4,11 @@
  * <p>Title: WUReset Project.</p>
  * <p>Description: Reset Windows Update Tool.</p>
  * <p>Copyright: Microsoft Public License (MS-PL).</p>
- * <p>Company: <a href="http://wureset.com/">Manuel Gil</a></p>
+ * <p>Company: <a href="https://wureset.com/">Manuel Gil</a></p>
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.8 $ $Date: 04/15/2019 $
+ * @version $Revision: 11.0.0.9 $ $Date: 06/11/2020 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -31,95 +31,85 @@ using namespace std;
 class PrincipalMenu
 {
 
-	private:
-		// -----------------------------------------------------------------
-		// Relations
-		// -----------------------------------------------------------------
-		Menu *menu;
-		Display *print;
-		OSDetector *os;
+private:
+    // -----------------------------------------------------------------
+    // Relations
+    // -----------------------------------------------------------------
+    Menu *menu;
+    Display *print;
+    OSDetector *os;
 
-  	public:
-		/**
+public:
+    /**
 		 * Load all options on the menu.
 		 */
-		PrincipalMenu()
-		{
-			print = Display::getInstance();
+    PrincipalMenu()
+    {
+        print = Display::getInstance();
 
-			menu = new Menu();
+        menu = new Menu();
 
-			menu->addItem(new Item("", "close"));
-			menu->addItem(new Item("Open the system protection.", "openSystemProtection"));
-			menu->addItem(new Item("Reset the Windows Update Components.", "resetwindowsUpdate"));
-			menu->addItem(new Item("Delete temporary files in Windows.", "delTempFiles"));
-			menu->addItem(new Item("Open the Internet Explorer options.", "openInternetOption"));
-			menu->addItem(new Item("Run Chkdsk on the Windows partition.", "checkDisk"));
-			menu->addItem(new Item("Run the System File Checker tool.", "scanSystemFiles"));
+        menu->addItem(new Item("", "close"));
+        menu->addItem(new Item("Open the system protection.", "openSystemProtection"));
+        menu->addItem(new Item("Reset the Windows Update Components.", "resetwindowsUpdate"));
+        menu->addItem(new Item("Delete temporary files in Windows.", "delTempFiles"));
+        menu->addItem(new Item("Open the Internet Explorer options.", "openInternetOption"));
+        menu->addItem(new Item("Run Chkdsk on the Windows partition.", "checkDisk"));
+        menu->addItem(new Item("Run the System File Checker tool.", "scanSystemFiles"));
+        menu->addItem(new Item("Scan the image for component store corruption.", "scanImageSystem"));
+        menu->addItem(new Item("Check whether the image has been flagged as corrupted.", "checkImageSystem"));
+        menu->addItem(new Item("Perform repair operations automatically.", "repairImageSystem"));
+        menu->addItem(new Item("Clean up the superseded components.", "cleanImageSystem"));
+        menu->addItem(new Item("Delete any incorrect registry values.", "changeRegistry"));
+        menu->addItem(new Item("Repair/Reset Winsock settings.", "resetWinsock"));
+        menu->addItem(new Item("Repair/Reset Winsock settings.", "resetStore"));
+        menu->addItem(new Item("Force Group Policy Update.", "gpupdate"));
+        menu->addItem(new Item("Search updates.", "searchUpdates"));
+        menu->addItem(new Item("Find the windows product key", "productKey"));
+        menu->addItem(new Item("Explore other local solutions.", "exploreLocalSolutions"));
+        menu->addItem(new Item("Explore other online solutions.", "exploreOnlineSolutions"));
+        menu->addItem(new Item("Restart your PC.", "restartComputer"));
+    }
 
-			if (os->getFamily() == 8 || os->getFamily() == 10)
-			{
-				menu->addItem(new Item("Scan the image for component store corruption.", "scanImageSystem"));
-				menu->addItem(new Item("Check whether the image has been flagged as corrupted.", "checkImageSystem"));
-				menu->addItem(new Item("Perform repair operations automatically.", "repairImageSystem"));
-				menu->addItem(new Item("Clean up the superseded components.", "cleanImageSystem"));
-			}
-
-			menu->addItem(new Item("Delete any incorrect registry values.", "changeRegistry"));
-			menu->addItem(new Item("Repair/Reset Winsock settings.", "resetWinsock"));
-			menu->addItem(new Item("Force Group Policy Update.", "gpupdate"));
-			menu->addItem(new Item("Search updates.", "searchUpdates"));
-
-			if (os->getFamily() == 8 || os->getFamily() == 10)
-			{
-				menu->addItem(new Item("Find the windows product key", "productKey"));
-			}
-
-			menu->addItem(new Item("Explore other local solutions.", "exploreLocalSolutions"));
-			menu->addItem(new Item("Explore other online solutions.", "exploreOnlineSolutions"));
-			menu->addItem(new Item("Restart your PC.", "restartComputer"));
-		}
-
-		/**
+    /**
 		 * Return the size of menu.
 		 * return size
 		 */
-		int getSize()
-		{
-			return menu->getSize();
-		}
+    int getSize()
+    {
+        return menu->getSize();
+    }
 
-		/**
+    /**
 		 * Show the menu options.
 		 */
-		void showOptions()
-		{
-			print->writeTopText("This tool reset the Windows Update Components.");
+    void showOptions()
+    {
+        print->writeTopText("This tool reset the Windows Update Components.");
 
-			int size = menu->getSize();
+        int size = menu->getSize();
 
-			for (int i = 1; i < size; i++)
-			{
-				string str = menu->getItem(i)->getText();
-				print->writeText("    ");
-				cout << i;
-				print->writeTextLine(". " + str);
-			}
+        for (int i = 1; i < size; i++)
+        {
+            string str = menu->getItem(i)->getText();
+            print->writeText("    ");
+            cout << i;
+            print->writeTextLine(". " + str);
+        }
 
-			print->writeTextLine("\n                            ?. Help.    *. Settings.    0. Close.\n");
+        print->writeTextLine("\n                            ?. Help.    *. Settings.    0. Close.\n");
 
-			print->writeText("Select an option: ");
-		}
+        print->writeText("Select an option: ");
+    }
 
-		/**
+    /**
 		 * Get an option by id.
 		 * return option
 		 */
-		string getOption(int pIndex)
-		{
-			return menu->getItem(pIndex)->getReference();
-		}
-
+    string getOption(int pIndex)
+    {
+        return menu->getItem(pIndex)->getReference();
+    }
 };
 
 #endif

@@ -45,8 +45,6 @@ Per la riparazione di Windows, selezionare queste opzioni nella stessa sequenza.
 
 Potrebbero essere necessari alcuni minuti per completare l'operazione di comando. Ricorda di riavviare il PC dopo aver eseguito ciascun comando.
 
-In Windows Vista y Windows 7, utilizzare System Update Readiness tool: [https://support.microsoft.com/it-it/kb/947821#bookmark-checksur](https://support.microsoft.com/it-it/kb/947821#bookmark-checksur).
-
 Se non è possibile riparare Windows, è necessario reinstallare il sistema.
 
 
@@ -54,7 +52,7 @@ Se non è possibile riparare Windows, è necessario reinstallare il sistema.
 
 Per iniziare l'installazione degli aggiornamenti, puoi accedere a Windows Update tramite l'opzione "Verifica aggiornamenti".
 
-Durante l'installazione degli aggiornamenti, si consiglia di installare da 5 a 20 aggiornamenti (solo per Windows 7, Windows 8, Windows 8.1).
+Durante l'installazione degli aggiornamenti, si consiglia di installare da 5 a 20 aggiornamenti (solo per Windows 8, Windows 8.1).
 
 
 ## Soluzioni online

@@ -3,14 +3,14 @@ Preguntas más frecuentes acerca de la herramienta Reset Windows Update.
 
 > ### Contenidos
 > 
-> [¿Por qué no funciona en Windows XP/Vista?](#por-qué-no-funciona-en-windows-xpvista) <br />
+> [¿Por qué no funciona en Windows XP/Vista/7?](#por-qué-no-funciona-en-windows-xpvista7) <br />
 > [¿Puedo usarlo en Windows Server?](#puedo-usarlo-en-windows-server) <br />
 > [¿Cómo puedo ayudar?](#cómo-puedo-ayudar)
 
 
-## ¿Por qué no funciona en Windows XP/Vista?
+## ¿Por qué no funciona en Windows XP/Vista/7?
 
-La versión script de esta herramienta puede restaurar los componentes de Windows Update en Windows XP/Vista. Sin embargo, Microsoft ha terminando el soporte extendido de su sistemas operativos en 2014 (Windows XP) y 2017 (Windows Vista).
+La versión script de esta herramienta puede restaurar los componentes de Windows Update en Windows XP/Vista/7. Sin embargo, Microsoft ha terminando el soporte extendido de su sistemas operativos en 2014 (Windows XP), 2017 (Windows Vista) y 2020 (Windows 7).
 
 Visite [Hoja de datos del ciclo de vida de Windows](https://support.microsoft.com/es-es/kb/13853) para más detalles.
 

@@ -45,8 +45,6 @@ For repair Windows, select these options in the same sequence. Selecting each op
 
 It may take several minutes for the command operation to be complete. Remember restart your PC after executing each command.
 
-For Windows Vista and Windows 7, use System Update Readiness tool: [https://support.microsoft.com/en-us/kb/947821#bookmark-checksur](https://support.microsoft.com/en-us/kb/947821#bookmark-checksur).
-
 If Windows is non-repairable, you should reinstall the system.
 
 
@@ -54,7 +52,7 @@ If Windows is non-repairable, you should reinstall the system.
 
 To start installing updates, you can go to Windows Update through of option "Search Updates".
 
-During the installation of updates, it is recommended to install 5 to 20 updates (Only Windows 7, Windows 8, Windows 8.1).
+During the installation of updates, it is recommended to install 5 to 20 updates (Only Windows 8, Windows 8.1).
 
 
 ## Online Solutions

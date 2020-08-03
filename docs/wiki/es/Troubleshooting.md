@@ -45,8 +45,6 @@ Para la reparación de Windows, seleccione estas opciones en la misma secuencia.
 
 Puede tomar varios minutos para que la operación de comandos sea completada. Recuerde reiniciar su PC después de ejecutar cada comando.
 
-En Windows Vista y Windows 7, use System Update Readiness tool: [https://support.microsoft.com/es-es/kb/947821#bookmark-checksur](https://support.microsoft.com/es-es/kb/947821#bookmark-checksur).
-
 Si Windows no se puede reparar, se debe volver a instalar el sistema.
 
 
@@ -54,7 +52,7 @@ Si Windows no se puede reparar, se debe volver a instalar el sistema.
 
 Para iniciar la instalación de actualizaciones, puede ir a Windows Update a través de la opción "Buscar actualizaciones".
 
-Durante la instalación de actualizaciones, se recomienda instalar 5 a 20 actualizaciones (sólo para Windows 7, Windows 8, Windows 8.1).
+Durante la instalación de actualizaciones, se recomienda instalar 5 a 20 actualizaciones (sólo para Windows 8, Windows 8.1).
 
 
 ## Soluciones en línea

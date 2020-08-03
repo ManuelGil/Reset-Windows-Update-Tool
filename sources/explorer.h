@@ -4,11 +4,11 @@
  * <p>Title: WUReset Project.</p>
  * <p>Description: Reset Windows Update Tool.</p>
  * <p>Copyright: Microsoft Public License (MS-PL).</p>
- * <p>Company: <a href="http://wureset.com/">Manuel Gil</a></p>
+ * <p>Company: <a href="https://wureset.com/">Manuel Gil</a></p>
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.8 $ $Date: 04/15/2019 $
+ * @version $Revision: 11.0.0.9 $ $Date: 06/11/2020 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -27,63 +27,62 @@ using namespace std;
 class Explorer
 {
 
-	private:
-		// -----------------------------------------------------------------
-		// Attributes
-		// -----------------------------------------------------------------
-		string path;
+private:
+    // -----------------------------------------------------------------
+    // Attributes
+    // -----------------------------------------------------------------
+    string path;
 
-	public:
-		/**
+public:
+    /**
 		 * Get the current directory.
 		 */
-		string getPath()
-		{
-			if (path == "")
-			{
-				char result[MAX_PATH];
-				GetModuleFileName(NULL, result, MAX_PATH);
+    string getPath()
+    {
+        if (path == "")
+        {
+            char result[MAX_PATH];
+            GetModuleFileName(NULL, result, MAX_PATH);
 
-				int pos = string(result).find_last_of("\\") + 1;
-				path = string(result).substr(0, pos);
-			}
+            int pos = string(result).find_last_of("\\") + 1;
+            path = string(result).substr(0, pos);
+        }
 
-			return path;
-		}
+        return path;
+    }
 
-		/**
+    /**
 		 * Check if a file exists.
 		 */
-		bool fileExists(string pFile)
-		{
-			if (FILE *file = fopen(pFile.c_str(), "r"))
-			{
-				fclose(file);
-				return true;
-			}
+    bool fileExists(string pFile)
+    {
+        if (FILE *file = fopen(pFile.c_str(), "r"))
+        {
+            fclose(file);
+            return true;
+        }
 
-			return false;
-		}
+        return false;
+    }
 
-		/**
+    /**
 		 * Check if a folder exists.
 		 */
-		bool folderExists(string pPath)
-		{
-			DWORD ftyp = GetFileAttributesA(pPath.c_str());
-			if (ftyp == INVALID_FILE_ATTRIBUTES)
-			{
-				return false;
-			}
+    bool folderExists(string pPath)
+    {
+        DWORD ftyp = GetFileAttributesA(pPath.c_str());
+        if (ftyp == INVALID_FILE_ATTRIBUTES)
+        {
+            return false;
+        }
 
-			if (ftyp & FILE_ATTRIBUTE_DIRECTORY)
-			{
-				return true;
-			}
+        if (ftyp & FILE_ATTRIBUTE_DIRECTORY)
+        {
+            return true;
+        }
 
-			return false;
-		}
-
+        return false;
+    }
 };
 
 #endif

@@ -3,14 +3,14 @@ Commonly asked questions about Reset Windows Update Tool.
 
 > ### Contents
 > 
-> [Why it does not work in Windows XP/Vista?](#why-it-does-not-work-in-windows-xpvista) <br />
+> [Why it does not work in Windows XP/Vista/7?](#why-it-does-not-work-in-windows-xpvista7) <br />
 > [Can I use it on Windows Server?](#can-i-use-it-on-windows-server) <br />
 > [How can I help?](#how-can-i-help)
 
 
-## Why it does not work in Windows XP/Vista?
+## Why it does not work in Windows XP/Vista/7?
 
-The script version of this tool can be restored to the Windows Update components in Windows XP/Vista. However, Microsoft ending the extended support of its Operative Systems in 2014 (Windows XP) and 2017 (Windows Vista).
+The script version of this tool can be restored to the Windows Update components in Windows XP/Vista/7. However, Microsoft ending the extended support of its Operative Systems in 2014 (Windows XP), 2017 (Windows Vista) and 2020 (Windows 7).
 
 Visit the [Windows lifecycle fact sheet](https://support.microsoft.com/en-us/kb/13853) for details.
 

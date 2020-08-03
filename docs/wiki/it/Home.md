@@ -1,5 +1,5 @@
 <div align="center">
-	<a href="https://www.wureset.com/">
+	<a href="https://wureset.com/">
 		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png?raw=true" alt="Logo" height="300" width="300">
 	</a>
 </div>
@@ -9,10 +9,10 @@
 		<img src="https://img.shields.io/badge/stability-stable-green.svg" alt="Status">
 	</a>
 	<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool#changelog">
-		<img src="https://img.shields.io/badge/release-v11.0.0.8-blue.svg" alt="Version">
+		<img src="https://img.shields.io/badge/release-v11.0.0.9-blue.svg" alt="Version">
 	</a>
 	<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool#changelog">
-		<img src="https://img.shields.io/badge/update-april-yellowgreen.svg" alt="Update">
+		<img src="https://img.shields.io/badge/update-june-yellowgreen.svg" alt="Update">
 	</a>
 	<a href="#license">
 		<img src="https://img.shields.io/badge/license-MS--PL%20License-green.svg" alt="License">
@@ -42,7 +42,7 @@ Questo documento è stato creato per descrivere le sequenze di processo per l'us
 
 ## Requisiti
 
-Questo strumento è compatibile con Windows 7, Windows 8, Windows 8.1 e Windows 10.
+Questo strumento è compatibile con Windows 8, Windows 8.1 e Windows 10.
 
 Quando viene eseguito lo strumento Reimposta Windows Update, viene rilevata la versione o il sistema operativo incorporato determinando il nome e la famiglia del sistema.
 

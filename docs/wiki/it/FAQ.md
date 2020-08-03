@@ -3,14 +3,14 @@ Domande frequenti sullo strumento Reimposta Windows Update.
 
 > ### Contenuto
 > 
-> [Perché non funziona su Windows XP/Vista?](#perché-non-funziona-su-windows-xpvista) <br />
+> [Perché non funziona su Windows XP/Vista/7?](#perché-non-funziona-su-windows-xpvista7) <br />
 > [Posso usarlo su Windows Server?](#posso-usarlo-su-windows-server) <br />
 > [Come posso aiutare?](#come-posso-aiutare)
 
 
-## Perché non funziona su Windows XP/Vista?
+## Perché non funziona su Windows XP/Vista/7?
 
-La versione script di questo strumento può ripristinare i componenti di Windows Update in Windows XP/Vista. Tuttavia, Microsoft ha terminato il supporto esteso dei suoi sistemi operativi nel 2014 (Windows XP) e 2017 (Windows Vista).
+La versione script di questo strumento può ripristinare i componenti di Windows Update in Windows XP/Vista/7. Tuttavia, Microsoft ha terminato il supporto esteso dei suoi sistemi operativi nel 2014 (Windows XP), 2017 (Windows Vista) e 2020 (Windows 7).
 
 Visita [Date importanti nel ciclo di vita di Windows](https://support.microsoft.com/it-it/kb/13853) per maggiori dettagli.
 

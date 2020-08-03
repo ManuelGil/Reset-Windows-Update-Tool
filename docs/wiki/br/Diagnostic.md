@@ -15,7 +15,7 @@ Os processos de correção podem ser divididos em três grupos:
 
 
 > ### Conteúdo
-> 
+>
 > [Ponto de restauração](#ponto-de-restauração) <br />
 > [Remover arquivos temporários](#remover-arquivos-temporários) <br />
 > [Redefinir o Internet Explorer](#redefinir-o-internet-explorer) <br />
@@ -67,6 +67,6 @@ Essa opção restaura as configurações de acesso à Internet, remove as restri
 
 O "Solução de problemas com o Windows Update" mostra um código de erro que nos ajudará a encontrar a solução para o nosso incidente. Se esta opção não mostrar o código de erro, uma ferramenta "Fix-it" poderá ser baixada para procurar o código de erro.
 
-Windows 7, Windows 8, Windows 8.1: [http://go.microsoft.com/?linkid=9830262](http://go.microsoft.com/?linkid=9830262)
+Windows 8, Windows 8.1: [http://go.microsoft.com/?linkid=9830262](http://go.microsoft.com/?linkid=9830262)
 
 Windows 10: [http://aka.ms/diag_wu](http://aka.ms/diag_wu)

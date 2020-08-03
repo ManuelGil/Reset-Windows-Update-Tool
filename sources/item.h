@@ -4,11 +4,11 @@
  * <p>Title: WUReset Project.</p>
  * <p>Description: Reset Windows Update Tool.</p>
  * <p>Copyright: Microsoft Public License (MS-PL).</p>
- * <p>Company: <a href="http://wureset.com/">Manuel Gil</a></p>
+ * <p>Company: <a href="https://wureset.com/">Manuel Gil</a></p>
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.8 $ $Date: 04/15/2019 $
+ * @version $Revision: 11.0.0.9 $ $Date: 06/11/2020 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -26,55 +26,54 @@ using namespace std;
 class Item
 {
 
-	private:
-		// -----------------------------------------------------------------
-		// Attributes
-		// -----------------------------------------------------------------
-		string text;
-		string reference;
+private:
+    // -----------------------------------------------------------------
+    // Attributes
+    // -----------------------------------------------------------------
+    string text;
+    string reference;
 
-	public:
-		/**
+public:
+    /**
 		 * Create a new option.
 		 */
-		Item(string pText, string pRef)
-		{
-			text = pText;
-			reference = pRef;
-		}
+    Item(string pText, string pRef)
+    {
+        text = pText;
+        reference = pRef;
+    }
 
-		/**
+    /**
 		 * Get text of the option.
 		 */
-		string getText()
-		{
-			return text;
-		}
+    string getText()
+    {
+        return text;
+    }
 
-		/**
+    /**
 		 * Get the link of the option.
 		 */
-		string getReference()
-		{
-			return reference;
-		}
+    string getReference()
+    {
+        return reference;
+    }
 
-		/**
+    /**
 		 * Set text of the option.
 		 */
-		void setText(string pText)
-		{
-			text = pText;
-		}
+    void setText(string pText)
+    {
+        text = pText;
+    }
 
-		/**
+    /**
 		 * Set link of the option.
 		 */
-		void setReference(string pRef)
-		{
-			reference = pRef;
-		}
-
+    void setReference(string pRef)
+    {
+        reference = pRef;
+    }
 };
 
 #endif

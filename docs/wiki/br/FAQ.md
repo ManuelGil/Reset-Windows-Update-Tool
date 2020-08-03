@@ -3,14 +3,14 @@ Perguntas freqüentes sobre a ferramenta Redefinir o Windows Update.
 
 > ### Conteúdo
 > 
-> [Por que não funciona no Windows XP/Vista?](#por-que-não-funciona-no-windows-xpvista) <br />
+> [Por que não funciona no Windows XP/Vista/7?](#por-que-não-funciona-no-windows-xpvista7) <br />
 > [Posso usá-lo no Windows Server?](#posso-usá-lo-no-windows-server) <br />
 > [Como posso ajudar?](#como-posso-ajudar)
 
 
-## Por que não funciona no Windows XP/Vista?
+## Por que não funciona no Windows XP/Vista/7?
 
-A versão do script desta ferramenta pode restaurar os componentes do Windows Update no Windows XP / Vista. No entanto, a Microsoft encerrou o suporte estendido de seus sistemas operacionais em 2014 (Windows XP) e 2017 (Windows Vista).
+A versão do script desta ferramenta pode restaurar os componentes do Windows Update no Windows XP/Vista/7. No entanto, a Microsoft encerrou o suporte estendido de seus sistemas operacionais em 2014 (Windows XP), 2017 (Windows Vista) e 2020 (Windows 7).
 
 Consulte [Ficha informativa do ciclo de vida do Windows](https://support.microsoft.com/pt-br/kb/13853) para obter mais detalhes.
 

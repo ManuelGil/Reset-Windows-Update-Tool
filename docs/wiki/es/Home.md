@@ -1,5 +1,5 @@
 <div align="center">
-	<a href="https://www.wureset.com/">
+	<a href="https://wureset.com/">
 		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png?raw=true" alt="Logo" height="300" width="300">
 	</a>
 </div>
@@ -9,10 +9,10 @@
 		<img src="https://img.shields.io/badge/stability-stable-green.svg" alt="Status">
 	</a>
 	<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool#changelog">
-		<img src="https://img.shields.io/badge/release-v11.0.0.8-blue.svg" alt="Version">
+		<img src="https://img.shields.io/badge/release-v11.0.0.9-blue.svg" alt="Version">
 	</a>
 	<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool#changelog">
-		<img src="https://img.shields.io/badge/update-april-yellowgreen.svg" alt="Update">
+		<img src="https://img.shields.io/badge/update-june-yellowgreen.svg" alt="Update">
 	</a>
 	<a href="#license">
 		<img src="https://img.shields.io/badge/license-MS--PL%20License-green.svg" alt="License">
@@ -42,7 +42,7 @@ Este documento ha sido creado para describir las secuencias de proceso para el u
 
 ## Requisitos
 
-Esta herramienta es compatible con Windows 7, Windows 8, Windows 8.1 y Windows 10.
+Esta herramienta es compatible con Windows 8, Windows 8.1 y Windows 10.
 
 Cuando se ejecuta la herramienta Reset Windows Update, se detecta la versión o built del sistema operativo determinando el nombre y la familia del sistema.
 
