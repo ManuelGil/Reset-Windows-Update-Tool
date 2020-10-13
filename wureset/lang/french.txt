@@ -14,12 +14,12 @@
 # Warnings
 1000|Appuyez sur n'importe quelle touche pour continuer . . .
 1001|Une erreur inattendue s'est produite.
-1002|Choisissez une option: 
+1002|Choisissez une option:
 1003|Option invalide.
 1004|Nous sommes désolés, cette option n'est pas disponible dans ce système d'exploitation.
 1005|L'opération s'est terminée avec succès.
 1006|Une erreur est survenue pendant l'opération.
-1007|Impossible d'arrêter le service. Voulez-vous essayer à nouveau? (O/N): 
+1007|Impossible d'arrêter le service. Voulez-vous essayer à nouveau? (O/N):
 
 # Compatibility
 2000|Nous sommes désolés, ce système d'exploitation n'est pas compatible avec cet outil.
@@ -32,7 +32,7 @@
 # Terms
 4000|Termes et conditions d'utilisation.
 4001|    Les méthodes de cet outil modifient les fichiers et les paramètres du\n    registre.\n    Aucune responsabilité n'est assumée pour l'utilisation de cet outil.\n\n    Cet outil est fourni sans garantie. Tout dommage causé est de votre\n    propre responsabilité.\n\n    N'hésitez pas à examiner le code si vous n'êtes pas sûr.\n    https://github.com/ManuelGil\n
-4002|Voulez-vous continuer avec ce processus? (O/N): 
+4002|Voulez-vous continuer avec ce processus? (O/N):
 
 # Menu
 5000|Cet outil va restaurer les composants Windows Update.
@@ -82,7 +82,7 @@
 6023|Effectuer des opérations de réparation automatiques (DISM /RestoreHealth).
 6024|Nettoyer les composants supprimés (DISM /StartComponentCleanup).
 6025|Changer les valeurs incorrectes dans le registre.
-6026|Créer une copie de l'enregistrement dans: 
+6026|Créer une copie de l'enregistrement dans:
 6027|    Les modifications n'ont pas été effectuées dans le registre.\n
 6028|    Réessayez plus tard.\n
 6029|Vérification de la sauvegarde.
@@ -151,7 +151,7 @@
 
 # Help
 8000|index.html
-8001|https://wureset.com/docs
+8001|https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
 
 # Updates wureset 11.0.0.7
 # ---------
@@ -159,8 +159,10 @@
 # Menu
 9000|Force la mise à jour de stratégie de groupe.
 9001|Trouvez la clé de produit Windows.
+9002|Reset Microsoft Windows Store.
 
 # Functions
 9100|Annulation du processus de mise à jour Windows.
 9101|Forcer la mise à jour de la stratégie de groupe
 9102|Recherche de la clé de produit.
+9103|Reset or Clear Microsoft Windows Store Cache.

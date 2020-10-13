@@ -14,12 +14,12 @@
 # Warnings
 1000|Pulse cualquier tecla para continuar . . .
 1001|Se ha producido un error inesperado.
-1002|Seleccione una opción: 
+1002|Seleccione una opción:
 1003|Opción no válida.
 1004|Lo sentimos, esta opción no está disponible en este Sistema Operativo.
 1005|La operación se completó con exito.
 1006|Se ha producido un error durante la operación.
-1007|No se ha podido detener el servicio. ¿Desea intentarlo de nuevo? (S/N): 
+1007|No se ha podido detener el servicio. ¿Desea intentarlo de nuevo? (S/N):
 
 # Compatibility
 2000|Lo sentimos, este Sistema Operativo no es compatible con esta herramienta.
@@ -32,7 +32,7 @@
 # Terms
 4000|Términos y Condiciones de Uso.
 4001|    Los métodos dentro de esta herramienta modifican los archivos y la\n    configuración del registro.\n    No se asume ninguna responsabilidad por el uso de esta herramienta.\n\n    Se proporciona esta herramienta sin garantía. Cualquier daño causado es su\n    propia responsabilidad.\n\n    Si no está seguro, no dude en revisar el código.\n    https://github.com/ManuelGil\n
-4002|¿Quieres continuar con este proceso? (S/N): 
+4002|¿Quieres continuar con este proceso? (S/N):
 
 # Menu
 5000|Esta herramienta restablece los componentes de Windows Update.
@@ -82,7 +82,7 @@
 6023|Realiza las operaciones de reparación automática (Argumento DISM /RestoreHealth).
 6024|Limpia los componentes eliminados (Argumento DISM /StartComponentCleanup).
 6025|Cambiando los valores incorrectos en el Registro.
-6026|Creando una copia del registro en: 
+6026|Creando una copia del registro en:
 6027|    Los cambios no se llevaron a cabo en el registro.\n
 6028|    Inténtelo más tarde.\n
 6029|Comprobando la copia de seguridad.
@@ -151,7 +151,7 @@
 
 # Help
 8000|index.html
-8001|https://wureset.com/docs
+8001|https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
 
 # Updates wureset 11.0.0.7
 # ---------
@@ -159,8 +159,10 @@
 # Menu
 9000|Forzar la actualización de directivas.
 9001|Encontrar la clave de producto de Windows.
+9002|Reset Microsoft Windows Store.
 
 # Functions
 9100|Cancelando el proceso de Windows Update.
 9101|Forzando la actualización de directivas.
 9102|Buscando la clave de producto.
+9103|Reset or Clear Microsoft Windows Store Cache.

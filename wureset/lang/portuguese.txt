@@ -14,12 +14,12 @@
 # Warnings
 1000|Pressione qualquer tecla para continuar . . .
 1001|Ocorreu um erro inesperado.
-1002|Escolha uma op��o: 
+1002|Escolha uma op��o:
 1003|Op��o inv�lida.
 1004|Lamentamos, esta op��o n�o est� dispon�vel neste sistema operacional.
 1005|A opera��o foi conclu�da com sucesso.
 1006|Ocorreu um erro durante a opera��o.
-1007|N�o � poss�vel parar o servi�o. Voc� quer tentar novamente? (S/N): 
+1007|N�o � poss�vel parar o servi�o. Voc� quer tentar novamente? (S/N):
 
 # Compatibility
 2000|Lamentamos, este sistema operacional n�o � compat�vel com esta ferramenta.
@@ -32,7 +32,7 @@
 # Terms
 4000|Termos e Condi��es de Uso.
 4001|    Os m�todos desta ferramenta modificam os arquivos e as configura��es de\n    registro.\n    N�o � assumida qualquer responsabilidade pelo uso desta ferramenta.\n\n    Esta ferramenta � fornecida sem garantia. Qualquer dano causado � sua\n    pr�pria responsabilidade.\n\n    N�o hesite em examinar o c�digo se n�o tiver certeza.\n    https://github.com/ManuelGil\n
-4002|Deseja continuar com esse processo? (S/N): 
+4002|Deseja continuar com esse processo? (S/N):
 
 # Menu
 5000|Esta ferramenta ir� restaurar os componentes do Windows Update.
@@ -82,7 +82,7 @@
 6023|Realizar opera��es de repara��o autom�tica (DISM /RestoreHealth).
 6024|Limpe os componentes exclu�dos (DISM /StartComponentCleanup).
 6025|Alterando os valores incorretos no Registro.
-6026|Criando uma c�pia do registro em: 
+6026|Criando uma c�pia do registro em:
 6027|    As altera��es n�o foram feitas no registro.\n
 6028|    Tente novamente mais tarde.\n
 6029|Verificando o backup.
@@ -151,7 +151,7 @@
 
 # Help
 8000|index.html
-8001|https://wureset.com/docs
+8001|https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
 
 # Updates wureset 11.0.0.7
 # ---------
@@ -159,8 +159,10 @@
 # Menu
 9000|For�ar atualiza��o de pol�tica de grupo.
 9001|Encontre a chave do produto Windows.
+9002|Reset Microsoft Windows Store.
 
 # Functions
 9100|Cancelando o processo de atualiza��o do Windows.
 9101|For�ando a atualiza��o da pol�tica de grupo.
 9102|Procurando pela chave do produto.
+9103|Reset or Clear Microsoft Windows Store Cache.

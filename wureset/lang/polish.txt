@@ -151,7 +151,7 @@
 
 # Pomoc
 8000|index.html
-8001|https://wureset.com/docs
+8001|https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
 
 # Aktualizacje wureset 11.0.0.7
 # ---------
@@ -159,8 +159,10 @@
 # Menu
 9000|Wymuś zasady aktualizacji.
 9001|Znajdz klucz produktu Windows.
+9002|Reset Microsoft Windows Store.
 
 # Funkcje
 9100|Anulowanie procesu Windows Update.
 9101|Wymuszenie aktualizacji zasad.
 9102|Wyszukiwanie klucza produktu.
+9103|Reset or Clear Microsoft Windows Store Cache.

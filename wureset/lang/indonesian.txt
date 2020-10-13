@@ -14,12 +14,12 @@
 # Warnings
 1000|Tekan tombol apa saja untuk melanjutkan . . .
 1001|Kesalahan tak terduga telah muncul.
-1002|Pilih opsi: 
+1002|Pilih opsi:
 1003|Opsi tidak valid.
 1004|Maaf, opsi ini tidak tersedia di Sistem Operasi ini.
 1005|Operasi ini berhasil diselesaikan.
 1006|Kesalahan terjadi selama operasi.
-1007|Tidak dapat menghentikan layanan. Apakah Anda ingin mencoba lagi? (Y/N): 
+1007|Tidak dapat menghentikan layanan. Apakah Anda ingin mencoba lagi? (Y/N):
 
 # Compatibility
 2000|Maaf, Sistem Operasi ini tidak kompatibel dengan alat ini.
@@ -32,7 +32,7 @@
 # Terms
 4000|Syarat dan Ketentuan Penggunaan.
 4001|    Metode di dalam alat ini mengubah file dan pengaturan registri.\n    Ketika Anda diuji dan cenderung bekerja, Kami tidak bertanggung jawab atas\n    penggunaan alat ini.\n\n    Alat ini disediakan tanpa jaminan. Kerusakan apa pun yang ditimbulkan adalah milik Anda\n    tanggung jawab sendiri.\n\n    Jangan ragu untuk meninjau kode jika Anda tidak yakin.\n    https://github.com/ManuelGil\n
-4002|Apakah Anda ingin melanjutkan proses ini? (Y/N): 
+4002|Apakah Anda ingin melanjutkan proses ini? (Y/N):
 
 # Menu
 5000|Alat ini mereset Komponen Pembaruan Windows.
@@ -82,7 +82,7 @@
 6023|Pindai gambar untuk korupsi penyimpanan komponen, dan kemudian lakukan operasi perbaikan secara otomatis (Argumen DISM /RestoreHealth).
 6024|Bersihkan komponen yang digantikan dan kurangi ukuran penyimpanan komponen (Argumen DISM /StartComponentCleanup).
 6025|Ubah nilai yang tidak valid di Registry.
-6026|Membuat salinan cadangan dari Registry di: 
+6026|Membuat salinan cadangan dari Registry di:
 6027|    Perubahan tidak dilakukan di registri.\n
 6028|    Akan coba nanti.\n
 6029|Memeriksa cadangan.
@@ -151,7 +151,7 @@
 
 # Help
 8000|index.html
-8001|https://wureset.com/docs
+8001|https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
 
 # Updates wureset 11.0.0.7
 # ---------
@@ -159,8 +159,10 @@
 # Menu
 9000|Paksa Pembaruan Kebijakan Grup.
 9001|Temukan kunci produk Windows.
+9002|Reset Microsoft Windows Store.
 
 # Functions
 9100|Membatalkan proses Pembaruan Windows.
 9101|Memaksa pembaruan kebijakan grup.
 9102|Mencari kunci produk.
+9103|Reset or Clear Microsoft Windows Store Cache.

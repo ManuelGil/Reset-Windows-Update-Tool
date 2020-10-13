@@ -4,11 +4,11 @@
  * <p>Title: WUReset Project.</p>
  * <p>Description: Reset Windows Update Tool.</p>
  * <p>Copyright: Microsoft Public License (MS-PL).</p>
- * <p>Company: <a href="https://wureset.com/">Manuel Gil</a></p>
+ * <p>Company: <a href="https://imgil.dev/">Manuel Gil</a></p>
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.9 $ $Date: 06/11/2020 $
+ * @version $Revision: 11.0.0.9 $ $Date: 10/12/2020 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -62,7 +62,7 @@ public:
         menu->addItem(new Item("Clean up the superseded components.", "cleanImageSystem"));
         menu->addItem(new Item("Delete any incorrect registry values.", "changeRegistry"));
         menu->addItem(new Item("Repair/Reset Winsock settings.", "resetWinsock"));
-        menu->addItem(new Item("Repair/Reset Winsock settings.", "resetStore"));
+        menu->addItem(new Item("Reset Microsoft Windows Store.", "resetStore"));
         menu->addItem(new Item("Force Group Policy Update.", "gpupdate"));
         menu->addItem(new Item("Search updates.", "searchUpdates"));
         menu->addItem(new Item("Find the windows product key", "productKey"));

@@ -14,12 +14,12 @@
 # Warnings
 1000|Press any key to continue . . .
 1001|An unexpected error has occurred.
-1002|Select an option: 
+1002|Select an option:
 1003|Invalid option.
 1004|Sorry, this option is not available on this Operating System.
 1005|The operation completed successfully.
 1006|An error occurred during operation.
-1007|Cannot stop the service. Do you want to try again? (Y/N): 
+1007|Cannot stop the service. Do you want to try again? (Y/N):
 
 # Compatibility
 2000|Sorry, this Operating System is not compatible with this tool.
@@ -32,7 +32,7 @@
 # Terms
 4000|Terms and Conditions of Use.
 4001|    The methods inside this tool modify files and registry settings.\n    While you are tested and tend to work, We not take responsibility for\n    the use of this tool.\n\n    This tool is provided without warranty. Any damage caused is your\n    own responsibility.\n\n    Feel free to review the code if you're unsure.\n    https://github.com/ManuelGil\n
-4002|Do you want to continue with this process? (Y/N): 
+4002|Do you want to continue with this process? (Y/N):
 
 # Menu
 5000|This tool reset the Windows Update Components.
@@ -82,7 +82,7 @@
 6023|Scan the image for component store corruption, and then perform repair operations automatically (The DISM /RestoreHealth argument).
 6024|Clean up the superseded components and reduce the size of the component store (The DISM /StartComponentCleanup argument).
 6025|Change invalid values in the Registry.
-6026|Making a backup copy of the Registry in: 
+6026|Making a backup copy of the Registry in:
 6027|    Changes were not carried out in the registry.\n
 6028|    Will try it later.\n
 6029|Checking the backup.
@@ -151,7 +151,7 @@
 
 # Help
 8000|index.html
-8001|https://wureset.com/docs
+8001|https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
 
 # Updates wureset 11.0.0.7
 # ---------
@@ -159,8 +159,10 @@
 # Menu
 9000|Force Group Policy Update.
 9001|Find the windows product key.
+9002|Reset Microsoft Windows Store.
 
 # Functions
 9100|Canceling the Windows Update process.
 9101|Forcing group policy update.
 9102|Searching the product key.
+9103|Reset or Clear Microsoft Windows Store Cache.

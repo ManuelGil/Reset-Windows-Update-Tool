@@ -14,12 +14,12 @@
 # Warnings
 1000|Premere un tasto qualsiasi per continuare . . .
 1001|Si è verificato un errore imprevisto.
-1002|Scegli un'opzione: 
+1002|Scegli un'opzione:
 1003|Opzione non valida.
 1004|Siamo spiacenti, questa opzione non è disponibile in questo sistema operativo.
 1005|L'operazione è stata completata con successo.
 1006|Si è verificato un errore durante l'operazione.
-1007|mpossibile interrompere il servizio. Vuoi provare ancora? (S/N): 
+1007|mpossibile interrompere il servizio. Vuoi provare ancora? (S/N):
 
 # Compatibility
 2000|Siamo spiacenti, questo sistema operativo non è compatibile con questo strumento.
@@ -32,7 +32,7 @@
 # Terms
 4000|Termini e condizioni d'uso.
 4001|    I metodi di questo strumento modificano i file e le impostazioni del\n    registro.\n    Non si assume alcuna responsabilità per l'uso di questo strumento.\n\n    Questo strumento è fornito senza garanzia. Qualsiasi danno causato è sotto\n    la tua responsabilità.\n\n    Non esitare a esaminare il codice se non sei sicuro.\n    https://github.com/ManuelGil\n
-4002|Vuoi continuare con questo processo? (S/N): 
+4002|Vuoi continuare con questo processo? (S/N):
 
 # Menu
 5000|Questo strumento ripristinerà i componenti di Windows Update.
@@ -82,7 +82,7 @@
 6023|Eseguire operazioni di riparazione automatica (DISM /RestoreHealth).
 6024|Pulisci i componenti cancellati (DISM /StartComponentCleanup).
 6025|Modifica dei valori errati nel registro.
-6026|Creazione di una copia del registro in: 
+6026|Creazione di una copia del registro in:
 6027|    Le modifiche non sono state effettuate nel registro.\n
 6028|    Riprova più tardi.\n
 6029|Controllo del backup.
@@ -151,7 +151,7 @@
 
 # Help
 8000|index.html
-8001|https://wureset.com/docs
+8001|https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
 
 # Updates wureset 11.0.0.7
 # ---------
@@ -159,8 +159,10 @@
 # Menu
 9000|Forza l'aggiornamento dei criteri di gruppo.
 9001|Trovare il codice product key di Windows.
+9002|Reset Microsoft Windows Store.
 
 # Functions
 9100|Annullamento del processo di aggiornamento di Windows.
 9101|Forzare l'aggiornamento della politica di gruppo.
 9102|Ricerca il codice product key.
+9103|Reset or Clear Microsoft Windows Store Cache.

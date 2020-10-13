@@ -1,6 +1,6 @@
 <div align="center">
 	<a href="https://wureset.com/">
-		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png?raw=true" alt="Logo" height="300" width="300">
+		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset_5y.png?raw=true" alt="Logo" height="300" width="300">
 	</a>
 </div>
 <br />
@@ -12,7 +12,7 @@
 		<img src="https://img.shields.io/badge/release-v11.0.0.9-blue.svg" alt="Version">
 	</a>
 	<a href="https://github.com/ManuelGil/Reset-Windows-Update-Tool#changelog">
-		<img src="https://img.shields.io/badge/update-june-yellowgreen.svg" alt="Update">
+		<img src="https://img.shields.io/badge/update-october-yellowgreen.svg" alt="Update">
 	</a>
 	<a href="#license">
 		<img src="https://img.shields.io/badge/license-MS--PL%20License-green.svg" alt="License">
@@ -33,7 +33,7 @@ Ce document a été créé pour décrire les séquences de processus pour l'util
 
 
 > ### Contenu
-> 
+>
 > [Exigences](#exigences) <br />
 > [Glossaire](#glossaire) <br />
 > [Référence](#référence) <br />

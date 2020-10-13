@@ -4,7 +4,7 @@
 
 <div align="center">
 	<a href="https://wureset.com/">
-		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png?raw=true" alt="Logo" height="300" width="300">
+		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset_5y.png?raw=true" alt="Logo" height="300" width="300">
 	</a>
 </div>
 <br />
@@ -16,7 +16,7 @@
 		<img src="https://img.shields.io/badge/release-v11.0.0.9-blue.svg" alt="Version">
 	</a>
 	<a href="#changelog">
-		<img src="https://img.shields.io/badge/update-june-yellowgreen.svg" alt="Update">
+		<img src="https://img.shields.io/badge/update-october-yellowgreen.svg" alt="Update">
 	</a>
 	<a href="#license">
 		<img src="https://img.shields.io/badge/license-MS--PL%20License-green.svg" alt="License">
@@ -53,7 +53,7 @@ temporary files, scan, detect and repair corruptions with the Windows System
 image, scan all protected system files and replace any corrupted files, change
 invalid values in the Windows Registry, reset Winsock settings and more.
 
--   Wiki: [:us:][:es:] [:it:][:brazil:] [:fr:]
+-   Wiki: [:us:][:es:][:it:][:brazil:][:fr:]
 
 -   Issues: [Issue Tracker](https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues)
 
@@ -91,7 +91,7 @@ If you want to help me to continue this project, you might donate via PayPal.
 
 ## :information_source: Changelog
 
-**11.0.0.9** (07/11/2020)
+**11.0.0.9** (10/12/2020)
 
 -   <table border="0" cellpadding="4">
     	<tr>
@@ -127,10 +127,10 @@ If you want to help me to continue this project, you might donate via PayPal.
     		<td>
     			<ul>
     				<li>
-    					Change ms-settings:windowsupdate to ms-settings:windowsupdate-action.
+    					Change the Service Security Descriptors.
     				</li>
     				<li>
-    					Add link to the configuration from the menu
+    					Add the Restore Microsoft Store command
     				</li>
     			</ul>
     		</td>

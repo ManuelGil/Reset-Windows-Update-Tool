@@ -14,12 +14,12 @@
 # Warnings
 1000|Drücken Sie eine beliebige Taste, um fortzufahren . . .
 1001|Ein unerwarteter Fehler ist aufgetreten.
-1002|Wählen Sie eine Option: 
+1002|Wählen Sie eine Option:
 1003|Ungültige Option.
 1004|Es tut uns leid, diese Option ist für dieses Betriebssystem nicht verfügbar.
 1005|Der Vorgang wurde erfolgreich abgeschlossen.
 1006|Während des Vorgangs ist ein Fehler aufgetreten.
-1007|Der Dienst konnte nicht gestoppt werden. Möchten Sie es noch einmal versuchen? (J/N): 
+1007|Der Dienst konnte nicht gestoppt werden. Möchten Sie es noch einmal versuchen? (J/N):
 
 # Compatibility
 2000|Es tut uns leid, dieses Betriebssystem ist nicht mit diesem Tool kompatibel.
@@ -32,7 +32,7 @@
 # Terms
 4000|Nutzungsbedingungen.
 4001|    Die Methoden in diesem Tool ändern Dateien und\n    Registrierungseinstellungen.\n    Es wird keine Verantwortung für die Verwendung dieses Tools übernommen.\n\n    Dieses Tool wird ohne Garantie geliefert. Jeder verursachte Schaden ist Ihre\n    eigene Verantwortung.\n\n    Zögern Sie nicht, den Code zu überprüfen, wenn Sie nicht sicher sind.\n    https://github.com/ManuelGil\n
-4002|Möchten Sie mit diesem Prozess fortfahren? (J/N): 
+4002|Möchten Sie mit diesem Prozess fortfahren? (J/N):
 
 # Menu
 5000|Dieses Tool wird die Windows Update-Komponenten wiederherstellen.
@@ -82,7 +82,7 @@
 6023|Automatische Reparaturvorgänge durchführen (DISM /RestoreHealth).
 6024|Abgelöste Komponenten entfernen, um die Größe des Komponentenspeichers zu verringern (DISM /StartComponentCleanup).
 6025|Fehlerhafte Werte aus der Registrierung entfernen.
-6026|Kopie der Registrierung in folgendem Ordner speichern: 
+6026|Kopie der Registrierung in folgendem Ordner speichern:
 6027|    Es wurden keine Änderungen in der Registrierung vorgenommen.\n
 6028|    Versuchen Sie es später noch einmal.\n
 6029|Überprüfen der Sicherung.
@@ -151,7 +151,7 @@
 
 # Help
 8000|index.html
-8001|https://wureset.com/docs
+8001|https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
 
 # Updates wureset 11.0.0.7
 # ---------
@@ -159,8 +159,10 @@
 # Menu
 9000|Gruppenrichtlinienaktualisierung erzwingen.
 9001|Suchen Sie den Windows-Produktschlüssel.
+9002|Reset Microsoft Windows Store.
 
 # Functions
 9100|Windows-Aktualisierungsprozesses abbrechen.
 9101|Gruppenrichtlinienaktualisierung erzwingen.
 9102|Suche nach dem Produktschlüssel.
+9103|Reset or Clear Microsoft Windows Store Cache.
