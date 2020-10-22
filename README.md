@@ -53,7 +53,7 @@ temporary files, scan, detect and repair corruptions with the Windows System
 image, scan all protected system files and replace any corrupted files, change
 invalid values in the Windows Registry, reset Winsock settings and more.
 
--   Wiki: [:us:][:es:][:it:][:brazil:][:fr:]
+-   Wiki: [:us:] [:es:] [:it:] [:brazil:] [:fr:]
 
 -   Issues: [Issue Tracker](https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues)
 
@@ -553,6 +553,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 -   **Akhil09** - _Guest_ - [Akhil09](https://github.com/Akhil09)
 -   **Michael Wiarda** - _Guest_ - [xift](https://github.com/xift)
 -   **Jovan Ferryal E. F.** - _Guest_ - [jovanzers](https://github.com/jovanzers)
+-   **Santiago Rey** - _Guest_ - [SantiRey](https://github.com/SantiRey)
 
 See also the list of [contributors](https://github.com/ManuelGil/Reset-Windows-Update-Tool/contributors)
 who participated in this project.
