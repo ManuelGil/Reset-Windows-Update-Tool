@@ -28,8 +28,8 @@ class Error
 
 public:
     /**
-		 * Show a message in concole.
-		 */
+	 * Show a message in concole.
+	 */
     void showMessage(string pMessage)
     {
         // Create a auxiliar string.

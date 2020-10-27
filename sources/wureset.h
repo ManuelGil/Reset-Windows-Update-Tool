@@ -44,16 +44,16 @@ private:
 
 public:
     /**
-		 * Initialize of components.
-		 */
+	 * Initialize of components.
+	 */
     WUReset()
     {
         initComponents();
     }
 
     /**
-		 * Load the relations.
-		 */
+	 * Load the relations.
+	 */
     void initComponents()
     {
         print = Display::getInstance();
@@ -63,8 +63,8 @@ public:
     }
 
     /**
-		 * Performs the main functions.
-		 */
+	 * Performs the main functions.
+	 */
     void run()
     {
         functions->compatibility();
@@ -74,8 +74,8 @@ public:
     }
 
     /**
-		 * Load and show the principal menu.
-		 */
+	 * Load and show the principal menu.
+	 */
     void showMenu()
     {
         menu = new PrincipalMenu();
@@ -130,8 +130,8 @@ public:
     }
 
     /**
-		 * Check the option by the link.
-		 */
+	 * Check the option by the link.
+	 */
     void checkOption(string pOption)
     {
         if (pOption == "openSystemProtection")

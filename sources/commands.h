@@ -38,24 +38,24 @@ private:
 
 public:
     /**
-		 * Create a manager for command-lines.
-		 */
+	 * Create a manager for command-lines.
+	 */
     Commands()
     {
         exec = new Executer();
     }
 
     /**
-		 * Get a manager for command-lines.
-		 */
+	 * Get a manager for command-lines.
+	 */
     Executer *getExecuter()
     {
         return exec;
     }
 
     /**
-		 * Get a current date.
-		 */
+	 * Get a current date.
+	 */
     string now()
     {
         string str = "";
@@ -71,32 +71,32 @@ public:
     }
 
     /**
-		 * Launch a program or system property.
-		 */
+	 * Launch a program or system property.
+	 */
     void start(string pCommand)
     {
         exec->start(pCommand);
     }
 
     /**
-		 * Open a link on the browser.
-		 */
+	 * Open a link on the browser.
+	 */
     void browser(string pLink)
     {
         exec->browser(pLink);
     }
 
     /**
-		 * Open a file.
-		 */
+	 * Open a file.
+	 */
     void open(string pPath, string pFile)
     {
         exec->open(pPath, pFile);
     }
 
     /**
-		 * Start a service.
-		 */
+	 * Start a service.
+	 */
     void startService(string pService)
     {
         string str = "net start " + pService;
@@ -104,8 +104,8 @@ public:
     }
 
     /**
-		 * Stop a service.
-		 */
+	 * Stop a service.
+	 */
     void stopService(string pService)
     {
         string str = "net stop " + pService;
@@ -113,8 +113,8 @@ public:
     }
 
     /**
-		 * Delete a file.
-		 */
+	 * Delete a file.
+	 */
     void delFile(string pFile)
     {
         string str = "del /s /q /f \"" + pFile + "\"";
@@ -122,8 +122,8 @@ public:
     }
 
     /**
-		 * Delete a directory.
-		 */
+	 * Delete a directory.
+	 */
     void delFolder(string pFolder)
     {
         string str = "rmdir /s /q \"" + pFolder + "\"";
@@ -131,8 +131,8 @@ public:
     }
 
     /**
-		 * Rename a directory.
-		 */
+	 * Rename a directory.
+	 */
     void rename(string pName, string pNewName)
     {
         string str = "takeown /f \"" + pName + "\"";
@@ -146,8 +146,8 @@ public:
     }
 
     /**
-		 * Register a library.
-		 */
+	 * Register a library.
+	 */
     void regLibrary(string pLibrary)
     {
         string str = "regsvr32.exe /s \"" + pLibrary + "\"";
@@ -155,8 +155,8 @@ public:
     }
 
     /**
-		 * Add keys in the Registry.
-		 */
+	 * Add keys in the Registry.
+	 */
     void regAdd(string pKey, string pValue, string pType, string pData)
     {
         string str = "reg add \"" + pKey + "\" /v \"" + pValue + "\" /t \"" + pType + "\" /d \"" + pData + "\" /f";
@@ -164,8 +164,8 @@ public:
     }
 
     /**
-		 * Delete keys in the Registry.
-		 */
+	 * Delete keys in the Registry.
+	 */
     void regDelete(string pKey)
     {
         string str = "reg delete \"" + pKey + "\" /f";
@@ -173,8 +173,8 @@ public:
     }
 
     /**
-		 * Delete keys in the Registry.
-		 */
+	 * Delete keys in the Registry.
+	 */
     void regDelete(string pKey, string pValue)
     {
         string str = "reg delete \"" + pKey + "\" /v \"" + pValue + "\" /f";
@@ -182,32 +182,32 @@ public:
     }
 
     /**
-		 * Launch the command-line.
-		 */
+	 * Launch the command-line.
+	 */
     int executer(string pCommand)
     {
         return system(pCommand.c_str());
     }
 
     /**
-		 * Clean the screen.
-		 */
+	 * Clean the screen.
+	 */
     void clean()
     {
         system("cls");
     }
 
     /**
-		 * Pause the program execution.
-		 */
+	 * Pause the program execution.
+	 */
     void pause()
     {
         system("pause>nul");
     }
 
     /**
-		 * Close the program.
-		 */
+	 * Close the program.
+	 */
     void close()
     {
         system("color 07");

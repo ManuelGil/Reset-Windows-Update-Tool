@@ -37,16 +37,16 @@ private:
 
 public:
     /**
-		 * Create a manager for the files.
-		 */
+	 * Create a manager for the files.
+	 */
     Executer()
     {
         explorer = new Explorer();
     }
 
     /**
-		 * Launch a program or system property.
-		 */
+	 * Launch a program or system property.
+	 */
     void start(string pCommand)
     {
         string cmd = "start " + pCommand;
@@ -54,8 +54,8 @@ public:
     }
 
     /**
-		 * Browse a link at Internet Explorer.
-		 */
+	 * Browse a link at Internet Explorer.
+	 */
     void browser(string pLink)
     {
         string cmd = "start iexplore.exe " + pLink;
@@ -63,8 +63,8 @@ public:
     }
 
     /**
-		 * Open a file in the directory.
-		 */
+	 * Open a file in the directory.
+	 */
     void open(string pPath, string pFile)
     {
         string file = explorer->getPath() + pPath + pFile;
@@ -76,16 +76,16 @@ public:
     }
 
     /**
-		 * Get the app directory.
-		 */
+	 * Get the app directory.
+	 */
     string getPath()
     {
         return explorer->getPath();
     }
 
     /**
-		 * Check if file exists.
-		 */
+	 * Check if file exists.
+	 */
     bool fileExists(string pFile)
     {
         if (explorer->fileExists(pFile))
@@ -97,8 +97,8 @@ public:
     }
 
     /**
-		 * Check if folder exists.
-		 */
+	 * Check if folder exists.
+	 */
     bool folderExists(string pPath)
     {
         if (explorer->folderExists(pPath))

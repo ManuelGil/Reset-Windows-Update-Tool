@@ -1,8 +1,12 @@
 Das Windows Update-Tool zurücksetzen bietet verschiedene Unterstützungsoptionen wie Löschen temporärer Dateien, Ändern ungültiger Werte in der Windows-Registrierung, Zurücksetzen der Winsock-Einstellungen usw. Diese Optionen werden in einer Auswahlliste angezeigt und sind je nach Betriebssystem verfügbar.
 
+
 > ### Inhalt
 >
-> [Before starting](#before-starting) <br /> > [zulassen](#permits) <br /> > [Nutzungsbedingungen](#terms-and-conditions-of-use)
+> [Before starting](#bevor-es-losgeht) <br />
+> [zulassen](#zulassen) <br />
+> [Nutzungsbedingungen](#nutzungsbedingungen)
+
 
 ## Bevor es losgeht
 
@@ -13,9 +17,11 @@ Sie können einige Prozesse ausführen, um das ordnungsgemäße Funktionieren de
 3. Stellen Sie sicher, dass die Einstellungen für Datum, Uhrzeit und Jahr des Systems auf Ihrem Computer korrekt sind.
 4. Deaktivieren Sie die Antivirensoftware.
 
+
 ## zulassen
 
 Das Windows Update-Tool zurücksetzen muss mit erhöhten Rechten ausgeführt werden. Klicken Sie dazu mit der rechten Maustaste darauf und wählen Sie "Als Administrator ausführen". Andernfalls wird eine Fehlermeldung angezeigt.
+
 
 ## Nutzungsbedingungen
 

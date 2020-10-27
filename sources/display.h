@@ -29,8 +29,8 @@ class Display
 
 protected:
     /**
-		 * Protected Constructor for Singleton model.
-		 */
+	 * Protected Constructor for Singleton model.
+	 */
     Display()
     {
         // Set a title at console.
@@ -43,9 +43,9 @@ protected:
 
 public:
     /**
-		 * Return a Single Instance.
-		 * return instance.
-		 */
+	 * Return a Single Instance.
+	 * return instance.
+	 */
     static Display *getInstance()
     {
         // Create a single instance and return this.
@@ -55,8 +55,8 @@ public:
     }
 
     /**
-		 * Write a text on top at console.
-		 */
+	 * Write a text on top at console.
+	 */
     void writeTopText(string pMessage)
     {
         // Set a Color at console.
@@ -74,8 +74,8 @@ public:
     }
 
     /**
-		 * Write a text line with end lines.
-		 */
+	 * Write a text line with end lines.
+	 */
     void writeTextLine(string pMessage)
     {
         // Create a auxiliar string.
@@ -94,8 +94,8 @@ public:
     }
 
     /**
-		 * White a single text line.
-		 */
+	 * White a single text line.
+	 */
     void writeText(string pMessage)
     {
         cout << pMessage << flush;

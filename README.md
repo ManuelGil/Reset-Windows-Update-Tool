@@ -53,7 +53,7 @@ temporary files, scan, detect and repair corruptions with the Windows System
 image, scan all protected system files and replace any corrupted files, change
 invalid values in the Windows Registry, reset Winsock settings and more.
 
--   Wiki: [:us:] [:es:] [:it:] [:brazil:] [:fr:]
+-   Wiki: [:us:] [:es:] [:it:] [:brazil:] [:fr:] [:de:]
 
 -   Issues: [Issue Tracker](https://github.com/ManuelGil/Reset-Windows-Update-Tool/issues)
 
@@ -570,3 +570,4 @@ Reset Windows Update Tool is licensed under the MS-PL License - see the
 [:it:]: https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki/Home-%5Bit%5D
 [:brazil:]: https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki/Home-%5Bbr%5D
 [:fr:]: https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki/Home-%5Bfr%5D
+[:de:]: https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki/Home-%5Bde%5D

@@ -1,6 +1,6 @@
 <div align="center">
 	<a href="https://wureset.com/">
-		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset_5y.png?raw=true" alt="Logo" height="300" width="300">
+		<img src="https://github.com/ManuelGil/Reset-Windows-Update-Tool/blob/master/docs/images/wureset.png?raw=true" alt="Logo" height="300" width="300">
 	</a>
 </div>
 <br />
@@ -31,9 +31,14 @@ Das Tool zum Zurücksetzen von Windows Update-Komponenten funktioniert über die
 
 Dieses Dokument wurde erstellt, um die Prozesssequenzen für die korrekte Verwendung des Windows Update-Tools zum Zurücksetzen zu beschreiben.
 
+
 > ### Inhalt
 >
-> [Anforderung](#requirements) <br /> > [Glossar](#glossary) <br /> > [Referenz](#reference) <br /> > [Lizenz](#license)
+> [Anforderung](#anforderung) <br />
+> [Glossar](#glossar) <br />
+> [Referenz](#referenz) <br />
+> [Lizenz](#lizenz)
+
 
 ## Anforderung
 
@@ -42,6 +47,7 @@ Dieses Tool ist kompatibel mit Windows 8, Windows 8.1 und Windows 10.
 Wenn Sie das Windows Update-Tool zurücksetzen ausführen, wird festgestellt, dass die Version oder der Build des Betriebssystems den Namen und die Familie des Betriebssystems bestimmt.
 
 Wenn das Betriebssystem nicht mit diesem Tool kompatibel ist, wird eine Fehlermeldung angezeigt und das Tool wird geschlossen.
+
 
 ## Glossar
 
@@ -60,13 +66,15 @@ Wenn das Betriebssystem nicht mit diesem Tool kompatibel ist, wird eine Fehlerme
 <dd>Die Windows Sockets-API ist eine technische Spezifikation, die definiert, wie Windows-Netzwerksoftware auf das Netzwerk zugreifen soll.</dd>
 </dl>
 
+
 ## Referenz
 
-Wie setze ich Windows Update-Komponenten zurück?: [https://support.microsoft.com/en-us/kb/971058](https://support.microsoft.com/en-us/kb/971058).
+Wie setze ich Windows Update-Komponenten zurück?: [https://support.microsoft.com/de-de/kb/971058](https://support.microsoft.com/de-de/kb/971058).
 
-Verwenden Sie das System File Checker-Tool, um fehlende oder beschädigte Systemdateien zu reparieren: [https://support.microsoft.com/en-us/kb/929833](https://support.microsoft.com/en-us/kb/929833).
+Verwenden Sie das System File Checker-Tool, um fehlende oder beschädigte Systemdateien zu reparieren: [https://support.microsoft.com/de-de/kb/929833](https://support.microsoft.com/de-de/kb/929833).
 
-Beheben Sie Windows Update-Fehler mithilfe des Tools DISM oder System Update Readiness: [https://support.microsoft.com/en-us/kb/947821](https://support.microsoft.com/en-us/kb/947821).
+Beheben Sie Windows Update-Fehler mithilfe des Tools DISM oder System Update Readiness: [https://support.microsoft.com/de-de/kb/947821](https://support.microsoft.com/de-de/kb/947821).
+
 
 ## Lizenz
 

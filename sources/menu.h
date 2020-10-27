@@ -33,24 +33,24 @@ private:
 
 public:
     /**
-		 * Get an option by index.
-		 */
+	 * Get an option by index.
+	 */
     Item *getItem(int index)
     {
         return items[index];
     }
 
     /**
-		 * Add a new option.
-		 */
+	 * Add a new option.
+	 */
     void addItem(Item *pItem)
     {
         items.push_back(pItem);
     }
 
     /**
-		 * Get size of the menu.
-		 */
+	 * Get size of the menu.
+	 */
     int getSize()
     {
         return items.size();

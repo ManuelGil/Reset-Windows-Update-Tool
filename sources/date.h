@@ -39,8 +39,8 @@ private:
 
 public:
     /**
-		 * Create a new date.
-		 */
+	 * Create a new date.
+	 */
     Date()
     {
         day = 0;
@@ -52,8 +52,8 @@ public:
     }
 
     /**
-		 * Load the system date.
-		 */
+	 * Load the system date.
+	 */
     void now()
     {
         time_t currentTime;
@@ -71,8 +71,8 @@ public:
     }
 
     /**
-		 * Get the date in a string.
-		 */
+	 * Get the date in a string.
+	 */
     string toString()
     {
         stringstream result;

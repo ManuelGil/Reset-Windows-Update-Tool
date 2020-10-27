@@ -23,8 +23,8 @@ class OSDetector
 
 public:
     /**
-		 * Get the family number.
-		 */
+	 * Get the family number.
+	 */
     int getFamily()
     {
         int errorlevel;
@@ -68,8 +68,8 @@ public:
     }
 
     /**
-		 * Check the compatibility.
-		 */
+	 * Check the compatibility.
+	 */
     bool isCompatible()
     {
         int errorlevel;

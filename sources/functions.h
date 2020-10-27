@@ -44,8 +44,8 @@ private:
 
 public:
     /**
-		 * Load the relations.
-		 */
+	 * Load the relations.
+	 */
     Functions()
     {
         print = Display::getInstance();
@@ -54,22 +54,22 @@ public:
     }
 
     /**
-		 * Return the command object.
-		 * return cmd
-		 */
+	 * Return the command object.
+	 * return cmd
+	 */
     Commands *getCommands()
     {
         return cmd;
     }
 
     /**
-		 * Check the compatibility with the operating system.
-		 */
+	 * Check the compatibility with the operating system.
+	 */
     void compatibility()
     {
         if (os->isCompatible() != true)
         {
-            print->writeTopText("Sorry, this Operating System is not compatible with this tool.");
+            print->writeTopText("Sorry, this Operative System is not compatible with this tool.");
 
             err->showMessage("    An error occurred while attempting to verify your system.\n    Can this using a business or test version.\n\n    If not, verify that your system has the correct security fix.\n");
 
@@ -81,8 +81,8 @@ public:
     }
 
     /**
-		 * Check for Administrator elevation.
-		 */
+	 * Check for Administrator elevation.
+	 */
     void permission()
     {
         int errorlevel;
@@ -103,8 +103,8 @@ public:
     }
 
     /**
-		 * Show the terms an conditions of use.
-		 */
+	 * Show the terms an conditions of use.
+	 */
     void terms()
     {
         string option;
@@ -153,8 +153,8 @@ public:
     }
 
     /**
-		 * Open the system protection.
-		 */
+	 * Open the system protection.
+	 */
     void sysProtection()
     {
         print->writeTopText("Opening the system protection.");
@@ -162,8 +162,8 @@ public:
     }
 
     /**
-		 * Run the reset Windows Update components.
-		 */
+	 * Run the reset Windows Update components.
+	 */
     void components()
     {
         int errorlevel;
@@ -353,6 +353,7 @@ public:
         cmd->delFile("%SYSTEMROOT%\\winsxs\\pending.xml.bak");
         cmd->delFolder("%SYSTEMROOT%\\SoftwareDistribution.bak");
         cmd->delFolder("%SYSTEMROOT%\\system32\\Catroot2.bak");
+        cmd->delFile("%SYSTEMROOT%\\WindowsUpdate.log.bak");
 
         print->writeTopText("Renaming the software distribution folders.");
         cmd->rename("%SYSTEMROOT%\\winsxs\\pending.xml", "pending.xml.bak");
@@ -372,6 +373,7 @@ public:
         }
 
         cmd->rename("%SYSTEMROOT%\\system32\\Catroot2", "Catroot2.bak");
+        cmd->rename("%SYSTEMROOT%\\WindowsUpdate.log", "WindowsUpdate.log.bak");
 
         // Reset the BITS service and the Windows Update service to the default security descriptor.
         print->writeTopText("Reset the BITS service and the Windows Update service to the default security descriptor.");
@@ -456,8 +458,8 @@ public:
     }
 
     /**
-		 * Delete temporary files in Windows.
-		 */
+	 * Delete temporary files in Windows.
+	 */
     void temp()
     {
         print->writeTopText("Deleting temporary files in Windows.");
@@ -472,8 +474,8 @@ public:
     }
 
     /**
-		 * Open the Internet Explorer options.
-		 */
+	 * Open the Internet Explorer options.
+	 */
     void iOptions()
     {
         print->writeTopText("Opening the Internet Explorer options.");
@@ -481,8 +483,8 @@ public:
     }
 
     /**
-		 * Check the Windows partition.
-		 */
+	 * Check the Windows partition.
+	 */
     void chkdsk()
     {
         int errorlevel;
@@ -503,8 +505,8 @@ public:
     }
 
     /**
-		 * Scans all protected system files.
-		 */
+	 * Scans all protected system files.
+	 */
     void sfc()
     {
         int errorlevel;
@@ -525,8 +527,8 @@ public:
     }
 
     /**
-		 * Run DISM command-line.
-		 */
+	 * Run DISM command-line.
+	 */
     void dism(string pOption)
     {
         string str = "dism /online " + pOption;
@@ -546,8 +548,8 @@ public:
     }
 
     /**
-		 * Scan the image to check for corruption.
-		 */
+	 * Scan the image to check for corruption.
+	 */
     void scanHealth()
     {
         print->writeTopText("Scan the image for component store corruption (The DISM /ScanHealth argument).");
@@ -555,8 +557,8 @@ public:
     }
 
     /**
-		 * Check the detected corruptions.
-		 */
+	 * Check the detected corruptions.
+	 */
     void checkHealth()
     {
         print->writeTopText("Check whether the image has been flagged as corrupted by a failed process and whether the corruption can be repaired (The DISM /CheckHealth argument).");
@@ -564,8 +566,8 @@ public:
     }
 
     /**
-		 * Repair a Windows image.
-		 */
+	 * Repair a Windows image.
+	 */
     void restoreHealth()
     {
         print->writeTopText("Scan the image for component store corruption, and then perform repair operations automatically (The DISM /RestoreHealth argument).");
@@ -573,8 +575,8 @@ public:
     }
 
     /**
-		 * Clean up the superseded components.
-		 */
+	 * Clean up the superseded components.
+	 */
     void startComponentCleanup()
     {
         print->writeTopText("Clean up the superseded components and reduce the size of the component store (The DISM /StartComponentCleanup argument).");
@@ -582,8 +584,8 @@ public:
     }
 
     /**
-		 * Change invalid values in the Registry.
-		 */
+	 * Change invalid values in the Registry.
+	 */
     void regedit()
     {
         print->writeTopText("Change invalid values in the Registry.");
@@ -759,8 +761,8 @@ public:
     }
 
     /**
-		 * Force Group Policy Update.
-		 */
+	 * Force Group Policy Update.
+	 */
     void gpupdate()
     {
         int errorlevel;
@@ -781,8 +783,8 @@ public:
     }
 
     /**
-		 * Reset Winsock setting.
-		 */
+	 * Reset Winsock setting.
+	 */
     void winsock()
     {
         // Reset Winsock control.
@@ -813,8 +815,8 @@ public:
     }
 
     /**
-		 * Search Updates.
-		 */
+	 * Search Updates.
+	 */
     void updates()
     {
         print->writeTopText("Looking for updates.");
@@ -832,8 +834,8 @@ public:
     }
 
     /**
-		 * Reset or Clear Microsoft Windows Store Cache.
-		 */
+	 * Reset or Clear Microsoft Windows Store Cache.
+	 */
     void store()
     {
         print->writeTopText("Reset or Clear Microsoft Windows Store Cache.");
@@ -842,8 +844,8 @@ public:
     }
 
     /**
-		 * Get Product Key
-		 */
+	 * Get Product Key
+	 */
     void productKey()
     {
         int errorlevel;
@@ -864,8 +866,8 @@ public:
     }
 
     /**
-		 * Explore other local solutions.
-		 */
+	 * Explore other local solutions.
+	 */
     void local()
     {
         print->writeTopText("Looking for solutions in this PC.");
@@ -874,8 +876,8 @@ public:
     }
 
     /**
-		 * Explore other online solutions.
-		 */
+	 * Explore other online solutions.
+	 */
     void online()
     {
         print->writeTopText("Looking for solutions Online.");
@@ -884,8 +886,8 @@ public:
     }
 
     /**
-		 * Reboot the system.
-		 */
+	 * Reboot the system.
+	 */
     void restart()
     {
         print->writeTopText("Restart your PC.");

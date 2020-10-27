@@ -42,29 +42,19 @@ private:
 
 public:
     /**
-		 * Set values.
-		 */
+	 * Set values.
+	 */
     Help()
     {
         cmd = new Commands();
-
-        file = "english\\index.html";
     }
 
     /**
-		 * Open help file.
-		 */
-    void open()
-    {
-        cmd->open("wureset\\help\\", file);
-    }
-
-    /**
-		 * Open a link on the browser.
-		 */
+	 * Open a link on the browser.
+	 */
     void browser()
     {
-        cmd->browser("https://wureset.com");
+        cmd->browser("https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki");
     }
 };
 

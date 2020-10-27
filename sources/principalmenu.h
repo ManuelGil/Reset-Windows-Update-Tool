@@ -41,8 +41,8 @@ private:
 
 public:
     /**
-		 * Load all options on the menu.
-		 */
+	 * Load all options on the menu.
+	 */
     PrincipalMenu()
     {
         print = Display::getInstance();
@@ -72,17 +72,17 @@ public:
     }
 
     /**
-		 * Return the size of menu.
-		 * return size
-		 */
+	 * Return the size of menu.
+	 * return size
+	 */
     int getSize()
     {
         return menu->getSize();
     }
 
     /**
-		 * Show the menu options.
-		 */
+	 * Show the menu options.
+	 */
     void showOptions()
     {
         print->writeTopText("This tool reset the Windows Update Components.");
@@ -103,9 +103,9 @@ public:
     }
 
     /**
-		 * Get an option by id.
-		 * return option
-		 */
+	 * Get an option by id.
+	 * return option
+	 */
     string getOption(int pIndex)
     {
         return menu->getItem(pIndex)->getReference();

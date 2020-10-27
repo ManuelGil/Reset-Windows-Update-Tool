@@ -35,8 +35,8 @@ private:
 
 public:
     /**
-		 * Create a new option.
-		 */
+	 * Create a new option.
+	 */
     Item(string pText, string pRef)
     {
         text = pText;
@@ -44,32 +44,32 @@ public:
     }
 
     /**
-		 * Get text of the option.
-		 */
+	 * Get text of the option.
+	 */
     string getText()
     {
         return text;
     }
 
     /**
-		 * Get the link of the option.
-		 */
+	 * Get the link of the option.
+	 */
     string getReference()
     {
         return reference;
     }
 
     /**
-		 * Set text of the option.
-		 */
+	 * Set text of the option.
+	 */
     void setText(string pText)
     {
         text = pText;
     }
 
     /**
-		 * Set link of the option.
-		 */
+	 * Set link of the option.
+	 */
     void setReference(string pRef)
     {
         reference = pRef;

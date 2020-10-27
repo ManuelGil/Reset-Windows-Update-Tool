@@ -2,13 +2,17 @@ Dieses Tool implementiert Funktionen über die Befehlszeile. Einige Wiederherste
 
 Geben Sie die Anzahl der Funktionen ein und drücken Sie die Eingabetaste, um diese Korrekturen anzuwenden.
 
+
 > ### Inhalt
 >
-> [Als Administrator ausführen](#run-as-administrator) <br />  [Befehlszeile](#command-line)
+> [Als Administrator ausführen](#als-administrator-ausführen) <br />
+> [Befehlszeile](#befehlszeile)
+
 
 ## Als Administrator ausführen
 
 **Benutzerkontensteuerung** (UAC) ist eine obligatorische Funktion zur Durchsetzung der Zugriffskontrolle, die mit den Betriebssystemen Windows Vista und Windows Server 2008 von Microsoft eingeführt wurde. Eine entspanntere Version ist auch in Windows 7, Windows Server 2008 R2, Windows 8, Windows Server 2012 und Windows 10 verfügbar Sicherheit von Microsoft Windows durch Beschränkung der Anwendungssoftware auf Standardbenutzerrechte, bis ein Administrator eine Erlaubniss autorisiert. Auf diese Weise erhalten möglicherweise nur Anwendungen, denen der Benutzer vertraut, Administratorrechte, und Malware sollte davon abgehalten werden, das Betriebssystem zu gefährden. Mit anderen Worten, einem Benutzerkonto können Administratorrechte zugewiesen sein, aber Anwendungen, die der Benutzer ausführt, erben diese Berechtigungen nur, wenn sie zuvor genehmigt wurden oder der Benutzer sie ausdrücklich autorisiert.
+
 
 ### Wie führen ein Programm als Administrator aus
 
@@ -21,7 +25,7 @@ Für einige Programmsymbole ist die **Als Administrator ausführen** Die Option 
 
 1. Klicken Sie mit der rechten Maustaste auf das Symbol, mit dem Sie das Programm ausführen, und klicken Sie dann auf **Eigenschaften**. Auf der **Abkürzung** Tab, das **Ziel** Box enthält den Speicherort und den Namen der Programmdatei.
 2. Öffnen Sie den Ordner, der die Programmdatei enthält.
-3. Klicken Sie mit der rechten Maustaste auf die Programmdatei, und klicken Sie dann auf **Als Administrator ausführen**. ![Berechtigung zur Benutzerkontensteuerung](https://sawinternal.blob.core.windows.net/gds-images/support/kbgraphics/public/en-us/securityshield.jpg) Wenn Sie zur Eingabe eines Administratorkennworts oder einer Bestätigung aufgefordert werden, geben Sie das Kennwort ein oder klicken Sie auf **Fortsetzen**.
+3. Klicken Sie mit der rechten Maustaste auf die Programmdatei, und klicken Sie dann auf **Als Administrator ausführen**. ![Berechtigung zur Benutzerkontensteuerung](https://sawinternal.blob.core.windows.net/gds-images/support/kbgraphics/public/de-de/securityshield.jpg) Wenn Sie zur Eingabe eines Administratorkennworts oder einer Bestätigung aufgefordert werden, geben Sie das Kennwort ein oder klicken Sie auf **Fortsetzen**.
 
 Wenn Sie ein Programm als Administrator ausführen müssen, möchten Sie das Programm möglicherweise so einrichten, dass Sie es automatisch als Administrator ausführen. Gehen Sie dazu folgendermaßen vor:
 
@@ -40,7 +44,8 @@ Die Registerkarte ** Kompatibilität ** ist für einige Programmsymbole nicht ve
 </div>
 <br />
 
-Weitere Informationen finden Sie unter [Referenzen](https://support.microsoft.com/en-us/kb/922708)
+Weitere Informationen finden Sie unter [Referenzen](https://support.microsoft.com/de-de/kb/922708)
+
 
 ## Befehlszeile
 

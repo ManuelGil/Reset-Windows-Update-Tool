@@ -2,9 +2,12 @@ Wenn Sie ständig ein Problem mit Windows Update-Fehlern erhalten, müssen Sie d
 
 Dieses Tool wurde hauptsächlich zur Lösung von Problemen im Zusammenhang mit Windows Update-Komponenten entwickelt.
 
+
 > ### Inhalt
 >
-> [Setzen Sie die Windows Update-Komponenten zurück](#reset-windows-update-components) <br /> > [Der Windows Update-Dienst konnte nicht gestoppt werden](#the-windows-update-service-could-not-be-stopped)
+> [Setzen Sie die Windows Update-Komponenten zurück](#setzen-sie-die-windows-update-komponenten-zurück) <br />
+> [Der Windows Update-Dienst konnte nicht gestoppt werden](#der-windows-update-dienst-konnte-nicht-gestoppt-werden)
+
 
 ## Setzen Sie die Windows Update-Komponenten zurück
 
@@ -14,9 +17,10 @@ Wählen Sie dann die Option "Windows Update-Komponenten zurücksetzen". Diese Op
 
 Sie werden sehen, dass Windows Update-Komponenten automatisch zurückgesetzt wurden. In wenigen Minuten ist der Vorgang abgeschlossen.
 
-Installieren Sie danach den neuesten Windows Update-Agenten: [https://support.microsoft.com/en-us/kb/949104](https://support.microsoft.com/en-us/kb/949104).
+Installieren Sie danach den neuesten Windows Update-Agenten: [https://support.microsoft.com/de-de/kb/949104](https://support.microsoft.com/de-de/kb/949104).
 
 Starten Sie schließlich Ihren PC neu, um die Änderungen zu speichern.
+
 
 ## Der Windows Update-Dienst konnte nicht gestoppt werden
 

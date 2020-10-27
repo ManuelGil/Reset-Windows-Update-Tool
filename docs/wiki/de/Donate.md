@@ -2,9 +2,13 @@ Im Jahr 2015 wurde die Skriptversion "ResetWUEng.cmd" als Support-Tool zur Fehle
 
 Heute, 5 Jahre später und mit dem Ende der Unterstützung für die Skriptgalerie von Microsoft "TechNet Gallery" im Juni 2020, ist ein Speicherplatz für die Zentralisierung der aktualisierten Versionen des Windows Update-Tools zum Zurücksetzen erforderlich.
 
+
 > ### Inhalt
 >
-> [Ein bisschen Kontext](#a-bit-of-context) <br /> > [Es gibt immer noch Realität, mit der man sich auseinandersetzen muss](#there-is-still-reality-to-contend-with) <br /> > [Spendenmöglichkeiten](#donation-options)
+> [Ein bisschen Kontext](#ein-bisschen-kontext) <br />
+> [Es gibt immer noch Realität, mit der man sich auseinandersetzen muss](#es-gibt-immer-noch-realität-mit-der-man-sich-auseinandersetzen-muss) <br />
+> [Spendenmöglichkeiten](#spendenmöglichkeiten)
+
 
 ### Ein bisschen Kontext
 
@@ -16,6 +20,7 @@ Aus diesem Grund und weil die Zeit für die Aktualisierung nicht sehr kurz ist, 
 
 Die Arbeit ist viel und ich werde weiterhin mit der Community zusammenarbeiten, um in Zukunft eine viel auffälligere Version zu haben. Im Moment werde ich die Seite https://wureset.com/ zum Herunterladen der aktualisierten Versionen verfügbar halten.
 
+
 ### Es gibt immer noch Realität, mit der man sich auseinandersetzen muss
 
 In den vergangenen Monaten waren wir von der Schwankung des Dollars und dem Anstieg der Kosten für Domain- und Hosting-Services betroffen.
@@ -26,12 +31,14 @@ Derzeit haben wir bereits einen stabilen Service, mit dem wir hoffentlich noch e
 
 In gleicher Weise werden die erhaltenen Spenden verwendet, um den Dienst für lange Zeit in der Luft zu halten.
 
+
 ### Spendenmöglichkeiten
 
 -   [**patreon**](https://www.patreon.com/imgil)
 -   [**ko-fi**](https://ko-fi.com/imgil)
 -   [**cafecito.app**](https://cafecito.app/imgil)
 -   [**paypal**](https://paypal.me/ManuelFGil)
+
 
 ### Thanks
 

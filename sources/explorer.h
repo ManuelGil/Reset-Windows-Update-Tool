@@ -35,8 +35,8 @@ private:
 
 public:
     /**
-		 * Get the current directory.
-		 */
+	 * Get the current directory.
+	 */
     string getPath()
     {
         if (path == "")
@@ -52,8 +52,8 @@ public:
     }
 
     /**
-		 * Check if a file exists.
-		 */
+	 * Check if a file exists.
+	 */
     bool fileExists(string pFile)
     {
         if (FILE *file = fopen(pFile.c_str(), "r"))
@@ -66,8 +66,8 @@ public:
     }
 
     /**
-		 * Check if a folder exists.
-		 */
+	 * Check if a folder exists.
+	 */
     bool folderExists(string pPath)
     {
         DWORD ftyp = GetFileAttributesA(pPath.c_str());
