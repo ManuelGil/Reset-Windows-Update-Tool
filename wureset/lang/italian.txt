@@ -53,7 +53,7 @@
 5015|Esplora le altre soluzioni online.
 5016|Scarica strumenti diagnostici.
 5017|Riavvia il PC.
-5018|\n                       ?. Aiutare.    *. Impostazioni.    0. Esci.\n
+5018|\n                       ?. Aiuto.    *. Impostazioni.    0. Esci.\n
 
 # Functions
 6000|Apertura della protezione del sistema.
