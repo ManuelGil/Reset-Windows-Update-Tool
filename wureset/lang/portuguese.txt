@@ -14,101 +14,101 @@
 # Warnings
 1000|Pressione qualquer tecla para continuar . . .
 1001|Ocorreu um erro inesperado.
-1002|Escolha uma op��o:
-1003|Op��o inv�lida.
-1004|Lamentamos, esta op��o n�o est� dispon�vel neste sistema operacional.
-1005|A opera��o foi conclu�da com sucesso.
-1006|Ocorreu um erro durante a opera��o.
-1007|N�o � poss�vel parar o servi�o. Voc� quer tentar novamente? (S/N):
+1002|Escolha uma opção: 
+1003|Opção inválida.
+1004|Lamentamos, esta opção não está disponível neste sistema operacional.
+1005|A operação foi concluída com sucesso.
+1006|Ocorreu um erro durante a operação.
+1007|Não é possível parar o serviço. Você quer tentar novamente? (S/N): 
 
 # Compatibility
-2000|Lamentamos, este sistema operacional n�o � compat�vel com esta ferramenta.
-2001|    Ocorreu um erro ao tentar verificar o seu sistema.\n    Voc� pode estar usando uma vers�o comercial ou de avalia��o.\n\n    Caso contr�rio, verifique se o seu sistema possui corre��o de seguran�a correta.\n
+2000|Lamentamos, este sistema operacional não é compatível com esta ferramenta.
+2001|    Ocorreu um erro ao tentar verificar o seu sistema.\n    Você pode estar usando uma versão comercial ou de avaliação.\n\n    Caso contrário, verifique se o seu sistema possui correção de segurança correta.\n
 
 # Elevation
-3000|Verificando permiss�es de administrador.
-3001|    Voc� n�o tem permiss�es para executar esta ferramenta.\n    Esta ferramenta n�o funciona sem permiss�es de administrador.\n\n    Voc� precisa executar esta ferramenta com permiss�es de administrador.\n
+3000|Verificando permissões de administrador.
+3001|    Você não tem permissões para executar esta ferramenta.\n    Esta ferramenta não funciona sem permissões de administrador.\n\n    Você precisa executar esta ferramenta com permissões de administrador.\n
 
 # Terms
-4000|Termos e Condi��es de Uso.
-4001|    Os m�todos desta ferramenta modificam os arquivos e as configura��es de\n    registro.\n    N�o � assumida qualquer responsabilidade pelo uso desta ferramenta.\n\n    Esta ferramenta � fornecida sem garantia. Qualquer dano causado � sua\n    pr�pria responsabilidade.\n\n    N�o hesite em examinar o c�digo se n�o tiver certeza.\n    https://github.com/ManuelGil\n
-4002|Deseja continuar com esse processo? (S/N):
+4000|Termos e Condições de Uso.
+4001|    Os métodos desta ferramenta modificam os arquivos e as configurações de\n    registro.\n    Não é assumida qualquer responsabilidade pelo uso desta ferramenta.\n\n    Esta ferramenta é fornecida sem garantia. Qualquer dano causado é sua\n    própria responsabilidade.\n\n    Não hesite em examinar o código se não tiver certeza.\n    https://github.com/ManuelGil\n
+4002|Deseja continuar com esse processo? (S/N): 
 
 # Menu
-5000|Esta ferramenta ir� restaurar os componentes do Windows Update.
-5001|Prote��o do sistema aberto.
+5000|Esta ferramenta irá restaurar os componentes do Windows Update.
+5001|Proteção do sistema aberto.
 5002|Restaurar componentes do Windows Update.
-5003|Excluir arquivos tempor�rios do Windows.
-5004|Abra as op��es do Internet Explorer.
-5005|Execute o Chkdsk na parti��o do Windows.
+5003|Excluir arquivos temporários do Windows.
+5004|Abra as opções do Internet Explorer.
+5005|Execute o Chkdsk na partição do Windows.
 5006|Execute a ferramenta Verificador do Arquivo do Sistema.
 5007|Digitalize a imagem por danos na loja de componentes.
 5008|Verifique se a imagem foi marcada como danificada.
-5009|Realizar opera��es de repara��o autom�tica.
-5010|Limpe os componentes substitu�dos.
+5009|Realizar operações de reparação automática.
+5010|Limpe os componentes substituídos.
 5011|Excluir valores de registro incorretos.
-5012|Redefinir as configura��es do Winsock.
-5013|Procure atualiza��es do Windows.
-5014|Explore as outras solu��es locais.
-5015|Explore as outras solu��es online.
-5016|Baixar ferramentas de diagn�stico.
+5012|Redefinir as configurações do Winsock.
+5013|Procure atualizações do Windows.
+5014|Explore as outras soluções locais.
+5015|Explore as outras soluções online.
+5016|Baixar ferramentas de diagnóstico.
 5017|Reinicie o PC.
-5018|\n                      ?. Ajuda.    *. Configura��es.    0. Fechar.\n
+5018|\n                      ?. Ajuda.    *. Configurações.    0. Fechar.\n
 
 # Functions
-6000|Abrindo a prote��o do sistema.
-6001|Parando os servi�os de atualiza��o do Windows.
-6002|Verificando o status do servi�o.\n
-6003|    Falha ao parar o servi�o Servi�o de Transfer�ncia Inteligente em segundo plano BITS.\n
-6004|    Falha ao parar o servi�o Windows Update.\n
-6005|    Falha ao parar o servi�o de Identidade do Aplicativo.\n
-6006|    Falha ao parar o servi�o de Servi�os de criptografia.\n
+6000|Abrindo a proteção do sistema.
+6001|Parando os serviços de atualização do Windows.
+6002|Verificando o status do serviço.\n
+6003|    Falha ao parar o serviço Serviço de Transferência Inteligente em segundo plano BITS.\n
+6004|    Falha ao parar o serviço Windows Update.\n
+6005|    Falha ao parar o serviço de Identidade do Aplicativo.\n
+6006|    Falha ao parar o serviço de Serviços de criptografia.\n
 6007|Removendo os arquivos qmgr*.dat.
 6008|Removendo backups de SoftwareDistribution.
 6009|Alterando o nome das pastas do SoftwareDistribution.
-6010|    N�o foi poss�vel alterar o nome da pasta de SoftwareDistribution.\n
-6011|Restaurando os servi�os BITS e Windows Update para o descritor de seguran�a padr�o.
+6010|    Não foi possível alterar o nome da pasta de SoftwareDistribution.\n
+6011|Restaurando os serviços BITS e Windows Update para o descritor de segurança padrão.
 6012|Re-registrar os arquivos BITS e os arquivos do Windows Update.
 6013|Restaurando Winsock.
 6014|Restaurando WinHTTP Proxy.
-6015|Restaurando servi�os para automa��o.
-6016|Reiniciar os servi�os de atualiza��o do Windows.
-6017|Removendo arquivos tempor�rios do sistema.
-6018|Abrindo op��es do Internet Explorer.
-6019|Verifique o sistema de arquivos e o sistema de metadados de um arquivo de volume para erros f�sicos e l�gicos (CHKDSK.EXE).
-6020|Examina e verifica a integridade do sistema protegido todos os arquivos e substitui as vers�es incorretas por vers�es corretas (SFC.exe).
+6015|Restaurando serviços para automação.
+6016|Reiniciar os serviços de atualização do Windows.
+6017|Removendo arquivos temporários do sistema.
+6018|Abrindo opções do Internet Explorer.
+6019|Verifique o sistema de arquivos e o sistema de metadados de um arquivo de volume para erros físicos e lógicos (CHKDSK.EXE).
+6020|Examina e verifica a integridade do sistema protegido todos os arquivos e substitui as versões incorretas por versões corretas (SFC.exe).
 6021|Digitalize a imagem por danos na loja de componentes (DISM /ScanHealth).
 6022|Verifique se algum dano foi detectado na imagem (DISM /CheckHealth).
-6023|Realizar opera��es de repara��o autom�tica (DISM /RestoreHealth).
-6024|Limpe os componentes exclu�dos (DISM /StartComponentCleanup).
+6023|Realizar operações de reparação automática (DISM /RestoreHealth).
+6024|Limpe os componentes excluídos (DISM /StartComponentCleanup).
 6025|Alterando os valores incorretos no Registro.
-6026|Criando uma c�pia do registro em:
-6027|    As altera��es n�o foram feitas no registro.\n
+6026|Criando uma cópia do registro em: 
+6027|    As alterações não foram feitas no registro.\n
 6028|    Tente novamente mais tarde.\n
 6029|Verificando o backup.
 6030|    Algo deu errado.\n
 6031|    Crie manualmente um backup do registro antes de continuar.\n
 6032|Removendo valores de registro.
 6033|Adicionando valores ao registro.
-6034|Repor as configura��es de controle do Winsock.
-6035|Repor registros de transa��es.
+6034|Repor as configurações de controle do Winsock.
+6035|Repor registros de transações.
 6036|Redefinindo TCP/IP.
 6037|Restaurando Winsock.
-6038|Restaurando padr�es de diretiva.
+6038|Restaurando padrões de diretiva.
 6039|Restaurando o cache do DNS.
 6040|Configurando Proxy.
-6041|Verificando atualiza��es.
+6041|Verificando atualizações.
 6042|Espere . . .
-6043|Procurando solu��es nesta equipe.
-6044|Procurando solu��es on-line.
+6043|Procurando soluções nesta equipe.
+6044|Procurando soluções on-line.
 6045|Reiniciar o sistema.
-6046|    O sistema reiniciar� em 60 segundos.\n    Salve todos os documentos abertos.\n
-6047|O sistema reiniciar� em 60 segundos. Salve todos os documentos abertos.
-6048|Baixe e execute diagn�sticos para o seu sistema.
-6049|Windows Update no Windows 8 e Windows 8.1.
+6046|    O sistema reiniciará em 60 segundos.\n    Salve todos os documentos abertos.\n
+6047|O sistema reiniciará em 60 segundos. Salve todos os documentos abertos.
+6048|Baixe e execute diagnósticos para o seu sistema.
+6049|Windows Update no Windows 7, Windows 8 e Windows 8.1.
 6050|Windows Update no Windows 10.
-6051|Aplica��es no Windows 8.1.
-6052|Aplica��es no Windows 10.
+6051|Aplicações no Windows 8.1.
+6052|Aplicações no Windows 10.
 6053|Menu Iniciar no Windows 10.
 6054|                                                        0. Retorno.
 
@@ -117,19 +117,19 @@
 7001|Use:\n
 7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
-7004|Lista de par�metros:\n
+7004|Lista de parâmetros:\n
 7005|    /reset        Redefinir componentes do Windows Update.
-7006|    /search       Verifique atualiza��es.
-7007|    /clean        Op��es de limpeza.
-7008|        temp      Eliminar arquivos tempor�rios do Windows.
-7009|        regs      Alterar valores inv�lidos no registro.
-7010|        sock      Redefinir as configura��es do Winsock.
+7006|    /search       Verifique atualizações.
+7007|    /clean        Opções de limpeza.
+7008|        temp      Eliminar arquivos temporários do Windows.
+7009|        regs      Alterar valores inválidos no registro.
+7010|        sock      Redefinir as configurações do Winsock.
 7011|    /sfc          Analise todos os arquivos protegidos no sistema.
-7012|    /dism         Op��es DISM.
-7013|        scan      Explore a imagem para verificar se h� danos.
+7012|    /dism         Opções DISM.
+7013|        scan      Explore a imagem para verificar se há danos.
 7014|        check     Verifique se a imagem foi marcada como danificada.
-7015|        repair    Realizar opera��es de repara��o autom�tica.
-7016|        clean     Limpe os componentes substitu�dos.
+7015|        repair    Realizar operações de reparação automática.
+7016|        clean     Limpe os componentes substituídos.
 7017|    /?            Mostrar esta mensagem de ajuda.\n
 7018|Exemplo de uso:\n
 7019|    WURESET /reset
@@ -140,7 +140,7 @@
 7024|    Manuel Gil.\n
 7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]
 7026|        [/sfc] [/dism:{scan|check|repair|clean}]\n
-7027|Descri��o:\n
+7027|Descrição:\n
 7028|    Esta ferramenta para redefinir os componentes do Windows Update.\n
 7029|Exemplo de uso:\n
 7030|    WURESET /reset
@@ -157,12 +157,12 @@
 # ---------
 
 # Menu
-9000|For�ar atualiza��o de pol�tica de grupo.
+9000|Forçar atualização de política de grupo.
 9001|Encontre a chave do produto Windows.
-9002|Reset Microsoft Windows Store.
+9002|Restaurar Microsoft Windows Store.
 
 # Functions
-9100|Cancelando o processo de atualiza��o do Windows.
-9101|For�ando a atualiza��o da pol�tica de grupo.
+9100|Cancelando o processo de atualização do Windows.
+9101|Forçando a atualização da política de grupo.
 9102|Procurando pela chave do produto.
-9103|Reset or Clear Microsoft Windows Store Cache.
+9103|Restaurando e Limpando o Cache da Microsoft Windows Store.
