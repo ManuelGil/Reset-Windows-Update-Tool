@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.9 $ $Date: 10/12/2020 $
+ * @version $Revision: 11.1.0 $ $Date: 05/04/2023 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -102,11 +102,6 @@ public:
                 help = new Help();
                 help->browser();
                 help = NULL;
-                flag = -1;
-            }
-            else if (option == "*")
-            {
-                functions->getCommands()->executer("elevate wuresetcfg.exe");
                 flag = -1;
             }
             else if (flag != 0)

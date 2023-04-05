@@ -1,6 +1,6 @@
 # These are supported funding model platforms
 
 github: [ManuelGil]
-patreon: imgil
-ko_fi: imgil
-custom: ["https://cafecito.app/imgil","https://paypal.me/ManuelFGil"]
+ko_fi: ManuelGil
+custom:
+    ['https://paypal.me/ManuelFGil', 'https://www.buymeacoffee.com/ManuelGil']

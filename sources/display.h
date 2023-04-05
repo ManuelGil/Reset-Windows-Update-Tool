@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.9 $ $Date: 10/12/2020 $
+ * @version $Revision: 11.1.0 $ $Date: 05/04/2023 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -36,7 +36,7 @@ protected:
         // Set a title at console.
         SetConsoleTitle("Reset Windows Update Tool");
         // Set a size at console.
-        system("mode con cols=85 lines=35");
+        system("mode con cols=90 lines=36");
         // Set a color at console.
         system("color 17");
     }

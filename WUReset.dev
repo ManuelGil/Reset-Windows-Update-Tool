@@ -39,14 +39,14 @@ Build=9
 LanguageID=1033
 CharsetID=1252
 CompanyName=Manuel Gil
-FileVersion=11.0.0.9
+FileVersion=11.1.0
 FileDescription=Developed using the Dev-C++ IDE
 InternalName=WURESET
 LegalCopyright=Microsoft Public License (MS-PL)
 LegalTrademarks=Manuel Gil
 OriginalFilename=wureset.exe
 ProductName=Reset Windows Update Tool
-ProductVersion=11.0.0.9
+ProductVersion=11.1.0
 AutoIncBuildNr=0
 SyncProduct=1
 

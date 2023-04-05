@@ -8,7 +8,7 @@
  *
  * Problem: Reset the Windows Update Components.
  * @author $Author: Manuel Gil. $
- * @version $Revision: 11.0.0.9 $ $Date: 10/12/2020 $
+ * @version $Revision: 11.1.0 $ $Date: 05/04/2023 $
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -248,6 +248,52 @@ public:
                     print->writeTextLine("Press any key to continue . . .");
                     cmd->pause();
                     cmd->close();
+                }
+            }
+            else
+            {
+                stopped = true;
+            }
+        }
+
+        stopped = false;
+
+        while (!stopped)
+        {
+            print->writeTopText("Stopping the Windows Update services.");
+            cmd->stopService("dosvc");
+
+            // Checking the service status.
+            print->writeTopText("Checking the service status.\n");
+            errorlevel = cmd->executer("sc query dosvc | findstr /I /C:\"STOPPED\"");
+
+            if (errorlevel != 0)
+            {
+                errorlevel = cmd->executer("sc query dosvc | findstr /I /C:\"OpenService FAILED 1060\"");
+
+                if (errorlevel != 0)
+                {
+                    err->showMessage("    Failed to stop the delivery optimization service.");
+
+                    print->writeText(accept);
+                    cin >> option;
+
+                    option = strupr((char *)option.c_str());
+
+                    int pos = accept.find_last_of("(") + 1;
+                    int size = accept.find_last_of("/") - pos;
+
+                    string str = accept.substr(pos, size);
+
+                    str = strupr((char *)str.c_str());
+
+                    if (str != option)
+                    {
+                        cout << endl;
+                        print->writeTextLine("Press any key to continue . . .");
+                        cmd->pause();
+                        cmd->close();
+                    }
                 }
             }
             else
