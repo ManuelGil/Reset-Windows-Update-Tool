@@ -1,0 +1,168 @@
+# .\wureset\lang\
+# turkish.txt
+
+# Reset Windows Update Tool (https://wureset.com)
+
+# This file can be modified to be compatible with others languages.
+# For printing the end line insert "\n" into the text.
+
+# Language: Türkçe
+# Author: Tayfun Akkoyun.
+# Updated: 07/04/2023
+# Version: 1.0.0.1
+
+# Warnings
+1000|Devam etmek için herhangi bir tuşa basın . . .
+1001|Beklenmeyen bir hata oluştu.
+1002|Bir seçenek seçin: 
+1003|Geçersiz seçenek.
+1004|Üzgünüz, bu seçenek bu İşletim Sisteminde mevcut değil.
+1005|İşlem başarıyla tamamlandı.
+1006|İşlem sırasında bir hata oluştu.
+1007|Hizmet durdurulamıyor. Tekrar denemek ister misiniz? (E/H): 
+
+# Compatibility
+2000|Üzgünüz, bu İşletim Sistemi bu araçla uyumlu değil.
+2001| Sisteminiz doğrulanmaya çalışılırken bir hata oluştu.\n Ticari veya deneme sürümü kullanıyor olabilirsiniz.\n\n  Aksi takdirde, sisteminizin doğru güvenlik düzeltmesine sahip olduğunu doğrulayın..\n
+
+# Elevation
+3000|Yönetici yükseltmesi kontrol ediliyor.
+3001|    Yönetici olarak çalıştırmıyorsunuz.\n Bu araç, yükseltme olmadan işini yapamaz.\n\n Bu aracı Yönetici olarak çalıştırmanız gerekiyor.\n
+
+# Terms
+4000|Kullanım Koşulları.
+4001|    Bu araç içindeki yöntemler, dosyaları ve kayıt defteri ayarlarını değiştirir.\n Test edilmiş ve çalışmaya eğilimli olmanıza rağmen, bu aracın\n kullanımıyla ilgili sorumluluk kabul etmiyoruz.\n\n Bu araç garanti olmaksızın sağlanmaktadır. Neden olunan herhangi bir hasar\n kendi sorumluluğunuzdadır.\n\n Emin değilseniz kodu incelemekten çekinmeyin.\n    https://github.com/ManuelGil\n
+4002|İşleme devam etmek istiyor musunuz? (E/H): 
+
+# Menu
+5000|Bu araç Windows Update Bileşenlerini sıfırlar.
+5001|Sistem korumasını aç.
+5002|Windows Update Bileşenlerini sıfırla.
+5003|Windows'taki geçici dosyaları sil.
+5004|Internet Özellikleri penceresini aç.
+5005|Chkdsk'i Windows bölümünde çalıştır.
+5006|Sistem Dosyası Denetleyicisi aracını çalıştır.
+5007|Imaj dosyasını bileşen deposu bozulması açısından tara.
+5008|Imaj dosyasının bozuk olarak işaretlenip işaretlenmediğini kontrol et.
+5009|Onarım işlemlerini otomatik olarak gerçekleştir.
+5010|Değiştirilen bileşenleri temizle.
+5011|Yanlış kayıt defteri değerlerini sil.
+5012|Winsock ayarlarını onar/sıfırla.
+5013|Windows güncellemelerini ara.
+5014|Diğer yerel çözümleri araştır.
+5015|Diğer çevrimiçi çözümleri araştır.
+5016|Diagnostic Tool(Teşhis Aracını) indir.
+5017|Bilgisayarı yeniden başlat.
+5018|\n                            ?. Yardım.        0. Kapat.\n
+
+# Functions
+6000|Sistem koruması açılıyor.
+6001|Windows Update hizmetleri durduruluyor.
+6002|Hizmet durumu kontrol ediliyor\n
+6003|    BITS hizmeti durdurulamadı.\n
+6004|    Windows Update hizmeti durdurulamadı.\n
+6005|    Uygulama Kimliği hizmeti durdurulamadı.\n
+6006|    Şifreleme Hizmetleri hizmeti durdurulamadı.\n
+6007|qmgr*.dat dosyaları siliniyor.
+6008|Eski indirilmiş yazılım yedek kopyaları siliniyor.
+6009|Yazılım dağıtım klasörleri yeniden adlandırılıyor.
+6010|    SoftwareDistribution klasörü yeniden adlandırılamadı.\n
+6011|BITS hizmetini ve Windows Update hizmetini varsayılan güvenlik ayarlarına sıfırlanıyor.
+6012|BITS dosyalarını ve Windows Update dosyalarını yeniden kaydedin.
+6013|Winsock Sıfırlanıyor.
+6014|WinHTTP Proxy Sıfırlanıyor.
+6015|Hizmetler otomatik olarak sıfırlanıyor.
+6016|Windows Update hizmetleri başlatılıyor.
+6017|Windows'taki geçici dosyalar siliniyor.
+6018|Internet Explorer seçenekleri açılıyor.
+6019|Mevcut birimin dosya sistemi ve dosya sistemi meta verilerinde mantıksal veya fiziksel hatalar (CHKDSK.exe) olup olmadığını kontrol eder.
+6020|Eksik veya bozuk sistem dosyalarını (SFC.exe) onarmak için sistem dosyalarınızı tarar.
+6021|Windows Imaj dosyasındaki bileşen deposundaki bozulmaların tespiti için sistemi tarar (DISM /ScanHealth).
+6022|Windows Imaj dosyasının başarısız bir işlem tarafından bozuk olarak işaretlenip işaretlenmediğini ve bozulmanın onarılıp onarılamayacağını kontrol eder (DISM /CheckHealth).
+6023|Windows imaj görüntüsünü bileşen deposu bozulması için tarar ve ardından onarım işlemlerini otomatik olarak gerçekleştirir (DISM /RestoreHealth).
+6024|Değiştirilen bileşenleri temizler ve bileşen deposunun boyutunu azaltır (DISM /StartComponentCleanup).
+6025|Kayıt Defterindeki geçersiz değerleri değiştirir.
+6026|Kayıt Defterinin yedek bir kopyasını oluştur: 
+6027|    Kayıt defterinde değişiklik yapılmadı.\n
+6028|    Daha sonra dene\n
+6029|Yedekleme kontrol ediliyor.
+6030|    Bir şeyler yanlış gitti.\n
+6031|    Devam etmeden önce manuel olarak kayıt defterinin bir yedeğini oluşturunuz.\n
+6032|Kayıt defterindeki değerler siliniyor.
+6033|Kayıt defterine değer ekleniyor.
+6034|Winsock kontrolünü sıfırla.
+6035|İşlem günlükleri geri yükleniyor.
+6036|TPC/IP geri yükleniyor.
+6037|Winsock geri yükleniyor
+6038|Varsayılan ilke ayarları geri yükleniyor.
+6039|DNS önbelleği geri yükleniyor.
+6040|Proxy'yi geri yükleniyor.
+6041|Güncellemeler aranıyor.
+6042|Bekleyin . . .
+6043|PC'de çözümler aranıyor.
+6044|Çevrimiçi çözümler aranıyor.
+6045|PC'nizi yeniden başlatın.
+6046|    Sistem 60 saniye içinde yeniden başlatılacak.\n Lütfen tüm açık belgeleri kaydedin.\n
+6047|Sistem 60 saniye içinde yeniden başlatılacak. Lütfen tüm açık belgeleri kaydedin.
+6048|Sisteminiz için Sistem tanılama aracını indirin ve çalıştırın.
+6049|Windows 7, Windows 8 ve Windows 8.1 de Windows güncellemesi
+6050|Windows 10'da Windows Güncellemesi
+6051|Windows 8.1'deki uygulamalar.
+6052|Windows 10'daki uygulamalar.
+6053|Windows 10'da Başlat Menüsü.
+6054|                                                        0. Geri.
+
+# Commands
+7000|\nBu araç, Windows Update özelliğine ait bileşenleri onarır ve sıfırlar.\n
+7001|Kullanımı:\n
+7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
+7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
+7004|Parametre Listesi:\n
+7005|    /reset        Windows Update Bileşenlerini sıfırlar.
+7006|    /search       Güncellemeleri arar
+7007|    /clean        Aşağıda yer alan seçenekleri temizler
+7008|        temp      Windows'ta TEMP klasöründeki geçici dosyaları siler.
+7009|        regs      Kayıt Defterindeki geçersiz değerleri değiştirir.
+7010|        sock      Winsock ayarlarını sıfırlar.
+7011|    /sfc          Korunan tüm sistem dosyalarını tarar.
+7012|    /dism         Dism seçenekleri
+7013|        scan      İmaj dosyasındaki hataları tarar.
+7014|        check     Tespit edilen bozulmaları kontrol eder.
+7015|        repair    İmaj dosyasını onarır.
+7016|        clean     Değiştirilen bileşenleri temizler.
+7017|    /?            Yardım bilgilerini görüntüler.\n
+7018|Örnek Kullanım Şekilleri:\n
+7019|    WURESET /reset
+7020|    WURESET /clean:temp
+7021|    WURESET /clean:regs:temp
+7022|    WURESET /dism:scan:repair:clean\n
+7023|Yazar:\n
+7024|    Manuel Gil.\n
+7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]
+7026|        [/sfc] [/dism:{scan|check|repair|clean}]\n
+7027|Tanım:\n
+7028|    Bu araç, Windows Update Bileşenlerini sıfırlar.\n
+7029|Örnek Kullanım:\n
+7030|    WURESET /reset
+7031|    WURESET /clean:temp
+7032|    WURESET /clean:regs:temp
+7033|    WURESET /dism:scan:repair:clean\n
+7034|Ayrıntıları görüntülemek için "WURESET /?" yazın\n
+
+# Help
+8000|index.html
+8001|https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
+
+# Updates wureset 11.0.0.7
+# ---------
+
+# Menu
+9000|Grup İlkesi Güncellemesini Zorla.
+9001|Windows ürün anahtarını bul.
+9002|Microsoft Windows Store'u sıfırla.
+
+# Functions
+9100|Windows Update işlemini iptal ediliyor
+9101|Grup politikası güncellemesi yapılmaya zorlanıyor.
+9102|Ürün anahtarı aranıyor.
+9103|Microsoft Windows Mağaza Önbelleğini Sıfırla veya Temizle.
