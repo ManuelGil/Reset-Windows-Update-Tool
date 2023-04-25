@@ -1,0 +1,168 @@
+# .\wureset\lang\
+# english.txt
+
+# Reset Windows Update Tool (https://wureset.com)
+
+# This file can be modified to be compatible with others languages.
+# For printing the end line insert "\n" into the text.
+
+# Language: English
+# Author: Akhil09.
+# Updated: 10/23/2018
+# Version: 1.0.0.1
+
+# Warnings
+1000|Press any key to continue . . .
+1001|An unexpected error has occurred.
+1002|Select an option:
+1003|Invalid option.
+1004|Sorry, this option is not available on this Operating System.
+1005|The operation completed successfully.
+1006|An error occurred during operation.
+1007|Cannot stop the service. Do you want to try again? (Y/N):
+
+# Compatibility
+2000|Sorry, this Operating System is not compatible with this tool.
+2001|    An error occurred while attempting to verify your system.\n    You may be using a commercial or trial version.\n\n    Otherwise, verify that your system has the correct security fix.\n
+
+# Elevation
+3000|Checking for Administrator elevation.
+3001|    You are not running as Administrator.\n    This tool cannot do it's job without elevation.\n\n    You need run this tool as Administrator.\n
+
+# Terms
+4000|Terms and Conditions of Use.
+4001|    The methods inside this tool modify files and registry settings.\n    While you are tested and tend to work, We not take responsibility for\n    the use of this tool.\n\n    This tool is provided without warranty. Any damage caused is your\n    own responsibility.\n\n    Feel free to review the code if you're unsure.\n    https://github.com/ManuelGil\n
+4002|Do you want to continue with this process? (Y/N):
+
+# Menu
+5000|This tool reset the Windows Update Components.
+5001|Opens the system protection.
+5002|Resets the Windows Update Components.
+5003|Deletes the temporary files in Windows.
+5004|Opens the Internet Explorer options.
+5005|Runs Chkdsk on the Windows partition.
+5006|Runs the System File Checker tool.
+5007|Scans the image for component store corruption.
+5008|Checks whether the image has been flagged as corrupted.
+5009|Performs repair operations automatically.
+5010|Cleans up the superseded components.
+5011|Deletes any incorrect registry values.
+5012|Repairs/Resets Winsock settings.
+5013|Search Windows updates.
+5014|Explores other local solutions.
+5015|Explores other online solutions.
+5016|Downloads the Diagnostic Tools.
+5017|Restarts your PC.
+5018|\n                            ?. Help.    *. Settings.    0. Close.\n
+
+# Functions
+6000|Opening the system protection.
+6001|Stopping the Windows Update services.
+6002|Checking the service status.\n
+6003|    Failed to stop the BITS service.\n
+6004|    Failed to stop the Windows Update service.\n
+6005|    Failed to stop the Application Identity service.\n
+6006|    Failed to stop the Cryptographic Services service.\n
+6007|Deleting the qmgr*.dat files.
+6008|Deleting the old software distribution backup copies.
+6009|Renaming the software distribution folders.
+6010|    Failed to rename the SoftwareDistribution folder.\n
+6011|Reset the BITS service and the Windows Update service to the default security descriptor.
+6012|Reregister the BITS files and the Windows Update files.
+6013|Resetting Winsock.
+6014|Resetting WinHTTP Proxy.
+6015|Resetting the services as automatics.
+6016|Starting the Windows Update services.
+6017|Deleting temporary files in Windows.
+6018|Opening the Internet Explorer options.
+6019|Check the file system and file system metadata of a volume for logical and physical errors (CHKDSK.exe).
+6020|Scan your system files and to repair missing or corrupted system files (SFC.exe).
+6021|Scan the image for component store corruption (The DISM /ScanHealth argument).
+6022|Check whether the image has been flagged as corrupted by a failed process and whether the corruption can be repaired (The DISM /CheckHealth argument).
+6023|Scan the image for component store corruption, and then perform repair operations automatically (The DISM /RestoreHealth argument).
+6024|Clean up the superseded components and reduce the size of the component store (The DISM /StartComponentCleanup argument).
+6025|Change invalid values in the Registry.
+6026|Making a backup copy of the Registry in:
+6027|    Changes were not carried out in the registry.\n
+6028|    Will try it later.\n
+6029|Checking the backup.
+6030|    Something went wrong.\n
+6031|    You manually create a backup of the registry before continuing.\n
+6032|Deleting values in the Registry.
+6033|Adding values in the Registry.
+6034|Reset Winsock control.
+6035|Restoring transaction logs.
+6036|Restoring TPC/IP.
+6037|Restoring Winsock.
+6038|Restoring default policy settings.
+6039|Restoring the DNS cache.
+6040|Restoring the Proxy.
+6041|Looking for updates.
+6042|Wait . . .
+6043|Looking for solutions in this PC.
+6044|Looking for solutions Online.
+6045|Restart your PC.
+6046|    The system reboot in 60 seconds.\n    Please save all open documents.\n
+6047|The system reboot in 60 seconds. Please save all open documents.
+6048|Download and run diagnostics for your system.
+6049|Windows Update on Windows 8 and Windows 8.1.
+6050|Windows Update on Windows 10.
+6051|Apps on Windows 8.1.
+6052|Apps on Windows 10.
+6053|Start Menu on Windows 10.
+6054|                                                        0. Back.
+
+# Commands
+7000|\nThis tool reset the Windows Update Components.\n
+7001|Usage:\n
+7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
+7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
+7004|Parameter List:\n
+7005|    /reset        Reset the Windows Update Components.
+7006|    /search       Search updates.
+7007|    /clean        Clean options.
+7008|        temp      Delete temporary files in Windows.
+7009|        regs      Change invalid values in the Registry.
+7010|        sock      Reset the Winsock settings.
+7011|    /sfc          Scans all protected system files.
+7012|    /dism         Dism options.
+7013|        scan      Scan the image to check for corruption.
+7014|        check     Check the detected corruptions.
+7015|        repair    Repair the image.
+7016|        clean     Clean up the superseded components.
+7017|    /?            Displays this help message.\n
+7018|Sample usage:\n
+7019|    WURESET /reset
+7020|    WURESET /clean:temp
+7021|    WURESET /clean:regs:temp
+7022|    WURESET /dism:scan:repair:clean\n
+7023|Author:\n
+7024|    Manuel Gil.\n
+7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]
+7026|        [/sfc] [/dism:{scan|check|repair|clean}]\n
+7027|Description:\n
+7028|    This tool reset the Windows Update Components.\n
+7029|Sample usage:\n
+7030|    WURESET /reset
+7031|    WURESET /clean:temp
+7032|    WURESET /clean:regs:temp
+7033|    WURESET /dism:scan:repair:clean\n
+7034|Type "WURESET /?" to view the specifics.\n
+
+# Help
+8000|index.html
+8001|https://github.com/ManuelGil/Reset-Windows-Update-Tool/wiki
+
+# Updates wureset 11.0.0.7
+# ---------
+
+# Menu
+9000|Force Group Policy Update.
+9001|Find the windows product key.
+9002|Reset Microsoft Windows Store.
+
+# Functions
+9100|Canceling the Windows Update process.
+9101|Forcing group policy update.
+9102|Searching the product key.
+9103|Reset or Clear Microsoft Windows Store Cache.
