@@ -1,4 +1,4 @@
-    # Reset Windows Update Tool (Legacy)
+# Reset Windows Update Tool (Legacy)
 
 <div align="center">
 	<a href="https://wureset.com/">
@@ -7,7 +7,7 @@
 </div>
 <br />
 
-[![stability-deprecated](https://img.shields.io/badge/stability-deprecated-red.svg)]()
+[![stability-deprecated](https://img.shields.io/badge/status-archived-red.svg)]()
 
 > [!WARNING]
 > **This repository is archived and no longer maintained.**
@@ -19,6 +19,8 @@ There is no active development, official support, or guaranteed functionality fo
 No migration path is currently provided from this version.
 
 Development of the project may be inactive for extended periods, and silence should not be interpreted as abandonment.
+
+This legacy repository does not reflect the current direction of the wureset project ecosystem.
 
 ## License
 
